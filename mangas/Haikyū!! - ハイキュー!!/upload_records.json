@@ -1,37 +1,58 @@
 {
   "001": {
-    "album_id": "6eyrad6v64p",
-    "timestamp": "2025-10-09T18:44:39.386953",
+    "album_id": "o24a2kdpe7l",
+    "timestamp": "2025-10-09T20:25:12.340535",
     "image_count": 56,
     "group": "danke-Empire",
     "chapter_title": "Endings and Beginnings - 終わりと始まり - Owari to Hajimari"
   },
   "002": {
-    "album_id": "wl7lam626yx",
-    "timestamp": "2025-10-09T18:58:16.657076",
+    "album_id": "ne7blxrpgy5",
+    "timestamp": "2025-10-09T20:25:49.510113",
     "image_count": 25,
     "group": "danke-Empire",
-    "chapter_title": "Karasuno High School Volleyball Club -烏野高校排球部 - Karasuno Kōkō Haikyū-bu"
+    "chapter_title": "Karasuno High School Volleyball Club - 烏野高校排球部 - Karasuno Kōkō Haikyū-bu"
   },
   "003": {
-    "album_id": "bp45mdnqxy5",
-    "timestamp": "2025-10-09T19:01:29.440166",
+    "album_id": "md7oajdllyp",
+    "timestamp": "2025-10-09T20:26:22.185933",
     "image_count": 23,
     "group": "danke-Empire",
     "chapter_title": "Single-Celled Organisms - 単細胞生物 - Tansaibō Seibutsu"
   },
   "004": {
-    "album_id": "a8463g9og4x",
-    "timestamp": "2025-10-09T19:17:01.792611",
+    "album_id": "na7kaw2rw48",
+    "timestamp": "2025-10-09T20:26:49.091632",
     "image_count": 19,
     "group": "danke-Empire",
     "chapter_title": "The Greatest Teammate - 最強の味方 - Saikyō no Mikata"
   },
   "005": {
-    "album_id": "ne7blx3ony5",
-    "timestamp": "2025-10-09T19:42:45.629873",
+    "album_id": "6eyrad32l4p",
+    "timestamp": "2025-10-09T20:27:21.007855",
     "image_count": 20,
     "group": "danke-Empire",
     "chapter_title": "The King of the Court - コート上の王様 - Kōto-jō no Ōsama"
+  },
+  "006": {
+    "album_id": "xny8elrzwyb",
+    "timestamp": "2025-10-09T20:27:48.114710",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Middle School Story - 中学のハナシ - Chūgaku no Hanashi"
+  },
+  "007": {
+    "album_id": "o24a2kdge7l",
+    "timestamp": "2025-10-09T20:28:12.152975",
+    "image_count": 21,
+    "group": "danke-Empire",
+    "chapter_title": "Words from the Have-Nots - “持たざる物”のことば - \"Motazaru Mono\" no Kotoba"
+  },
+  "008": {
+    "album_id": "md7oajdjlyp",
+    "timestamp": "2025-10-09T20:28:46.308521",
+    "image_count": 24,
+    "group": "danke-Empire",
+    "chapter_title": "The View from the Top - 頂の景色 - Itadaki no Keshiki"
   }
 }
