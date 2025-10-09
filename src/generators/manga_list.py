@@ -238,8 +238,9 @@ class MangaListGenerator:
                 title = manga["title"]
                 folder_name = manga["folder_name"]
                 
-                # Generate links using the same method as kaguya.py
-                gist_link = f"`info.json <mangas/{folder_name}/info.json>`_"
+                # Generate links with proper URL encoding
+                encoded_folder_name = quote(folder_name, safe='')
+                gist_link = f"`info.json <mangas/{encoded_folder_name}/info.json>`_"
                 cubari_link = f"`Read <{self._get_cubari_url(username, repo, folder_name, branch)}>`_"
                 
                 table_lines.append(f"   * - {title}")

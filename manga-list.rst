@@ -18,7 +18,7 @@ H
      - Volumes
      - Chapters
    * - Haikyū!! - ハイキュー!!
-     - `info.json <mangas/Haikyū!! - ハイキュー!!/info.json>`_
+     - `info.json <mangas/Haiky%C5%AB%21%21%20-%20%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%21%21/info.json>`_
      - `Read <https://cubari.moe/read/gist/cmF3L3NheWVlZDIwNS9tYW5nYS9tYWluL21hbmdhcy9IYWlreSVDNSVBQiUyMSUyMSUyMC0lMjAlRTMlODMlOEYlRTMlODIlQTQlRTMlODIlQUQlRTMlODMlQTUlRTMlODMlQkMlMjElMjEvaW5mby5qc29u/>`_
      - 2025-10-09 13:14 UTC
      - 2025-10-09 13:47 UTC
