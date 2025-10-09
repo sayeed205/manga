@@ -142,6 +142,90 @@ class ProgressTracker:
         
         self._save_upload_records()
 
+    def remove_upload_record(self, chapter_key: str) -> bool:
+        """Remove an upload record for a chapter.
+        
+        Args:
+            chapter_key: Chapter number to remove
+            
+        Returns:
+            True if record was removed, False if it didn't exist
+        """
+        if chapter_key in self.upload_records:
+            del self.upload_records[chapter_key]
+            self._save_upload_records()
+            return True
+        return False
+
+    def get_existing_chapters(self) -> list[str]:
+        """Get list of already uploaded chapter numbers.
+        
+        Returns:
+            List of chapter numbers that have been uploaded
+        """
+        return list(self.upload_records.keys())
+
+    def confirm_batch_reupload(self, existing_chapters: list[str]) -> set[str]:
+        """Ask user which chapters to re-upload from existing ones.
+        
+        Args:
+            existing_chapters: List of chapter numbers that already exist
+            
+        Returns:
+            Set of chapter numbers to re-upload
+        """
+        if not existing_chapters:
+            return set()
+
+        self.console.print("\n[yellow]The following chapters have already been uploaded:[/yellow]")
+        
+        # Display existing chapters with their info
+        for chapter_num in sorted(existing_chapters):
+            record = self.get_upload_record(chapter_num)
+            if record:
+                self.console.print(
+                    f"  [cyan]{chapter_num}[/cyan]: {record.get('chapter_title', 'Unknown')} "
+                    f"({record.get('image_count', 0)} images, {record.get('timestamp', 'Unknown date')})"
+                )
+        
+        self.console.print(
+            "\n[bold]Enter chapter numbers to re-upload (space-separated, e.g., '1 3 5' or '001 003 005'):[/bold]"
+        )
+        self.console.print("[dim]Press Enter to skip all existing chapters[/dim]")
+        
+        response = self.console.input("[bold]Chapters to re-upload: [/bold]").strip()
+        
+        if not response:
+            return set()
+        
+        # Parse the response
+        selected_chapters = set()
+        for chapter_input in response.split():
+            chapter_input = chapter_input.strip()
+            if not chapter_input:
+                continue
+                
+            # Normalize chapter number (handle both "1" and "001" formats)
+            try:
+                chapter_num = int(chapter_input)
+                # Convert to 3-digit format to match our storage
+                normalized_chapter = f"{chapter_num:03d}"
+                
+                # Check if this chapter exists in our records
+                if normalized_chapter in existing_chapters:
+                    selected_chapters.add(normalized_chapter)
+                else:
+                    self.console.print(f"[yellow]Warning: Chapter {chapter_input} not found in existing uploads[/yellow]")
+            except ValueError:
+                self.console.print(f"[red]Error: Invalid chapter number '{chapter_input}'[/red]")
+        
+        if selected_chapters:
+            self.console.print(f"[green]Selected chapters for re-upload: {', '.join(sorted(selected_chapters))}[/green]")
+        else:
+            self.console.print("[blue]No chapters selected for re-upload[/blue]")
+        
+        return selected_chapters
+
     def confirm_reupload(self, chapter_info: ChapterInfo) -> bool:
         """Ask user to confirm re-uploading an existing chapter.
         
@@ -159,7 +243,7 @@ class ProgressTracker:
 
         self.console.print(
             f"\n[yellow]Chapter {chapter_key} ({chapter_info.title}) "
-            + f"was already uploaded on {record['timestamp']}[/yellow]"
+            f"was already uploaded on {record['timestamp']}[/yellow]"
         )
         
         response = self.console.input(

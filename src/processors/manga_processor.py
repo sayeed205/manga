@@ -365,15 +365,44 @@ class MangaProcessor:
             if "groups" in manga_data:
                 del manga_data["groups"]
             
+            # Check for existing chapters and get user selection for re-upload
+            existing_chapters = []
+            chapters_to_process = []
+            chapters_to_reupload = set()
+            
+            for chapter_info in chapters:
+                if self.progress_tracker.is_chapter_uploaded(chapter_info.chapter):
+                    existing_chapters.append(chapter_info.chapter)
+                else:
+                    chapters_to_process.append(chapter_info)
+            
+            # If there are existing chapters, ask user which ones to re-upload
+            if existing_chapters:
+                chapters_to_reupload = self.progress_tracker.confirm_batch_reupload(existing_chapters)
+                
+                # Add selected chapters for re-upload to processing list
+                for chapter_info in chapters:
+                    if chapter_info.chapter in chapters_to_reupload:
+                        chapters_to_process.append(chapter_info)
+            
+            if not chapters_to_process:
+                self.progress_tracker.display_info("No chapters to process (all existing chapters skipped)")
+                return
+            
+            self.progress_tracker.display_info(
+                f"Processing {len(chapters_to_process)} chapters "
+                + f"({len(chapters_to_reupload)} re-uploads, {len(chapters_to_process) - len(chapters_to_reupload)} new)"
+            )
+            
             # Process each chapter with comprehensive error handling
             successful_chapters = 0
             failed_chapters_local = 0
             
-            with self.progress_tracker.track_chapter_processing(len(chapters)) as progress:
-                for chapter_info in chapters:
+            with self.progress_tracker.track_chapter_processing(len(chapters_to_process)) as progress:
+                for chapter_info in chapters_to_process:
                     try:
                         self._process_single_chapter(
-                            chapter_info, manga_data, available_groups, progress, manga_title
+                            chapter_info, manga_data, available_groups, progress, manga_title, chapters_to_reupload
                         )
                         successful_chapters += 1
                         self.processed_chapters += 1
@@ -450,6 +479,7 @@ class MangaProcessor:
         available_groups: list[str],
         progress: ChapterProgressContext,
         manga_title: str,
+        chapters_to_reupload: set[str] | None = None,
     ) -> None:
         """Process a single chapter with upload and metadata update.
         
@@ -498,20 +528,23 @@ class MangaProcessor:
                 progress.update(advance=1, description=f"Skipped (no valid images): {chapter_key}")
                 return
         
-        # Check if chapter was already uploaded
-        if self.progress_tracker.is_chapter_uploaded(chapter_key):
-            try:
-                if not self.progress_tracker.confirm_reupload(chapter_info):
-                    progress.update(advance=1, description=f"Skipped: {chapter_key}")
-                    return
-            except KeyboardInterrupt:
-                raise
-            except Exception as e:
-                self.progress_tracker.display_error(
-                    f"Error during reupload confirmation for {chapter_key}: {e}"
-                )
-                progress.update(advance=1, description=f"Skipped (confirmation error): {chapter_key}")
-                return
+        # Handle re-upload: delete old album if this chapter is being re-uploaded
+        is_reupload = self.progress_tracker.is_chapter_uploaded(chapter_key)
+        if is_reupload:
+            old_record = self.progress_tracker.get_upload_record(chapter_key)
+            if old_record and "album_id" in old_record:
+                try:
+                    self.progress_tracker.display_info(f"Deleting old album for chapter {chapter_key}")
+                    _ = self.uploader.delete_album(str(old_record["album_id"]))
+                    self.progress_tracker.display_success(f"Deleted old album {old_record['album_id']}")
+                except Exception as e:
+                    self.progress_tracker.display_warning(
+                        f"Could not delete old album for chapter {chapter_key}: {e}"
+                    )
+                    # Continue with upload anyway
+                
+                # Remove old record
+                self.progress_tracker.remove_upload_record(chapter_key)
         
         # Select group for this chapter
         try:

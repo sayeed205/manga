@@ -1,0 +1,25 @@
+{
+  "title": "Haikyū!! - ハイキュー!!",
+  "description": "Ever since he watched the legendary player known as \"the Little Giant\" compete at the high school national volleyball finals, Shōyō Hinata has wanted to be the best volleyball player ever! He decides to join the volleyball club at his middle school, but he must wait until his third year to play in an official tournament. His team is crushed by volleyball prodigy Tobio Kageyama, also known as \"the King of the Court\", in straight sets. Swearing revenge on Kageyama, Hinata graduates middle school and joins Karasuno High School, the school where the Little Giant played. However, upon joining the volleyball club, he finds out that Kageyama is there as well!",
+  "artist": "Haruichi Furudate",
+  "author": "Haruichi Furudate",
+  "cover": "https://i.pinimg.com/736x/9e/f0/9c/9ef09cc9eb94466f061cb4d62990ca33.jpg",
+  "chapters": {
+    "001": {
+      "title": "Endings and Beginnings - 終わりと始まり - Owari to Hajimari",
+      "volume": "01",
+      "last_updated": "1760015679",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/6eyrad6v64p"
+      }
+    },
+    "002": {
+      "title": "Karasuno High School Volleyball Club -烏野高校排球部 - Karasuno Kōkō Haikyū-bu",
+      "volume": "01",
+      "last_updated": "1760016496",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/wl7lam626yx"
+      }
+    }
+  }
+}

@@ -318,6 +318,31 @@ class ImgChestUploader:
                 f"Failed to add images to album {album_id}: {e}"
             ) from e
 
+    def delete_album(self, album_id: str) -> bool:
+        """Delete an album from ImgChest.
+
+        Args:
+            album_id: ID of the album to delete
+
+        Returns:
+            True if album was successfully deleted
+
+        Raises:
+            RequestException: If API request fails
+        """
+        try:
+            response = self._make_request("DELETE", f"/post/{album_id}")
+            
+            # Check for error in response
+            if 'error' in response or ('status' in response and response['status'] == 'error'):
+                error_msg = response.get('error', response.get('message', 'Unknown API error'))
+                raise RequestException(f"API error: {error_msg}")
+            
+            return True
+
+        except Exception as e:
+            raise RequestException(f"Failed to delete album {album_id}: {e}") from e
+
     def upload_chapter_images(
         self,
         images: list[Path],
