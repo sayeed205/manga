@@ -1,0 +1,1 @@
+"""Selection utilities for manga processing."""
