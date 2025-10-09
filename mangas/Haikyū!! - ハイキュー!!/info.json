@@ -8,9 +8,65 @@
     "001": {
       "title": "Endings and Beginnings - 終わりと始まり - Owari to Hajimari",
       "volume": "01",
-      "last_updated": "1760021712",
+      "last_updated": "1760022779",
       "groups": {
         "danke-Empire": "/proxy/api/imgchest/chapter/o24a2kdpe7l"
+      }
+    },
+    "002": {
+      "title": "Karasuno High School Volleyball Club - 烏野高校排球部 - Karasuno Kōkō Haikyū-bu",
+      "volume": "01",
+      "last_updated": "1760022779",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ne7blxrpgy5"
+      }
+    },
+    "003": {
+      "title": "Single-Celled Organisms - 単細胞生物 - Tansaibō Seibutsu",
+      "volume": "01",
+      "last_updated": "1760022779",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/md7oajdllyp"
+      }
+    },
+    "004": {
+      "title": "The Greatest Teammate - 最強の味方 - Saikyō no Mikata",
+      "volume": "01",
+      "last_updated": "1760022779",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/na7kaw2rw48"
+      }
+    },
+    "005": {
+      "title": "The King of the Court - コート上の王様 - Kōto-jō no Ōsama",
+      "volume": "01",
+      "last_updated": "1760022779",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/6eyrad32l4p"
+      }
+    },
+    "006": {
+      "title": "Middle School Story - 中学のハナシ - Chūgaku no Hanashi",
+      "volume": "01",
+      "last_updated": "1760022779",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/xny8elrzwyb"
+      }
+    },
+    "007": {
+      "title": "Words from the Have-Nots - “持たざる物”のことば - \"Motazaru Mono\" no Kotoba",
+      "volume": "01",
+      "last_updated": "1760022779",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/o24a2kdge7l"
+      }
+    },
+    "008": {
+      "title": "The View from the Top - 頂の景色 - Itadaki no Keshiki",
+      "volume": "01",
+      "last_updated": "1760022779",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/md7oajdjlyp"
       }
     }
   }
