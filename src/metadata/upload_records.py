@@ -11,7 +11,6 @@ from typing import TypedDict
 class UploadRecord(TypedDict):
     """Type definition for upload record data."""
     
-    album_url: str
     album_id: str
     timestamp: str
     image_count: int
@@ -68,7 +67,6 @@ class UploadRecordManager:
     def record_upload(
         self,
         chapter_name: str,
-        album_url: str,
         album_id: str,
         image_count: int,
         group: str
@@ -77,13 +75,11 @@ class UploadRecordManager:
         
         Args:
             chapter_name: Name/identifier of the chapter
-            album_url: ImgChest album URL
             album_id: ImgChest album ID
             image_count: Number of images uploaded
             group: Scanlation group name
         """
         record: UploadRecord = {
-            "album_url": album_url,
             "album_id": album_id,
             "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "image_count": image_count,
@@ -152,7 +148,7 @@ class UploadRecordManager:
             return True  # No existing record, proceed with upload
         
         print(f"\nChapter '{chapter_name}' has already been uploaded:")
-        print(f"  URL: {record['album_url']}")
+        print(f"  Album ID: {record['album_id']}")
         print(f"  Group: {record['group']}")
         print(f"  Images: {record['image_count']}")
         print(f"  Date: {record['timestamp']}")

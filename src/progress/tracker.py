@@ -28,33 +28,64 @@ from src.models.upload import UploadResult
 class ProgressTracker:
     """Tracks upload progress and maintains upload records."""
 
-    def __init__(self, console: Console | None = None) -> None:
+    def __init__(self, console: Console | None = None, base_output_dir: Path | None = None) -> None:
         """Initialize the progress tracker.
         
         Args:
             console: Rich console instance. If None, creates a new one.
+            base_output_dir: Base directory for manga folders
         """
         self.console = console or Console()
+        self.base_output_dir = base_output_dir or Path("mangas")
         self.upload_records: dict[str, dict[str, object]] = {}
-        self.records_file = Path("upload_records.json")
+        self.current_manga_title: str | None = None
+
+    def set_current_manga(self, manga_title: str) -> None:
+        """Set the current manga being processed and load its upload records.
+        
+        Args:
+            manga_title: Title of the manga being processed
+        """
+        self.current_manga_title = manga_title
         self._load_upload_records()
+
+    def _get_records_file(self) -> Path:
+        """Get the upload records file path for the current manga.
+        
+        Returns:
+            Path to the upload records file
+        """
+        if not self.current_manga_title:
+            # Fallback to global records file
+            return Path("upload_records.json")
+        
+        manga_dir = self.base_output_dir / self.current_manga_title
+        return manga_dir / "upload_records.json"
 
     def _load_upload_records(self) -> None:
         """Load existing upload records from file."""
-        if self.records_file.exists():
+        records_file = self._get_records_file()
+        if records_file.exists():
             try:
-                with open(self.records_file, encoding="utf-8") as f:
+                with open(records_file, encoding="utf-8") as f:
                     self.upload_records = json.load(f)
             except (json.JSONDecodeError, OSError) as e:
                 self.console.print(
                     f"[yellow]Warning: Could not load upload records: {e}[/yellow]"
                 )
                 self.upload_records = {}
+        else:
+            self.upload_records = {}
 
     def _save_upload_records(self) -> None:
         """Save upload records to file."""
+        records_file = self._get_records_file()
+        
+        # Ensure the directory exists
+        records_file.parent.mkdir(parents=True, exist_ok=True)
+        
         try:
-            with open(self.records_file, "w", encoding="utf-8") as f:
+            with open(records_file, "w", encoding="utf-8") as f:
                 json.dump(self.upload_records, f, indent=2, ensure_ascii=False)
         except OSError as e:
             self.console.print(
@@ -65,7 +96,7 @@ class ProgressTracker:
         """Check if a chapter has already been uploaded.
         
         Args:
-            chapter_key: Unique identifier for the chapter
+            chapter_key: Unique identifier for the chapter (chapter number only)
             
         Returns:
             True if chapter was previously uploaded
@@ -76,7 +107,7 @@ class ProgressTracker:
         """Get upload record for a chapter.
         
         Args:
-            chapter_key: Unique identifier for the chapter
+            chapter_key: Unique identifier for the chapter (chapter number only)
             
         Returns:
             Upload record dict or None if not found
@@ -99,16 +130,14 @@ class ProgressTracker:
         if not upload_result.success or not upload_result.album_url:
             return
 
-        chapter_key = f"{chapter_info.volume}-{chapter_info.chapter}"
+        chapter_key = chapter_info.chapter
         
         self.upload_records[chapter_key] = {
-            "album_url": upload_result.album_url,
             "album_id": upload_result.album_id,
             "timestamp": datetime.now().isoformat(),
             "image_count": upload_result.total_images,
             "group": group,
             "chapter_title": chapter_info.title,
-            "folder_path": str(chapter_info.folder_path),
         }
         
         self._save_upload_records()
@@ -122,7 +151,7 @@ class ProgressTracker:
         Returns:
             True if user confirms re-upload
         """
-        chapter_key = f"{chapter_info.volume}-{chapter_info.chapter}"
+        chapter_key = chapter_info.chapter
         record = self.get_upload_record(chapter_key)
         
         if not record:
@@ -132,7 +161,6 @@ class ProgressTracker:
             f"\n[yellow]Chapter {chapter_key} ({chapter_info.title}) "
             + f"was already uploaded on {record['timestamp']}[/yellow]"
         )
-        self.console.print(f"[dim]Previous URL: {record['album_url']}[/dim]")
         
         response = self.console.input(
             "[bold]Do you want to re-upload this chapter? (y/N): [/bold]"

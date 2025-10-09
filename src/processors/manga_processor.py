@@ -12,6 +12,7 @@ from rich.console import Console
 from src.metadata.manager import MetadataManager, MangaInfoData
 from src.models.chapter import ChapterInfo
 from src.parsers.folder_parser import parse_chapter_info, parse_volume_chapter_from_folder
+from src.parsers.manga_info import load_manga_info_from_folder
 from src.progress.tracker import ProgressTracker, ChapterProgressContext
 from src.selectors.group_selector import GroupSelector
 from src.uploaders.imgchest import ImgChestUploader
@@ -39,7 +40,7 @@ class MangaProcessor:
         
         # Initialize components
         self.metadata_manager = MetadataManager(output_dir)
-        self.progress_tracker = ProgressTracker(self.console)
+        self.progress_tracker = ProgressTracker(self.console, output_dir)
         self.group_selector = GroupSelector()
         self.uploader = ImgChestUploader()
         
@@ -294,7 +295,25 @@ class MangaProcessor:
             )
         
         try:
-            self.progress_tracker.display_info(f"Processing manga: {manga_title}")
+            # Load manga info from info.json/info.txt in the input folder
+            try:
+                manga_info = load_manga_info_from_folder(manga_folder)
+                manga_title = manga_info['title']  # Use title from info file
+                self.progress_tracker.set_current_manga(manga_title)
+                self.progress_tracker.display_info(f"Processing manga: {manga_title}")
+            except Exception as e:
+                self.progress_tracker.display_warning(
+                    f"Failed to load manga info from {manga_folder}: {e}. Using folder name."
+                )
+                from src.parsers.manga_info import MangaInfoDict
+                manga_info: MangaInfoDict = {
+                    'title': manga_title,
+                    'description': '',
+                    'artist': '',
+                    'author': '',
+                    'cover': '',
+                    'groups': []
+                }
             
             # Scan for chapters with error handling
             try:
@@ -315,6 +334,14 @@ class MangaProcessor:
             # Load or create manga metadata with error handling
             try:
                 manga_data = self.metadata_manager.get_or_create_manga_info(manga_title)
+                
+                # Update manga metadata with info from input folder
+                manga_data['title'] = manga_info['title']
+                manga_data['description'] = manga_info['description']
+                manga_data['artist'] = manga_info['artist']
+                manga_data['author'] = manga_info['author']
+                manga_data['cover'] = manga_info['cover']
+                
             except Exception as e:
                 self.progress_tracker.display_error(
                     f"Failed to load/create metadata for '{manga_title}': {e}",
@@ -322,14 +349,21 @@ class MangaProcessor:
                 )
                 return
             
-            # Get available groups from metadata
-            available_groups = manga_data.get("groups", [])
+            # Get available groups from input info or use existing metadata
+            available_groups = manga_info['groups']
+            if not available_groups:
+                # Fall back to existing metadata groups (if they exist from old format)
+                available_groups = manga_data.get("groups", [])
+            
             if not available_groups:
                 self.progress_tracker.display_warning(
                     f"No groups defined for manga '{manga_title}'. Using default group."
                 )
                 available_groups = ["Default"]
-                manga_data["groups"] = available_groups
+            
+            # Remove groups field from manga_data if it exists (old format cleanup)
+            if "groups" in manga_data:
+                del manga_data["groups"]
             
             # Process each chapter with comprehensive error handling
             successful_chapters = 0
@@ -339,7 +373,7 @@ class MangaProcessor:
                 for chapter_info in chapters:
                     try:
                         self._process_single_chapter(
-                            chapter_info, manga_data, available_groups, progress
+                            chapter_info, manga_data, available_groups, progress, manga_title
                         )
                         successful_chapters += 1
                         self.processed_chapters += 1
@@ -415,6 +449,7 @@ class MangaProcessor:
         manga_data: MangaInfoData,
         available_groups: list[str],
         progress: ChapterProgressContext,
+        manga_title: str,
     ) -> None:
         """Process a single chapter with upload and metadata update.
         
@@ -423,8 +458,9 @@ class MangaProcessor:
             manga_data: Manga metadata dictionary
             available_groups: List of available groups
             progress: Progress context for updates
+            manga_title: Title of the manga
         """
-        chapter_key = f"{chapter_info.volume}-{chapter_info.chapter}"
+        chapter_key = chapter_info.chapter
         progress.set_description(f"Processing: {chapter_key}")
         
         # Validate chapter has images
@@ -480,7 +516,7 @@ class MangaProcessor:
         # Select group for this chapter
         try:
             selected_group = self.group_selector.select_group_for_chapter(
-                available_groups, f"{chapter_key} ({chapter_info.title})"
+                available_groups, f"{chapter_info.volume}-{chapter_key} ({chapter_info.title})"
             )
         except KeyboardInterrupt:
             raise
@@ -493,7 +529,7 @@ class MangaProcessor:
         
         # Save progress before upload (in case of critical error during upload)
         try:
-            self._save_progress_checkpoint(manga_data, chapter_info.folder_path.parent.name)
+            self._save_progress_checkpoint(manga_data, manga_title)
         except Exception as e:
             self.progress_tracker.display_warning(
                 f"Failed to save progress checkpoint: {e}"
@@ -514,7 +550,7 @@ class MangaProcessor:
             try:
                 upload_result = self.uploader.upload_chapter_images(
                     chapter_info.image_files,
-                    f"{chapter_key} - {chapter_info.title}",
+                    f"{chapter_info.volume}-{chapter_key} - {chapter_info.title}",
                     batch_progress_callback
                 )
                 break  # Success, exit retry loop
@@ -570,9 +606,9 @@ class MangaProcessor:
             )
             # Don't raise here - upload succeeded, just record keeping failed
         
-        progress.update(advance=1, description=f"Completed: {chapter_key}")
+        progress.update(advance=1, description=f"Completed: {chapter_info.volume}-{chapter_key}")
         self.progress_tracker.display_success(
-            f"Uploaded {chapter_key}: {upload_result.album_url}"
+            f"Uploaded {chapter_info.volume}-{chapter_key}: {upload_result.album_url}"
         )
 
     def process_all_manga_folders(self, base_dir: Path | None = None) -> None:

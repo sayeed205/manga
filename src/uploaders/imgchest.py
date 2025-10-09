@@ -15,6 +15,7 @@ from requests.exceptions import (
     RequestException,
     Timeout,
 )
+from requests_toolbelt.multipart.encoder import MultipartEncoder
 
 from src.models.upload import UploadResult
 
@@ -41,7 +42,7 @@ class ImgChestUploader:
         self,
         method: str,
         endpoint: str,
-        files: dict[str, tuple[str, bytes, str]] | None = None,
+        files: list[tuple[str, tuple[str, bytes, str]]] | None = None,
         data: dict[str, str] | None = None,
     ) -> dict[str, object]:
         """Make an authenticated API request with retry logic.
@@ -61,22 +62,38 @@ class ImgChestUploader:
         url = f"{self.base_url}/{endpoint.lstrip('/')}"
         headers = {"Authorization": f"Bearer {self.api_key}"}
 
-
-
         # Prepare request data
         request_data = data or {}
         response = None
 
         for attempt in range(self.max_retries):
             try:
-                response = requests.request(
-                    method=method,
-                    url=url,
-                    headers=headers,
-                    files=files,
-                    data=request_data,
-                    timeout=self.timeout,
-                )
+                if files:
+                    # Use MultipartEncoder for file uploads
+                    fields: list[tuple[str, tuple[str, bytes, str] | str]] = list(files)
+                    if request_data:
+                        # Add form data to fields
+                        for key, value in request_data.items():
+                            fields.append((key, value))
+                    
+                    encoder = MultipartEncoder(fields=fields)
+                    headers["Content-Type"] = encoder.content_type
+                    
+                    response = requests.request(
+                        method=method,
+                        url=url,
+                        headers=headers,
+                        data=encoder,
+                        timeout=self.timeout,
+                    )
+                else:
+                    response = requests.request(
+                        method=method,
+                        url=url,
+                        headers=headers,
+                        data=request_data,
+                        timeout=self.timeout,
+                    )
 
                 # Check for rate limiting
                 if response.status_code == 429:
@@ -140,22 +157,22 @@ class ImgChestUploader:
 
     def _prepare_image_files(
         self, image_paths: list[Path]
-    ) -> dict[str, tuple[str, bytes, str]]:
+    ) -> list[tuple[str, tuple[str, bytes, str]]]:
         """Prepare image files for multipart upload.
 
         Args:
             image_paths: List of paths to image files
 
         Returns:
-            Dictionary of files prepared for requests upload
+            List of tuples for multipart encoder
 
         Raises:
             FileNotFoundError: If any image file doesn't exist
             IOError: If any image file can't be read
         """
-        files: dict[str, tuple[str, bytes, str]] = {}
+        files: list[tuple[str, tuple[str, bytes, str]]] = []
 
-        for i, image_path in enumerate(image_paths):
+        for image_path in image_paths:
             if not image_path.exists():
                 raise FileNotFoundError(f"Image file not found: {image_path}")
 
@@ -174,13 +191,10 @@ class ImgChestUploader:
                     ".webp": "image/webp",
                     ".tiff": "image/tiff",
                 }
-                mime_type = mime_types.get(extension, "image/jpeg")
+                mime_type = mime_types.get(extension, f"image/{extension[1:]}")
 
-                files[f"images[{i}]"] = (
-                    image_path.name,
-                    file_content,
-                    mime_type,
-                )
+                # Use 'images[]' as the key name (ImgChest expects this format)
+                files.append(("images[]", (image_path.name, file_content, mime_type)))
 
             except IOError as e:
                 raise IOError(
@@ -241,17 +255,24 @@ class ImgChestUploader:
 
         try:
             response = self._make_request(
-                "POST", "/upload", files=files, data=data
+                "POST", "/post", files=files, data=data
             )
 
-            # Extract album information from response
-            album_url = response.get("album_url")
-            album_id = response.get("album_id")
+            # Check for error in response
+            if 'error' in response or ('status' in response and response['status'] == 'error'):
+                error_msg = response.get('error', response.get('message', 'Unknown API error'))
+                raise RequestException(f"API error: {error_msg}")
 
-            if not isinstance(album_url, str) or not isinstance(album_id, str):
-                raise RequestException(
-                    "Invalid response: missing or invalid album_url or album_id"
-                )
+            # Extract album information from nested data structure
+            api_data = response.get("data")
+            if not isinstance(api_data, dict):
+                raise RequestException("Invalid response: missing or invalid data field")
+
+            album_id = api_data.get("id")
+            if not isinstance(album_id, str):
+                raise RequestException("Invalid response: missing or invalid post ID")
+
+            album_url = f"https://imgchest.com/p/{album_id}"
 
             return album_url, album_id
 
@@ -281,10 +302,15 @@ class ImgChestUploader:
             return True  # Nothing to upload
 
         files = self._prepare_image_files(images)
-        data = {"album_id": album_id}
 
         try:
-            _ = self._make_request("POST", "/upload", files=files, data=data)
+            response = self._make_request("POST", f"/post/{album_id}/add", files=files)
+            
+            # Check for error in response
+            if 'error' in response or ('status' in response and response['status'] == 'error'):
+                error_msg = response.get('error', response.get('message', 'Unknown API error'))
+                raise RequestException(f"API error: {error_msg}")
+            
             return True
 
         except Exception as e:

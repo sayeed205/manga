@@ -25,7 +25,6 @@ class MangaInfoData(TypedDict):
     artist: str
     author: str
     cover: str
-    groups: list[str]
     chapters: dict[str, ChapterGroupData]
 
 
@@ -129,18 +128,39 @@ class MetadataManager:
         # Create chapter data structure
         existing_groups = existing_chapter["groups"].copy() if existing_chapter else {}
         
+        # Convert ImgChest URL to proxy format
+        proxy_url = self._convert_to_proxy_url(album_url)
+        
         chapter_data: ChapterGroupData = {
             "title": chapter_title,
             "volume": volume,
-            "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "last_updated": str(int(datetime.now().timestamp())),  # Unix timestamp as string
             "groups": existing_groups
         }
         
         # Add group and URL
-        chapter_data["groups"][group] = album_url
+        chapter_data["groups"][group] = proxy_url
         
         # Save updated chapter data
         manga_data["chapters"][chapter_number] = chapter_data
+
+    def _convert_to_proxy_url(self, imgchest_url: str) -> str:
+        """Convert ImgChest URL to proxy format.
+        
+        Args:
+            imgchest_url: Original ImgChest URL (e.g., https://imgchest.com/p/vj4jew6w978)
+            
+        Returns:
+            Proxy URL format (e.g., /proxy/api/imgchest/chapter/vj4jew6w978)
+        """
+        # Extract the album ID from the ImgChest URL
+        # Format: https://imgchest.com/p/{album_id}
+        if "/p/" in imgchest_url:
+            album_id = imgchest_url.split("/p/")[-1]
+            return f"/proxy/api/imgchest/chapter/{album_id}"
+        
+        # If URL format is unexpected, return as-is
+        return imgchest_url
 
     def create_default_manga_metadata(
         self,
@@ -148,8 +168,7 @@ class MetadataManager:
         description: str = "",
         artist: str = "",
         author: str = "",
-        cover: str = "",
-        groups: list[str] | None = None
+        cover: str = ""
     ) -> MangaInfoData:
         """Create default manga metadata structure.
         
@@ -159,7 +178,6 @@ class MetadataManager:
             artist: Artist name
             author: Author name
             cover: Cover image URL
-            groups: List of available groups
             
         Returns:
             Dictionary with default manga metadata structure
@@ -170,7 +188,6 @@ class MetadataManager:
             "artist": artist,
             "author": author,
             "cover": cover,
-            "groups": groups or [],
             "chapters": {}
         }
 
