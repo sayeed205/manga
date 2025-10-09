@@ -32,7 +32,7 @@ class ImgChestUploader:
                 + "Please add it to your .env file."
             )
 
-        self.base_url: str = "https://imgchest.com/api"
+        self.base_url: str = "https://api.imgchest.com/v1"
         self.timeout: int = 30
         self.max_retries: int = 3
         self.retry_delay: float = 1.0
@@ -61,6 +61,8 @@ class ImgChestUploader:
         url = f"{self.base_url}/{endpoint.lstrip('/')}"
         headers = {"Authorization": f"Bearer {self.api_key}"}
 
+
+
         # Prepare request data
         request_data = data or {}
         response = None
@@ -84,6 +86,8 @@ class ImgChestUploader:
                         time.sleep(float(retry_after))
                         continue
 
+
+                
                 response.raise_for_status()
                 try:
                     json_data = response.json()
@@ -125,6 +129,9 @@ class ImgChestUploader:
                     continue
                 error_text = response.text if response else "Unknown error"
                 status_code = response.status_code if response else "Unknown"
+                # Add detailed error info for debugging
+                print(f"Debug: HTTPError - Status: {status_code}, URL: {url}")
+                print(f"Debug: Response text: {error_text[:200]}...")
                 raise RequestException(
                     f"HTTP error {status_code}: {error_text}"
                 ) from e
@@ -189,10 +196,18 @@ class ImgChestUploader:
             True if connection and authentication are successful
         """
         try:
-            # Try to make a simple API call to test authentication
-            _ = self._make_request("GET", "/user")
-            return True
-        except Exception:
+            # Test with the /user/me endpoint (note: singular 'user', not 'users')
+            response = self._make_request("GET", "/user/me")
+            # Check if we got a valid response with user information
+            if "data" in response and isinstance(response["data"], dict):
+                user_data = response["data"]
+                username = user_data.get("name", "Unknown")
+                user_id = user_data.get("id", "Unknown")
+                print(f"Success: Logged in as '{username}' (ID: {user_id})")
+                return True
+            return False
+        except Exception as e:
+            print(f"Debug: API test failed with error: {e}")
             return False
 
     def create_album(

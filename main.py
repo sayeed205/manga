@@ -49,6 +49,36 @@ def validate_environment() -> bool:
     return True
 
 
+def validate_output_directory(output_dir: Path) -> bool:
+    """
+    Validate and create output directory if needed.
+    
+    Args:
+        output_dir: Path to the output directory
+        
+    Returns:
+        bool: True if directory is valid and accessible
+    """
+    try:
+        # Create directory if it doesn't exist
+        output_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Test write permissions
+        test_file = output_dir / ".test_write"
+        _ = test_file.write_text("test")
+        test_file.unlink()
+        
+        console.print(f"[green]✓[/green] Output directory ready: {output_dir}")
+        return True
+        
+    except PermissionError:
+        console.print(f"[red]Error: No write permission for output directory: {output_dir}[/red]")
+        return False
+    except Exception as e:
+        console.print(f"[red]Error: Cannot access output directory {output_dir}: {e}[/red]")
+        return False
+
+
 def parse_arguments() -> argparse.Namespace:
     """Parse command-line arguments.
     
@@ -86,33 +116,89 @@ Examples:
         help="Output directory for metadata files (default: mangas)"
     )
     
+    _ = parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Scan and show what would be processed without uploading"
+    )
+    
+    _ = parser.add_argument(
+        "--verbose",
+        "-v",
+        action="store_true",
+        help="Enable verbose output for debugging"
+    )
+    
     return parser.parse_args()
+
+
+def display_summary(processor: MangaProcessor, start_time: float) -> None:
+    """Display final processing summary.
+    
+    Args:
+        processor: The manga processor instance
+        start_time: Processing start time for duration calculation
+    """
+    import time
+    
+    duration = time.time() - start_time
+    console.print("\n" + "="*60)
+    console.print("[bold green]Processing Summary[/bold green]")
+    console.print("="*60)
+    console.print(f"[blue]Total chapters processed:[/blue] {processor.processed_chapters}")
+    console.print(f"[red]Failed chapters:[/red] {processor.failed_chapters}")
+    console.print(f"[yellow]Processing time:[/yellow] {duration:.1f} seconds")
+    
+    if processor.processed_chapters > 0:
+        success_rate = (processor.processed_chapters / (processor.processed_chapters + processor.failed_chapters)) * 100
+        console.print(f"[green]Success rate:[/green] {success_rate:.1f}%")
+    
+    console.print("="*60)
 
 
 def main() -> None:
     """Main entry point for the manga upload script."""
+    import time
+    
+    start_time = time.time()
+    
     console.print("[bold blue]Manga Upload Script[/bold blue]")
     console.print("Processing manga folders and uploading to ImgChest...\n")
 
     # Parse command-line arguments
     args = parse_arguments()
 
+    # Enable verbose mode if requested
+    verbose_mode: bool = getattr(args, 'verbose', False)
+    if verbose_mode:
+        console.print("[dim]Verbose mode enabled[/dim]")
+
     # Validate environment setup
     if not validate_environment():
+        sys.exit(1)
+    
+    # Validate output directory
+    output_dir: Path = getattr(args, 'output_dir', Path("mangas"))
+    if not validate_output_directory(output_dir):
         sys.exit(1)
 
     # Initialize manga processor
     try:
         manga_folder: Path | None = getattr(args, 'manga_folder', None)
-        output_dir: Path = getattr(args, 'output_dir', Path("mangas"))
         
         processor = MangaProcessor(
             base_manga_dir=manga_folder,
             output_dir=output_dir,
             console=console
         )
+        
+        console.print("[green]✓[/green] Manga processor initialized successfully")
+        
     except Exception as e:
         console.print(f"[red]Failed to initialize processor: {e}[/red]")
+        if verbose_mode:
+            import traceback
+            console.print(f"[dim]{traceback.format_exc()}[/dim]")
         sys.exit(1)
 
     # Handle test mode
@@ -120,11 +206,16 @@ def main() -> None:
     if test_mode:
         console.print("[blue]Testing API connection...[/blue]")
         if processor.test_connections():
-            console.print("[green]All connections working properly![/green]")
+            console.print("[green]✓ All connections working properly![/green]")
             sys.exit(0)
         else:
-            console.print("[red]Connection test failed![/red]")
+            console.print("[red]✗ Connection test failed![/red]")
             sys.exit(1)
+
+    # Handle dry-run mode
+    dry_run_mode: bool = getattr(args, 'dry_run', False)
+    if dry_run_mode:
+        console.print("[yellow]DRY RUN MODE - No uploads will be performed[/yellow]\n")
 
     try:
         # Process manga folders
@@ -148,26 +239,55 @@ def main() -> None:
                 
                 # Process the specified folder
                 console.print(f"[green]Processing folder: {manga_folder_path}[/green]")
-                processor.process_manga_folder(manga_folder_path)
+                if dry_run_mode:
+                    # In dry-run mode, just scan and show what would be processed
+                    chapters = processor.scan_for_chapters(manga_folder_path)
+                    console.print(f"[blue]Would process {len(chapters)} chapters in dry-run mode[/blue]")
+                    for chapter in chapters:
+                        console.print(f"  - {chapter.volume}-{chapter.chapter}: {chapter.title} ({len(chapter.image_files)} images)")
+                else:
+                    processor.process_manga_folder(manga_folder_path)
             else:
                 # Use current directory and process all manga folders
                 console.print("[green]Processing all manga folders in current directory[/green]")
-                processor.process_all_manga_folders()
+                if dry_run_mode:
+                    console.print("[blue]Dry-run mode: scanning folders only[/blue]")
+                    # TODO: Add dry-run support for process_all_manga_folders
+                    console.print("[yellow]Dry-run for multiple folders not yet implemented[/yellow]")
+                else:
+                    processor.process_all_manga_folders()
         
         elif manga_folder_path.exists():
             # Process specific manga folder provided as argument
-            processor.process_manga_folder(manga_folder_path)
+            if dry_run_mode:
+                chapters = processor.scan_for_chapters(manga_folder_path)
+                console.print(f"[blue]Would process {len(chapters)} chapters in dry-run mode[/blue]")
+                for chapter in chapters:
+                    console.print(f"  - {chapter.volume}-{chapter.chapter}: {chapter.title} ({len(chapter.image_files)} images)")
+            else:
+                processor.process_manga_folder(manga_folder_path)
         else:
             console.print(f"[red]Error: Specified folder does not exist: {manga_folder_path}[/red]")
             sys.exit(1)
+        
+        # Display final summary
+        if not dry_run_mode:
+            display_summary(processor, start_time)
         
         console.print("\n[green]Processing completed successfully![/green]")
         
     except KeyboardInterrupt:
         console.print("\n[yellow]Processing interrupted by user.[/yellow]")
+        if not dry_run_mode:
+            display_summary(processor, start_time)
         sys.exit(1)
     except Exception as e:
         console.print(f"\n[red]Critical error during processing: {e}[/red]")
+        if verbose_mode:
+            import traceback
+            console.print(f"[dim]{traceback.format_exc()}[/dim]")
+        if not dry_run_mode:
+            display_summary(processor, start_time)
         sys.exit(1)
 
 
