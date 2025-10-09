@@ -20,8 +20,8 @@ from rich.progress import (
 )
 from rich.table import Table
 
-from models.chapter import ChapterInfo
-from models.upload import UploadResult
+from src.models.chapter import ChapterInfo
+from src.models.upload import UploadResult
 
 
 @final

@@ -16,7 +16,7 @@ from requests.exceptions import (
     Timeout,
 )
 
-from models.upload import UploadResult
+from src.models.upload import UploadResult
 
 
 class ImgChestUploader:

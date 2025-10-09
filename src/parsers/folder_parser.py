@@ -7,8 +7,8 @@ from pathlib import Path
 
 from rich.console import Console
 
-from models.chapter import ChapterInfo
-from parsers.image_collector import collect_image_files
+from src.models.chapter import ChapterInfo
+from src.parsers.image_collector import collect_image_files
 
 console = Console()
 

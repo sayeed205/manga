@@ -20,7 +20,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from rich.console import Console
 
-from processors.manga_processor import MangaProcessor
+from src.processors.manga_processor import MangaProcessor
 
 # Load environment variables from .env file
 _ = load_dotenv()

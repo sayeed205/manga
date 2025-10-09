@@ -9,12 +9,12 @@ from typing import final
 
 from rich.console import Console
 
-from metadata.manager import MetadataManager
-from models.chapter import ChapterInfo
-from parsers.folder_parser import parse_chapter_info, parse_volume_chapter_from_folder
-from progress.tracker import ProgressTracker
-from selectors.group_selector import GroupSelector
-from uploaders.imgchest import ImgChestUploader
+from src.metadata.manager import MetadataManager, MangaInfoData
+from src.models.chapter import ChapterInfo
+from src.parsers.folder_parser import parse_chapter_info, parse_volume_chapter_from_folder
+from src.progress.tracker import ProgressTracker, ChapterProgressContext
+from src.selectors.group_selector import GroupSelector
+from src.uploaders.imgchest import ImgChestUploader
 
 
 @final
@@ -245,7 +245,7 @@ class MangaProcessor:
         name_lower = folder_name.lower()
         return any(keyword in name_lower for keyword in chapter_keywords) or folder_name.isdigit()
 
-    def _save_progress_checkpoint(self, manga_data: dict, manga_title: str) -> None:
+    def _save_progress_checkpoint(self, manga_data: MangaInfoData, manga_title: str) -> None:
         """Save progress checkpoint to prevent data loss.
         
         Args:
@@ -366,7 +366,7 @@ class MangaProcessor:
                         )
                         self.progress_tracker.display_info(f"Error details: {error_details}")
                         
-                        progress.update(1, f"Failed: {chapter_info.chapter}")
+                        progress.update(advance=1, description=f"Failed: {chapter_info.chapter}")
                         
                         # Continue processing other chapters
                         continue
@@ -376,7 +376,7 @@ class MangaProcessor:
                 self.metadata_manager.save_manga_info(manga_title, manga_data)
                 self.progress_tracker.display_success(
                     f"Updated metadata for '{manga_title}' "
-                    f"({successful_chapters} successful, {failed_chapters_local} failed)"
+                    + f"({successful_chapters} successful, {failed_chapters_local} failed)"
                 )
             except Exception as e:
                 self.progress_tracker.display_error(
@@ -412,9 +412,9 @@ class MangaProcessor:
     def _process_single_chapter(
         self,
         chapter_info: ChapterInfo,
-        manga_data: dict,
+        manga_data: MangaInfoData,
         available_groups: list[str],
-        progress,
+        progress: ChapterProgressContext,
     ) -> None:
         """Process a single chapter with upload and metadata update.
         
@@ -432,7 +432,7 @@ class MangaProcessor:
             self.progress_tracker.display_warning(
                 f"Chapter {chapter_key} has no images, skipping"
             )
-            progress.update(1, f"Skipped (no images): {chapter_key}")
+            progress.update(advance=1, description=f"Skipped (no images): {chapter_key}")
             return
         
         # Validate image files exist
@@ -459,14 +459,14 @@ class MangaProcessor:
                 self.progress_tracker.display_warning(
                     f"Chapter {chapter_key} has no valid images after filtering, skipping"
                 )
-                progress.update(1, f"Skipped (no valid images): {chapter_key}")
+                progress.update(advance=1, description=f"Skipped (no valid images): {chapter_key}")
                 return
         
         # Check if chapter was already uploaded
         if self.progress_tracker.is_chapter_uploaded(chapter_key):
             try:
                 if not self.progress_tracker.confirm_reupload(chapter_info):
-                    progress.update(1, f"Skipped: {chapter_key}")
+                    progress.update(advance=1, description=f"Skipped: {chapter_key}")
                     return
             except KeyboardInterrupt:
                 raise
@@ -474,7 +474,7 @@ class MangaProcessor:
                 self.progress_tracker.display_error(
                     f"Error during reupload confirmation for {chapter_key}: {e}"
                 )
-                progress.update(1, f"Skipped (confirmation error): {chapter_key}")
+                progress.update(advance=1, description=f"Skipped (confirmation error): {chapter_key}")
                 return
         
         # Select group for this chapter
@@ -502,7 +502,7 @@ class MangaProcessor:
         # Upload chapter images with retry logic
         progress.set_description(f"Uploading: {chapter_key}")
         
-        def batch_progress_callback(current_batch: int, total_batches: int) -> None:
+        def batch_progress_callback(_current_batch: int, _total_batches: int) -> None:
             """Callback for batch upload progress."""
             # This could be enhanced to show batch progress within the chapter progress
             pass
@@ -570,7 +570,7 @@ class MangaProcessor:
             )
             # Don't raise here - upload succeeded, just record keeping failed
         
-        progress.update(1, f"Completed: {chapter_key}")
+        progress.update(advance=1, description=f"Completed: {chapter_key}")
         self.progress_tracker.display_success(
             f"Uploaded {chapter_key}: {upload_result.album_url}"
         )
