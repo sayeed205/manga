@@ -817,26 +817,75 @@ class MangaProcessor:
             # Load upload records
             upload_records = self.progress_tracker.load_upload_records()
             
-            # Update info.json with all chapters from upload records
+            # Track what we're doing
+            added_chapters = []
+            updated_chapters = []
+            
+            # Only update chapters that are missing or need updates
             for chapter_num, record in upload_records.items():
-                album_url = f"https://imgchest.com/p/{record['album_id']}"
+                existing_chapter = manga_data.get("chapters", {}).get(chapter_num)
                 
-                self.metadata_manager.update_chapter_data(
-                    manga_data,
-                    chapter_num,
-                    record['chapter_title'],
-                    record.get('volume', '01'),  # Default to volume 01 if not specified
-                    album_url,
-                    record['group']
-                )
+                # Check if chapter exists and if it needs updating
+                needs_update = False
+                if not existing_chapter:
+                    # Chapter doesn't exist in info.json, add it
+                    needs_update = True
+                    added_chapters.append(chapter_num)
+                else:
+                    # Chapter exists, check if album_id matches
+                    existing_album_id = existing_chapter.get("groups", {}).get(record['group'], "")
+                    expected_album_id = f"/proxy/api/imgchest/chapter/{record['album_id']}"
+                    
+                    if existing_album_id != expected_album_id:
+                        # Album ID mismatch, update needed
+                        needs_update = True
+                        updated_chapters.append(chapter_num)
+                
+                if needs_update:
+                    album_url = f"https://imgchest.com/p/{record['album_id']}"
+                    
+                    # For existing chapters, preserve the original timestamp
+                    if existing_chapter and "last_updated" in existing_chapter:
+                        # Temporarily store the original timestamp
+                        original_timestamp = existing_chapter["last_updated"]
+                        
+                        # Update the chapter data
+                        self.metadata_manager.update_chapter_data(
+                            manga_data,
+                            chapter_num,
+                            record['chapter_title'],
+                            record.get('volume', '01'),
+                            album_url,
+                            record['group']
+                        )
+                        
+                        # Restore the original timestamp
+                        manga_data["chapters"][chapter_num]["last_updated"] = original_timestamp
+                    else:
+                        # New chapter, use current timestamp
+                        self.metadata_manager.update_chapter_data(
+                            manga_data,
+                            chapter_num,
+                            record['chapter_title'],
+                            record.get('volume', '01'),
+                            album_url,
+                            record['group']
+                        )
             
-            # Save the synchronized metadata
-            self.metadata_manager.save_manga_info(manga_title, manga_data)
-            
-            chapter_count = len(upload_records)
-            self.progress_tracker.display_success(
-                f"Synchronized metadata: {chapter_count} chapters in info.json"
-            )
+            # Save the synchronized metadata only if changes were made
+            if added_chapters or updated_chapters:
+                self.metadata_manager.save_manga_info(manga_title, manga_data)
+                
+                if added_chapters:
+                    self.progress_tracker.display_success(
+                        f"Added {len(added_chapters)} missing chapters: {', '.join(added_chapters)}"
+                    )
+                if updated_chapters:
+                    self.progress_tracker.display_success(
+                        f"Updated {len(updated_chapters)} chapters: {', '.join(updated_chapters)}"
+                    )
+            else:
+                self.progress_tracker.display_info("Metadata already synchronized - no changes needed")
             
         except Exception as e:
             self.progress_tracker.display_warning(f"Failed to sync metadata: {e}")
