@@ -17,4 +17,5 @@ manga = "main:main"
 dev = [
     "basedpyright>=1.31.6",
     "ruff>=0.14.0",
+    "ty>=0.0.1a21",
 ]
