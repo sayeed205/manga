@@ -19,8 +19,8 @@ H
      - Chapters
    * - Haikyū!! - ハイキュー!!
      - `info.json <mangas/Haikyū!! - ハイキュー!!/info.json>`_
-     - `Read <https://cubari.moe/read/gist/cmF3L3NheWVlZDIwNS9tYW5nYS9tYWluL21hbmdhcy9IYWlrecWrISEgLSDjg4/jgqTjgq3jg6Xjg7whIS9pbmZvLmpzb24=/>`_
+     - `Read <https://cubari.moe/read/gist/cmF3L3NheWVlZDIwNS9tYW5nYS9tYWluL21hbmdhcy9IYWlreSVDNSVBQiUyMSUyMSUyMC0lMjAlRTMlODMlOEYlRTMlODIlQTQlRTMlODIlQUQlRTMlODMlQTUlRTMlODMlQkMlMjElMjEvaW5mby5qc29u/>`_
      - 2025-10-09 13:14 UTC
-     - 2025-10-09 13:31 UTC
+     - 2025-10-09 13:47 UTC
      - 1
-     - 3
+     - 4
