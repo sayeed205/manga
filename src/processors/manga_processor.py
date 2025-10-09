@@ -447,6 +447,8 @@ class MangaProcessor:
                 # Generate updated manga list after successful processing
                 if successful_chapters > 0:
                     self._generate_manga_list()
+                    # Display URLs for the processed manga
+                    self._display_manga_urls(manga_title)
                     
             except Exception as e:
                 self.progress_tracker.display_error(
@@ -798,3 +800,24 @@ class MangaProcessor:
                 self.progress_tracker.display_warning("Failed to update manga list")
         except Exception as e:
             self.progress_tracker.display_warning(f"Error updating manga list: {e}")
+
+    def _display_manga_urls(self, manga_title: str) -> None:
+        """Display Gist and Cubari URLs for the processed manga."""
+        try:
+            # Load environment variables for URL generation
+            username, repo, branch = self.manga_list_generator.load_env_vars()
+            
+            # Use the sanitized folder name (same as metadata manager uses)
+            folder_name = manga_title  # This should match the folder structure
+            
+            # Generate URLs
+            gist_url = f"https://raw.githubusercontent.com/{username}/{repo}/{branch}/mangas/{folder_name}/info.json"
+            cubari_url = self.manga_list_generator._get_cubari_url(username, repo, folder_name, branch)
+            
+            # Display URLs
+            self.progress_tracker.display_info("📚 Manga URLs:")
+            self.progress_tracker.display_success(f"📄 Gist (info.json): {gist_url}")
+            self.progress_tracker.display_success(f"📖 Cubari Reader: {cubari_url}")
+            
+        except Exception as e:
+            self.progress_tracker.display_warning(f"Could not generate URLs: {e}")

@@ -11,6 +11,7 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Tuple
+from urllib.parse import quote
 
 from rich.console import Console
 
@@ -26,11 +27,11 @@ class MangaListGenerator:
         """
         self.console = console or Console()
 
-    def load_env_vars(self) -> Tuple[str, str]:
-        """Load GitHub username and repo from .env file.
+    def load_env_vars(self) -> Tuple[str, str, str]:
+        """Load GitHub username, repo, and branch from .env file.
         
         Returns:
-            Tuple of (username, repo)
+            Tuple of (username, repo, branch)
             
         Raises:
             FileNotFoundError: If .env file not found
@@ -42,6 +43,7 @@ class MangaListGenerator:
         
         username = None
         repo = None
+        branch = None
         
         with open(env_path) as f:
             for line in f:
@@ -50,11 +52,18 @@ class MangaListGenerator:
                     username = line.split("=", 1)[1]
                 elif line.startswith("GH_REPO="):
                     repo = line.split("=", 1)[1]
+                elif line.startswith("GH_BRANCH="):
+                    branch = line.split("=", 1)[1]
         
         if not username or not repo:
             raise ValueError("GH_USERNAME and GH_REPO must be set in .env file")
         
-        return username, repo
+        # Default to 'main' if branch not specified
+        if not branch:
+            branch = "main"
+            self.console.print("[yellow]Warning: GH_BRANCH not found in .env, defaulting to 'main'[/yellow]")
+        
+        return username, repo, branch
 
     def get_manga_info(self, mangas_dir: Path | None = None) -> List[Dict]:
         """Extract manga information from all info.json files.
@@ -155,7 +164,7 @@ class MangaListGenerator:
         return dict(grouped)
 
     def _get_cubari_url(self, username: str, repo: str, folder_name: str, branch: str = "main") -> str:
-        """Generate Cubari URL using the same method as kaguya.py.
+        """Generate Cubari URL using kaguya.py method with URL encoding.
         
         Args:
             username: GitHub username
@@ -164,27 +173,31 @@ class MangaListGenerator:
             branch: Git branch (defaults to main)
             
         Returns:
-            Cubari gist URL
+            Cubari gist URL with proper URL encoding
         """
         # Create the path for the info.json file
         repo_file_path = f"mangas/{folder_name}/info.json"
         
         # Create the raw path for Cubari gist
-        raw_path_for_cubari_gist = f"raw/{username}/{repo}/{branch}/{repo_file_path}"
+        raw_path_for_cubari_gist = f"raw/{username}/{repo}/{branch}/{repo_file_path.replace(os.sep, '/')}"
         
-        # Base64 encode the path
-        b64_encoded = base64.b64encode(raw_path_for_cubari_gist.encode('utf-8')).decode('utf-8')
+        # URL encode the path first to handle special characters
+        url_encoded_path = quote(raw_path_for_cubari_gist, safe='/:')
+        
+        # Base64 encode the URL-encoded path
+        b64_encoded = base64.b64encode(url_encoded_path.encode('utf-8')).decode('utf-8')
         
         # Return the Cubari gist URL
         return f"https://cubari.moe/read/gist/{b64_encoded}/"
 
-    def generate_rst_content(self, grouped_mangas: Dict[str, List[Dict]], username: str, repo: str) -> str:
+    def generate_rst_content(self, grouped_mangas: Dict[str, List[Dict]], username: str, repo: str, branch: str) -> str:
         """Generate the RST content for manga-list.rst.
         
         Args:
             grouped_mangas: Dictionary of grouped manga by letter
             username: GitHub username
             repo: GitHub repository name
+            branch: GitHub branch name
             
         Returns:
             RST content as string
@@ -227,7 +240,7 @@ class MangaListGenerator:
                 
                 # Generate links using the same method as kaguya.py
                 gist_link = f"`info.json <mangas/{folder_name}/info.json>`_"
-                cubari_link = f"`Read <{self._get_cubari_url(username, repo, folder_name)}>`_"
+                cubari_link = f"`Read <{self._get_cubari_url(username, repo, folder_name, branch)}>`_"
                 
                 table_lines.append(f"   * - {title}")
                 table_lines.append(f"     - {gist_link}")
@@ -257,7 +270,7 @@ class MangaListGenerator:
             
         try:
             # Load environment variables
-            username, repo = self.load_env_vars()
+            username, repo, branch = self.load_env_vars()
             
             # Get manga information
             manga_list = self.get_manga_info(mangas_dir)
@@ -270,7 +283,7 @@ class MangaListGenerator:
             grouped_mangas = self.group_mangas_alphabetically(manga_list)
             
             # Generate RST content
-            rst_content = self.generate_rst_content(grouped_mangas, username, repo)
+            rst_content = self.generate_rst_content(grouped_mangas, username, repo, branch)
             
             # Write to file
             with open(output_file, "w", encoding="utf-8") as f:
