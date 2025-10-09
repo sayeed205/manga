@@ -1,7 +1,20 @@
 [project]
 name = "manga"
 version = "0.1.0"
-description = "Add your description here"
+description = "Manga upload script for processing folder structures and uploading to ImgChest"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.0",
+    "rich>=13.0.0",
+]
+
+[project.scripts]
+manga = "main:main"
+
+[dependency-groups]
+dev = [
+    "basedpyright>=1.31.6",
+    "ruff>=0.14.0",
+]
