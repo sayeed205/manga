@@ -794,7 +794,7 @@ class MangaProcessor:
         try:
             self.progress_tracker.display_info("Updating manga list...")
             success = self.manga_list_generator.generate_manga_list(
-                mangas_dir=self.metadata_manager.output_dir
+                mangas_dir=self.metadata_manager.base_output_dir
             )
             if not success:
                 self.progress_tracker.display_warning("Failed to update manga list")
