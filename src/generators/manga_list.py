@@ -178,8 +178,8 @@ class MangaListGenerator:
         # Create the path for the info.json file
         repo_file_path = f"mangas/{folder_name}/info.json"
         
-        # Create the raw path for Cubari gist
-        raw_path_for_cubari_gist = f"raw/{username}/{repo}/{branch}/{repo_file_path.replace(os.sep, '/')}"
+        # Create the raw path for Cubari gist using refs/heads format
+        raw_path_for_cubari_gist = f"raw/{username}/{repo}/refs/heads/{branch}/{repo_file_path.replace(os.sep, '/')}"
         
         # URL encode the path first to handle special characters
         url_encoded_path = quote(raw_path_for_cubari_gist, safe='/:')
