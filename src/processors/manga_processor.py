@@ -389,6 +389,10 @@ class MangaProcessor:
             
             if not chapters_to_process:
                 self.progress_tracker.display_info("No chapters to process (all existing chapters skipped)")
+                # Still sync metadata even if no new chapters to process
+                self._sync_metadata_with_upload_records(manga_title)
+                self._generate_manga_list()
+                self._display_manga_urls(manga_title)
                 return
             
             self.progress_tracker.display_info(
@@ -443,12 +447,6 @@ class MangaProcessor:
                     f"Updated metadata for '{manga_title}' "
                     + f"({successful_chapters} successful, {failed_chapters_local} failed)"
                 )
-                
-                # Generate updated manga list after successful processing
-                if successful_chapters > 0:
-                    self._generate_manga_list()
-                    # Display URLs for the processed manga
-                    self._display_manga_urls(manga_title)
                     
             except Exception as e:
                 self.progress_tracker.display_error(
@@ -467,6 +465,13 @@ class MangaProcessor:
                     self.progress_tracker.display_error(
                         f"Failed to save metadata backup: {backup_e}"
                     )
+            
+            # Always synchronize metadata with upload records to ensure consistency
+            self._sync_metadata_with_upload_records(manga_title)
+            
+            # Generate updated manga list and display URLs
+            self._generate_manga_list()
+            self._display_manga_urls(manga_title)
         
         except KeyboardInterrupt:
             self.progress_tracker.display_warning(
@@ -800,6 +805,41 @@ class MangaProcessor:
                 self.progress_tracker.display_warning("Failed to update manga list")
         except Exception as e:
             self.progress_tracker.display_warning(f"Error updating manga list: {e}")
+
+    def _sync_metadata_with_upload_records(self, manga_title: str) -> None:
+        """Synchronize info.json with upload_records.json to ensure consistency."""
+        try:
+            self.progress_tracker.display_info("Synchronizing metadata with upload records...")
+            
+            # Load current manga metadata
+            manga_data = self.metadata_manager.get_or_create_manga_info(manga_title)
+            
+            # Load upload records
+            upload_records = self.progress_tracker.load_upload_records()
+            
+            # Update info.json with all chapters from upload records
+            for chapter_num, record in upload_records.items():
+                album_url = f"https://imgchest.com/p/{record['album_id']}"
+                
+                self.metadata_manager.update_chapter_data(
+                    manga_data,
+                    chapter_num,
+                    record['chapter_title'],
+                    record.get('volume', '01'),  # Default to volume 01 if not specified
+                    album_url,
+                    record['group']
+                )
+            
+            # Save the synchronized metadata
+            self.metadata_manager.save_manga_info(manga_title, manga_data)
+            
+            chapter_count = len(upload_records)
+            self.progress_tracker.display_success(
+                f"Synchronized metadata: {chapter_count} chapters in info.json"
+            )
+            
+        except Exception as e:
+            self.progress_tracker.display_warning(f"Failed to sync metadata: {e}")
 
     def _display_manga_urls(self, manga_title: str) -> None:
         """Display Gist and Cubari URLs for the processed manga."""

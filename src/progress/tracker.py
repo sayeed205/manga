@@ -77,6 +77,15 @@ class ProgressTracker:
         else:
             self.upload_records = {}
 
+    def load_upload_records(self) -> dict:
+        """Load and return current upload records.
+        
+        Returns:
+            Dictionary of upload records
+        """
+        self._load_upload_records()
+        return self.upload_records.copy()
+
     def _save_upload_records(self) -> None:
         """Save upload records to file."""
         records_file = self._get_records_file()
@@ -138,6 +147,7 @@ class ProgressTracker:
             "image_count": upload_result.total_images,
             "group": group,
             "chapter_title": chapter_info.title,
+            "volume": chapter_info.volume,
         }
         
         self._save_upload_records()
