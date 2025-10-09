@@ -9,6 +9,7 @@ from typing import final
 
 from rich.console import Console
 
+from src.generators.manga_list import MangaListGenerator
 from src.metadata.manager import MetadataManager, MangaInfoData
 from src.models.chapter import ChapterInfo
 from src.parsers.folder_parser import parse_chapter_info, parse_volume_chapter_from_folder
@@ -43,6 +44,7 @@ class MangaProcessor:
         self.progress_tracker = ProgressTracker(self.console, output_dir)
         self.group_selector = GroupSelector()
         self.uploader = ImgChestUploader()
+        self.manga_list_generator = MangaListGenerator(self.console)
         
         # Processing statistics
         self.processed_chapters = 0
@@ -441,6 +443,11 @@ class MangaProcessor:
                     f"Updated metadata for '{manga_title}' "
                     + f"({successful_chapters} successful, {failed_chapters_local} failed)"
                 )
+                
+                # Generate updated manga list after successful processing
+                if successful_chapters > 0:
+                    self._generate_manga_list()
+                    
             except Exception as e:
                 self.progress_tracker.display_error(
                     f"Failed to save final metadata for '{manga_title}': {e}",
@@ -742,6 +749,10 @@ class MangaProcessor:
                 self.processed_chapters, self.failed_chapters
             )
             
+            # Generate updated manga list after batch processing
+            if processed_manga > 0:
+                self._generate_manga_list()
+            
         except Exception as e:
             self.progress_tracker.display_error(
                 f"Critical error during batch processing: {e}",
@@ -775,3 +786,15 @@ class MangaProcessor:
                 e
             )
             return False
+
+    def _generate_manga_list(self) -> None:
+        """Generate updated manga-list.rst file after processing."""
+        try:
+            self.progress_tracker.display_info("Updating manga list...")
+            success = self.manga_list_generator.generate_manga_list(
+                mangas_dir=self.metadata_manager.output_dir
+            )
+            if not success:
+                self.progress_tracker.display_warning("Failed to update manga list")
+        except Exception as e:
+            self.progress_tracker.display_warning(f"Error updating manga list: {e}")
