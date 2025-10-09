@@ -14,8 +14,6 @@ from __future__ import annotations
 
 import os
 import sys
-from dataclasses import dataclass
-from pathlib import Path
 
 from dotenv import load_dotenv
 from rich.console import Console
@@ -25,41 +23,6 @@ _ = load_dotenv()
 
 # Initialize Rich console for output
 console = Console()
-
-
-@dataclass
-class ChapterInfo:
-    """Information about a manga chapter."""
-
-    volume: str
-    chapter: str
-    title: str
-    folder_path: Path
-    image_files: list[Path]
-
-
-@dataclass
-class UploadResult:
-    """Result of an image upload operation."""
-
-    success: bool
-    album_url: str | None
-    album_id: str | None
-    total_images: int
-    error_message: str | None
-
-
-@dataclass
-class MangaMetadata:
-    """Manga metadata structure."""
-
-    title: str
-    description: str
-    artist: str
-    author: str
-    cover: str
-    groups: list[str]
-    chapters: dict[str, object]
 
 
 def validate_environment() -> bool:
@@ -82,7 +45,7 @@ def validate_environment() -> bool:
     return True
 
 
-def main():
+def main() -> None:
     """Main entry point for the manga upload script."""
     console.print("[bold blue]Manga Upload Script[/bold blue]")
     console.print("Processing manga folders and uploading to ImgChest...\n")
