@@ -62,5 +62,61 @@
     "group": "danke-Empire",
     "chapter_title": "Birth of a Combo - コンビ誕生。 - Konbi Tanjō.",
     "volume": "02"
+  },
+  "010": {
+    "album_id": "6eyrad3lk4p",
+    "timestamp": "2025-10-09T21:01:07.807999",
+    "image_count": 24,
+    "group": "danke-Empire",
+    "chapter_title": "Rookie Nerves - 小心者の緊張 - Shōshinmono no Kinchō",
+    "volume": "02"
+  },
+  "011": {
+    "album_id": "xny8elrepyb",
+    "timestamp": "2025-10-09T21:01:37.413249",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "Reunion and Failure - “再会”と“大失敗” - \"Saikai\" to \"Daishippai\"",
+    "volume": "02"
+  },
+  "012": {
+    "album_id": "bp45mdjmxy5",
+    "timestamp": "2025-10-09T21:02:01.663298",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Back to Normal - 通常運転 - Tsūjō Unten",
+    "volume": "02"
+  },
+  "013": {
+    "album_id": "agyvxegxw78",
+    "timestamp": "2025-10-09T21:02:31.595268",
+    "image_count": 21,
+    "group": "danke-Empire",
+    "chapter_title": "An Interesting Team - 面白いチーム - Omoshiroi Chīmu",
+    "volume": "02"
+  },
+  "014": {
+    "album_id": "dl7pazra87o",
+    "timestamp": "2025-10-09T21:02:57.922557",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "Vs. the Great King - VS“大王様” - Bāsasu \"Daiōsama\"",
+    "volume": "02"
+  },
+  "015": {
+    "album_id": "md7oajdaayp",
+    "timestamp": "2025-10-09T21:03:22.540836",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "Chemical Reaction - 化学変化 - Kagaku Henka",
+    "volume": "02"
+  },
+  "016": {
+    "album_id": "5xy2qlxqnyl",
+    "timestamp": "2025-10-09T21:04:02.388252",
+    "image_count": 26,
+    "group": "danke-Empire",
+    "chapter_title": "Another Prodigy - もう１人の天才 - Mō Hitori no Tensai",
+    "volume": "02"
   }
 }
