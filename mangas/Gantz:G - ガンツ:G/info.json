@@ -1,0 +1,33 @@
+{
+  "title": "Gantz:G - ガンツ:G",
+  "description": "Gantz G is an adult science-fiction horror manga spin-off from Hiroya Oku's Gantz series, following a group of high school students who die in a bus crash and are forced into the same deadly alien-hunting game as the original Gantz participants. Equipped by the mysterious Gantz sphere, the new team must hunt aliens to earn points and avoid permanent death, all while facing temptations to use their powers for revenge or personal desires.",
+  "artist": "Keita Iizuka",
+  "author": "Hiroya Oku and Tomohito Ohsaki",
+  "cover": "https://m.media-amazon.com/images/I/61qsiJSDxxL.jpg",
+  "chapters": {
+    "001": {
+      "title": "",
+      "volume": "01",
+      "last_updated": "1760079284",
+      "groups": {
+        "1r0n": "/proxy/api/imgchest/chapter/6eyradeee4p"
+      }
+    },
+    "002": {
+      "title": "",
+      "volume": "01",
+      "last_updated": "1760081053",
+      "groups": {
+        "1r0n": "/proxy/api/imgchest/chapter/ne7blxewjy5"
+      }
+    },
+    "003": {
+      "title": "",
+      "volume": "01",
+      "last_updated": "1760082154",
+      "groups": {
+        "1r0n": "/proxy/api/imgchest/chapter/vj4jewxwx78"
+      }
+    }
+  }
+}
