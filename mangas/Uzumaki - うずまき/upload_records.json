@@ -1,0 +1,170 @@
+{
+  "001": {
+    "album_id": "dl7paz2m87o",
+    "timestamp": "2025-10-10T10:16:19.198564",
+    "image_count": 45,
+    "group": "Mr. Kimiko-Teikō",
+    "chapter_title": "The Spiral Obsession Part 1 - うずまきマニア: その1 - Uzumaki Mania: So no Ichi",
+    "volume": "01"
+  },
+  "002": {
+    "album_id": "vj4jewa2578",
+    "timestamp": "2025-10-10T10:17:12.181675",
+    "image_count": 30,
+    "group": "Mr. Kimiko-Teikō",
+    "chapter_title": "The Spiral Obsession Part 2 - うずまきマニア: その2 - Uzumaki Mania: So no Ni",
+    "volume": "01"
+  },
+  "003": {
+    "album_id": "qb4z5kzo34j",
+    "timestamp": "2025-10-10T10:18:20.269033",
+    "image_count": 32,
+    "group": "Mr. Kimiko-Teikō",
+    "chapter_title": "The Scar - 傷跡 - Kizuato",
+    "volume": "01"
+  },
+  "004": {
+    "album_id": "a8463gj2w4x",
+    "timestamp": "2025-10-10T10:19:46.784714",
+    "image_count": 32,
+    "group": "Mr. Kimiko-Teikō",
+    "chapter_title": "The Firing Effect - 窯変 - Yōhen",
+    "volume": "01"
+  },
+  "005": {
+    "album_id": "92492jrq2yn",
+    "timestamp": "2025-10-10T10:20:46.633997",
+    "image_count": 32,
+    "group": "Mr. Kimiko-Teikō",
+    "chapter_title": "Twisted Souls - ねじれた人びと - Nejireta Hitobito",
+    "volume": "01"
+  },
+  "006": {
+    "album_id": "ne7blxmbny5",
+    "timestamp": "2025-10-10T10:21:55.825476",
+    "image_count": 32,
+    "group": "Mr. Kimiko-Teikō",
+    "chapter_title": "Medusa - 巻髪 - Maki Kami",
+    "volume": "01"
+  },
+  "007": {
+    "album_id": "xny8elddoyb",
+    "timestamp": "2025-10-10T10:23:15.340237",
+    "image_count": 32,
+    "group": "Mr. Kimiko-Teikō",
+    "chapter_title": "Jack-in-the-Box - びっくり箱 - Bikkuri-Bako",
+    "volume": "02"
+  },
+  "008": {
+    "album_id": "o24a2krr37l",
+    "timestamp": "2025-10-10T10:24:19.303675",
+    "image_count": 32,
+    "group": "Mr. Kimiko-Teikō",
+    "chapter_title": "The Snail - ヒトマイマイ - Hitomaimai",
+    "volume": "02"
+  },
+  "009": {
+    "album_id": "92492jrr2yn",
+    "timestamp": "2025-10-10T10:25:41.697414",
+    "image_count": 32,
+    "group": "Mr. Kimiko-Teikō",
+    "chapter_title": "The Black Lighthouse - 黒い灯台 - Kuroi Tōdai",
+    "volume": "02"
+  },
+  "010": {
+    "album_id": "pg73djnnzyr",
+    "timestamp": "2025-10-10T10:27:00.300718",
+    "image_count": 32,
+    "group": "Mr. Kimiko-Teikō",
+    "chapter_title": "Mosquitoes - 蚊柱 - Kabashira",
+    "volume": "02"
+  },
+  "011": {
+    "album_id": "bp45mdlg2y5",
+    "timestamp": "2025-10-10T10:28:02.203132",
+    "image_count": 32,
+    "group": "Mr. Kimiko-Teikō",
+    "chapter_title": "The Umbilical Cord - 臍帯 - Saitai",
+    "volume": "02"
+  },
+  "012": {
+    "album_id": "m9yx9gw63yq",
+    "timestamp": "2025-10-10T10:29:16.128968",
+    "image_count": 32,
+    "group": "Mr. Kimiko-Teikō",
+    "chapter_title": "The Storm - 台風1号 - Taifū Ichi-gō",
+    "volume": "02"
+  },
+  "013": {
+    "album_id": "xny8eldgoyb",
+    "timestamp": "2025-10-10T10:30:24.040262",
+    "image_count": 32,
+    "group": "Mr. Kimiko-Teikō",
+    "chapter_title": "The House - 鬼のいる長屋 - Oni no Iru Nagaya",
+    "volume": "03"
+  },
+  "014": {
+    "album_id": "ne7blxmeny5",
+    "timestamp": "2025-10-10T10:31:38.366202",
+    "image_count": 32,
+    "group": "Mr. Kimiko-Teikō",
+    "chapter_title": "Butterflies - 蝶 - Chō",
+    "volume": "03"
+  },
+  "015": {
+    "album_id": "wl7lamvnqyx",
+    "timestamp": "2025-10-10T10:32:57.968998",
+    "image_count": 32,
+    "group": "Mr. Kimiko-Teikō",
+    "chapter_title": "Chaos - 混沌 - Konton",
+    "volume": "03"
+  },
+  "016": {
+    "album_id": "m9yx9gwzqyq",
+    "timestamp": "2025-10-10T10:34:10.439395",
+    "image_count": 32,
+    "group": "Mr. Kimiko-Teikō",
+    "chapter_title": "Erosion - 続・混沌 - Zoku Konton",
+    "volume": "03"
+  },
+  "017": {
+    "album_id": "9p4nvl95myn",
+    "timestamp": "2025-10-10T10:35:32.246175",
+    "image_count": 34,
+    "group": "Mr. Kimiko-Teikō",
+    "chapter_title": "Escape - 脱出 - Dasshutsu",
+    "volume": "03"
+  },
+  "018": {
+    "album_id": "pg73djekjyr",
+    "timestamp": "2025-10-10T10:36:24.452062",
+    "image_count": 31,
+    "group": "Mr. Kimiko-Teikō",
+    "chapter_title": "The Labyrinth - 迷路 - Meiro",
+    "volume": "03"
+  },
+  "019": {
+    "album_id": "xny8elap5yb",
+    "timestamp": "2025-10-10T10:37:25.292947",
+    "image_count": 25,
+    "group": "Mr. Kimiko-Teikō",
+    "chapter_title": "Completion - 遺跡 - Iseki",
+    "volume": "03"
+  },
+  "020": {
+    "album_id": "a8463g8ro4x",
+    "timestamp": "2025-10-10T10:38:44.580507",
+    "image_count": 35,
+    "group": "Mr. Kimiko-Teikō",
+    "chapter_title": "Lost Chapter: Galaxies - 銀河 - Ginga",
+    "volume": "03"
+  },
+  "021": {
+    "album_id": "9p4nvlrgmyn",
+    "timestamp": "2025-10-10T10:39:06.251523",
+    "image_count": 9,
+    "group": "Mr. Kimiko-Teikō",
+    "chapter_title": "Afterword",
+    "volume": "03"
+  }
+}

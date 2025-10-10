@@ -1,0 +1,177 @@
+{
+  "title": "Uzumaki - うずまき",
+  "description": "A mysterious spiral curse that infects the small Japanese town of Kurouzu-cho, causing residents to become obsessed with, and transformed by, spirals in increasingly grotesque and horrifying ways, following high school students Kirie Goshima and her boyfriend Shuichi Saito as they witness the town's descent into madness and the terrifying physical manifestations of the curse. The curse manifests as obsessions, bodily mutations, and the literal twisting of the town into a giant spiral, leading to body horror, psychological dread, and the tragic fates of its inhabitants.",
+  "artist": "Junji Ito",
+  "author": "Junji Ito",
+  "cover": "https://i.pinimg.com/originals/15/92/36/159236cdf4b6b8cf69db8296586b1fc9.jpg",
+  "chapters": {
+    "001": {
+      "title": "The Spiral Obsession Part 1 - うずまきマニア: その1 - Uzumaki Mania: So no Ichi",
+      "volume": "01",
+      "last_updated": "1760071579",
+      "groups": {
+        "Mr. Kimiko-Teikō": "/proxy/api/imgchest/chapter/dl7paz2m87o"
+      }
+    },
+    "002": {
+      "title": "The Spiral Obsession Part 2 - うずまきマニア: その2 - Uzumaki Mania: So no Ni",
+      "volume": "01",
+      "last_updated": "1760071632",
+      "groups": {
+        "Mr. Kimiko-Teikō": "/proxy/api/imgchest/chapter/vj4jewa2578"
+      }
+    },
+    "003": {
+      "title": "The Scar - 傷跡 - Kizuato",
+      "volume": "01",
+      "last_updated": "1760071700",
+      "groups": {
+        "Mr. Kimiko-Teikō": "/proxy/api/imgchest/chapter/qb4z5kzo34j"
+      }
+    },
+    "004": {
+      "title": "The Firing Effect - 窯変 - Yōhen",
+      "volume": "01",
+      "last_updated": "1760071786",
+      "groups": {
+        "Mr. Kimiko-Teikō": "/proxy/api/imgchest/chapter/a8463gj2w4x"
+      }
+    },
+    "005": {
+      "title": "Twisted Souls - ねじれた人びと - Nejireta Hitobito",
+      "volume": "01",
+      "last_updated": "1760071846",
+      "groups": {
+        "Mr. Kimiko-Teikō": "/proxy/api/imgchest/chapter/92492jrq2yn"
+      }
+    },
+    "006": {
+      "title": "Medusa - 巻髪 - Maki Kami",
+      "volume": "01",
+      "last_updated": "1760071915",
+      "groups": {
+        "Mr. Kimiko-Teikō": "/proxy/api/imgchest/chapter/ne7blxmbny5"
+      }
+    },
+    "007": {
+      "title": "Jack-in-the-Box - びっくり箱 - Bikkuri-Bako",
+      "volume": "02",
+      "last_updated": "1760071995",
+      "groups": {
+        "Mr. Kimiko-Teikō": "/proxy/api/imgchest/chapter/xny8elddoyb"
+      }
+    },
+    "008": {
+      "title": "The Snail - ヒトマイマイ - Hitomaimai",
+      "volume": "02",
+      "last_updated": "1760072059",
+      "groups": {
+        "Mr. Kimiko-Teikō": "/proxy/api/imgchest/chapter/o24a2krr37l"
+      }
+    },
+    "009": {
+      "title": "The Black Lighthouse - 黒い灯台 - Kuroi Tōdai",
+      "volume": "02",
+      "last_updated": "1760072141",
+      "groups": {
+        "Mr. Kimiko-Teikō": "/proxy/api/imgchest/chapter/92492jrr2yn"
+      }
+    },
+    "010": {
+      "title": "Mosquitoes - 蚊柱 - Kabashira",
+      "volume": "02",
+      "last_updated": "1760072220",
+      "groups": {
+        "Mr. Kimiko-Teikō": "/proxy/api/imgchest/chapter/pg73djnnzyr"
+      }
+    },
+    "011": {
+      "title": "The Umbilical Cord - 臍帯 - Saitai",
+      "volume": "02",
+      "last_updated": "1760072282",
+      "groups": {
+        "Mr. Kimiko-Teikō": "/proxy/api/imgchest/chapter/bp45mdlg2y5"
+      }
+    },
+    "012": {
+      "title": "The Storm - 台風1号 - Taifū Ichi-gō",
+      "volume": "02",
+      "last_updated": "1760072356",
+      "groups": {
+        "Mr. Kimiko-Teikō": "/proxy/api/imgchest/chapter/m9yx9gw63yq"
+      }
+    },
+    "013": {
+      "title": "The House - 鬼のいる長屋 - Oni no Iru Nagaya",
+      "volume": "03",
+      "last_updated": "1760072424",
+      "groups": {
+        "Mr. Kimiko-Teikō": "/proxy/api/imgchest/chapter/xny8eldgoyb"
+      }
+    },
+    "014": {
+      "title": "Butterflies - 蝶 - Chō",
+      "volume": "03",
+      "last_updated": "1760072498",
+      "groups": {
+        "Mr. Kimiko-Teikō": "/proxy/api/imgchest/chapter/ne7blxmeny5"
+      }
+    },
+    "015": {
+      "title": "Chaos - 混沌 - Konton",
+      "volume": "03",
+      "last_updated": "1760072577",
+      "groups": {
+        "Mr. Kimiko-Teikō": "/proxy/api/imgchest/chapter/wl7lamvnqyx"
+      }
+    },
+    "016": {
+      "title": "Erosion - 続・混沌 - Zoku Konton",
+      "volume": "03",
+      "last_updated": "1760072650",
+      "groups": {
+        "Mr. Kimiko-Teikō": "/proxy/api/imgchest/chapter/m9yx9gwzqyq"
+      }
+    },
+    "017": {
+      "title": "Escape - 脱出 - Dasshutsu",
+      "volume": "03",
+      "last_updated": "1760072732",
+      "groups": {
+        "Mr. Kimiko-Teikō": "/proxy/api/imgchest/chapter/9p4nvl95myn"
+      }
+    },
+    "018": {
+      "title": "The Labyrinth - 迷路 - Meiro",
+      "volume": "03",
+      "last_updated": "1760072784",
+      "groups": {
+        "Mr. Kimiko-Teikō": "/proxy/api/imgchest/chapter/pg73djekjyr"
+      }
+    },
+    "019": {
+      "title": "Completion - 遺跡 - Iseki",
+      "volume": "03",
+      "last_updated": "1760072845",
+      "groups": {
+        "Mr. Kimiko-Teikō": "/proxy/api/imgchest/chapter/xny8elap5yb"
+      }
+    },
+    "020": {
+      "title": "Lost Chapter: Galaxies - 銀河 - Ginga",
+      "volume": "03",
+      "last_updated": "1760072924",
+      "groups": {
+        "Mr. Kimiko-Teikō": "/proxy/api/imgchest/chapter/a8463g8ro4x"
+      }
+    },
+    "021": {
+      "title": "Afterword",
+      "volume": "03",
+      "last_updated": "1760072946",
+      "groups": {
+        "Mr. Kimiko-Teikō": "/proxy/api/imgchest/chapter/9p4nvlrgmyn"
+      }
+    }
+  }
+}
