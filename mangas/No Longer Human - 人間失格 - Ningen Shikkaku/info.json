@@ -1,0 +1,105 @@
+{
+  "title": "No Longer Human - 人間失格 - Ningen Shikkaku",
+  "description": "Junji Ito's No Longer Human is a manga adaptation of Osamu Dazai's classic novel, following the story of a deeply troubled man who fears being his true self, leading him to adopt a facade of hollow jocularity, eventually descending into alcoholism, drug abuse, and his eventual disappearance. The story explores themes of alienation and a fundamental inability to connect with others, culminating in a complete loss of humanity and self.\n\nTaken from Kodansha Comics",
+  "artist": "Junji Ito",
+  "author": "Osamu Dazai",
+  "cover": "https://i.pinimg.com/originals/b9/c8/55/b9c85513bc05038b97e512819c0c7bc1.jpg",
+  "chapters": {
+    "001": {
+      "title": "Yozo Oba",
+      "volume": "01",
+      "last_updated": "1760074339",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ne7blxaxmy5"
+      }
+    },
+    "002": {
+      "title": "A Face Distorted",
+      "volume": "01",
+      "last_updated": "1760074394",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/lqyedpx6m7d"
+      }
+    },
+    "003": {
+      "title": "Degradation",
+      "volume": "01",
+      "last_updated": "1760074471",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/a8463g8kz4x"
+      }
+    },
+    "004": {
+      "title": "Kamakura Double Suicide",
+      "volume": "01",
+      "last_updated": "1760074563",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ne7blxavmy5"
+      }
+    },
+    "005": {
+      "title": "Suicide, Assisted",
+      "volume": "02",
+      "last_updated": "1760074617",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/na7kawje348"
+      }
+    },
+    "006": {
+      "title": "Parasite",
+      "volume": "02",
+      "last_updated": "1760074679",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qe4gmrn2q4j"
+      }
+    },
+    "007": {
+      "title": "A Kept Man",
+      "volume": "02",
+      "last_updated": "1760074768",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/agyvxe5vb78"
+      }
+    },
+    "008": {
+      "title": "Paradise",
+      "volume": "02",
+      "last_updated": "1760074840",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/dl7paz3k37o"
+      }
+    },
+    "009": {
+      "title": "Light And Darkness",
+      "volume": "03",
+      "last_updated": "1760074911",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/wl7lamq9xyx"
+      }
+    },
+    "010": {
+      "title": "Collapse",
+      "volume": "03",
+      "last_updated": "1760074985",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ej7ma2d997d"
+      }
+    },
+    "011": {
+      "title": "Addiction",
+      "volume": "03",
+      "last_updated": "1760075058",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qe4gmrneq4j"
+      }
+    },
+    "012": {
+      "title": "No Longer Human",
+      "volume": "03",
+      "last_updated": "1760075147",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/bp45mdg3ny5"
+      }
+    }
+  }
+}

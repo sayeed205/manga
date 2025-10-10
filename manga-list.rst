@@ -25,6 +25,28 @@ H
      - 3
      - 25
 
+N
+-
+
+.. list-table::
+   :header-rows: 1
+   :widths: 25 12 12 16 16 6 6
+
+   * - Title
+     - Gist
+     - Cubari
+     - Added On
+     - Last Updated
+     - Volumes
+     - Chapters
+   * - No Longer Human - 人間失格 - Ningen Shikkaku
+     - `info.json <mangas/No%20Longer%20Human%20-%20%E4%BA%BA%E9%96%93%E5%A4%B1%E6%A0%BC%20-%20Ningen%20Shikkaku/info.json>`_
+     - `Read <https://cubari.moe/read/gist/cmF3L3NheWVlZDIwNS9tYW5nYS9yZWZzL2hlYWRzL21haW4vbWFuZ2FzL05vJTIwTG9uZ2VyJTIwSHVtYW4lMjAtJTIwJUU0JUJBJUJBJUU5JTk2JTkzJUU1JUE0JUIxJUU2JUEwJUJDJTIwLSUyME5pbmdlbiUyMFNoaWtrYWt1L2luZm8uanNvbg==/>`_
+     - 2025-10-10 05:32 UTC
+     - 2025-10-10 05:45 UTC
+     - 3
+     - 12
+
 U
 -
 
