@@ -34,9 +34,17 @@
   "005": {
     "album_id": "9p4nvnwm5yn",
     "timestamp": "2025-10-16T10:54:21.106263",
-    "image_count": 28,
+    "image_count": 27,
     "group": "1r0n",
     "chapter_title": "Beast Alien - けだもの星人 - Kedamono Seijin",
+    "volume": "01"
+  },
+  "006": {
+    "album_id": "o24a23qbw7l",
+    "timestamp": "2025-10-16T05:49:27+:0000",
+    "image_count": 32,
+    "group": "1r0n",
+    "chapter_title": "The Girls' Motive - 少女たちの目的 - Shōjo-tachi no Mokuteki",
     "volume": "01"
   }
 }
