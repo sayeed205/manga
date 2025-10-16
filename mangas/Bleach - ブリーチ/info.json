@@ -1,0 +1,17 @@
+{
+  "title": "Bleach - ブリーチ",
+  "description": "Ichigo Kurosaki, a high school student who gains the powers of a Soul Reaper (Shinigami) after a chance encounter with a Soul Reaper named Rukia Kuchiki. He must then protect his town from evil spirits called Hollows and guide departed souls to the afterlife, a role he takes on after Rukia is injured while protecting him. The story evolves into an action-packed adventure with intense sword fights and deep lore as Ichigo and his friends face various enemies in both the human world and the Soul Society.",
+  "artist": "Tite Kubo",
+  "author": "Tite Kubo",
+  "cover": "https://i.pinimg.com/originals/e2/a4/0a/e2a40a98c2f883cd43133ec556029824.jpg",
+  "chapters": {
+    "001": {
+      "title": "DEATH & STRAWBERRY",
+      "volume": "01",
+      "last_updated": "1760602084",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/a8463p5m24x"
+      }
+    }
+  }
+}

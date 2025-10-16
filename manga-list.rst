@@ -3,6 +3,28 @@ Manga List
 
 Complete list of available manga organized alphabetically.
 
+B
+-
+
+.. list-table::
+   :header-rows: 1
+   :widths: 25 12 12 16 16 6 6
+
+   * - Title
+     - Gist
+     - Cubari
+     - Added On
+     - Last Updated
+     - Volumes
+     - Chapters
+   * - Bleach - ブリーチ
+     - `info.json <mangas/Bleach%20-%20%E3%83%96%E3%83%AA%E3%83%BC%E3%83%81/info.json>`_
+     - `Read <https://cubari.moe/read/gist/cmF3L3NheWVlZDIwNS9tYW5nYS9yZWZzL2hlYWRzL21haW4vbWFuZ2FzL0JsZWFjaCUyMC0lMjAlRTMlODMlOTYlRTMlODMlQUElRTMlODMlQkMlRTMlODMlODEvaW5mby5qc29u/>`_
+     - 2025-10-16 08:08 UTC
+     - 2025-10-16 08:08 UTC
+     - 1
+     - 1
+
 G
 -
 
