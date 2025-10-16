@@ -4,7 +4,7 @@
     "timestamp": "2025-10-10T12:24:44.598556",
     "image_count": 43,
     "group": "1r0n",
-    "chapter_title": "",
+    "chapter_title": "A Certain Group of Girls - ある少女たち - Aru Shōjo-tachi",
     "volume": "01"
   },
   "002": {
@@ -12,15 +12,23 @@
     "timestamp": "2025-10-10T12:54:13.515727",
     "image_count": 27,
     "group": "1r0n",
-    "chapter_title": "",
+    "chapter_title": "At the Zoo - 動物園にて - Dōbutsuen ni te",
     "volume": "01"
   },
   "003": {
-    "album_id": "ne7blxewjy5",
+    "album_id": "vj4jewxwx78",
     "timestamp": "2025-10-10T12:54:13.515727",
     "image_count": 29,
     "group": "1r0n",
-    "chapter_title": "",
+    "chapter_title": "Unknown Animals - しらないどうぶつ - Shiranai Dōbutsu",
+    "volume": "01"
+  },
+  "004": {
+    "album_id": "vj4jewxwx78",
+    "timestamp": "2025-10-16T09:30:58.676854",
+    "image_count": 28,
+    "group": "1r0n",
+    "chapter_title": "True Game of Death - 本当に死ぬゲーム - Hontō ni Shinu Gēmu",
     "volume": "01"
   }
 }
