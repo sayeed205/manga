@@ -41,10 +41,18 @@
   },
   "006": {
     "album_id": "o24a23qbw7l",
-    "timestamp": "2025-10-16T05:49:27+:0000",
+    "timestamp": "2025-10-16T05:56:32.119Z",
     "image_count": 32,
     "group": "1r0n",
     "chapter_title": "The Girls' Motive - 少女たちの目的 - Shōjo-tachi no Mokuteki",
     "volume": "01"
+  },
+  "007": {
+    "album_id": "wl7la9gnoyx",
+    "timestamp": "2025-10-16T06:00:06.300Z",
+    "image_count": 35,
+    "group": "1r0n",
+    "chapter_title": "The Girls' Non-Daily Lives - 少女たちの非日常 - Shōjo-tachi no Hinichijō",
+    "volume": "02"
   }
 }
