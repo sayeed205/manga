@@ -20,6 +20,11 @@ from requests_toolbelt.multipart.encoder import MultipartEncoder
 from src.models.upload import UploadResult
 
 
+class PayloadTooLargeError(RequestException):
+    """Exception raised when payload is too large (413 error)."""
+    pass
+
+
 class ImgChestUploader:
     """Handles ImgChest API integration for image uploads."""
 
@@ -70,15 +75,17 @@ class ImgChestUploader:
             try:
                 if files:
                     # Use MultipartEncoder for file uploads
-                    fields: list[tuple[str, tuple[str, bytes, str] | str]] = list(files)
+                    fields: list[tuple[str, tuple[str, bytes, str] | str]] = (
+                        list(files)
+                    )
                     if request_data:
                         # Add form data to fields
                         for key, value in request_data.items():
                             fields.append((key, value))
-                    
+
                     encoder = MultipartEncoder(fields=fields)
                     headers["Content-Type"] = encoder.content_type
-                    
+
                     response = requests.request(
                         method=method,
                         url=url,
@@ -103,17 +110,17 @@ class ImgChestUploader:
                         time.sleep(float(retry_after))
                         continue
 
-
-                
                 response.raise_for_status()
                 try:
                     json_data = response.json()
                 except ValueError as json_err:
-                    raise RequestException("Invalid JSON in response") from json_err
-                
+                    raise RequestException(
+                        "Invalid JSON in response"
+                    ) from json_err
+
                 if not isinstance(json_data, dict):
                     raise RequestException("Response is not a JSON object")
-                
+
                 return cast(dict[str, object], json_data)
 
             except Timeout as e:
@@ -135,6 +142,12 @@ class ImgChestUploader:
                 ) from e
 
             except HTTPError as e:
+                # Handle 413 Payload Too Large specifically
+                if response and response.status_code == 413:
+                    raise PayloadTooLargeError(
+                        "Payload too large - reduce batch size"
+                    ) from e
+                
                 # Don't retry on client errors (4xx), only server errors (5xx)
                 if (
                     response
@@ -147,6 +160,7 @@ class ImgChestUploader:
                 error_text = response.text if response else "Unknown error"
                 status_code = response.status_code if response else "Unknown"
                 # Add detailed error info for debugging
+                print(e)
                 print(f"Debug: HTTPError - Status: {status_code}, URL: {url}")
                 print(f"Debug: Response text: {error_text[:200]}...")
                 raise RequestException(
@@ -194,7 +208,9 @@ class ImgChestUploader:
                 mime_type = mime_types.get(extension, f"image/{extension[1:]}")
 
                 # Use 'images[]' as the key name (ImgChest expects this format)
-                files.append(("images[]", (image_path.name, file_content, mime_type)))
+                files.append(
+                    ("images[]", (image_path.name, file_content, mime_type))
+                )
 
             except IOError as e:
                 raise IOError(
@@ -225,24 +241,25 @@ class ImgChestUploader:
             return False
 
     def create_album(
-        self, images: list[Path], album_name: str = ""
+        self, images: list[Path], album_name: str = "", max_batch_size: int = 20
     ) -> tuple[str, str]:
         """Create a new album with the first batch of images.
 
         Args:
-            images: List of image file paths (max 20)
+            images: List of image file paths
             album_name: Optional name for the album
+            max_batch_size: Maximum number of images per batch
 
         Returns:
             Tuple of (album_url, album_id)
 
         Raises:
-            ValueError: If more than 20 images provided
+            ValueError: If more images than max_batch_size provided
             RequestException: If API request fails
         """
-        if len(images) > 20:
+        if len(images) > max_batch_size:
             raise ValueError(
-                f"Cannot upload more than 20 images in one batch. Got {len(images)}"
+                f"Cannot upload more than {max_batch_size} images in one batch. Got {len(images)}"
             )
 
         if not images:
@@ -259,18 +276,26 @@ class ImgChestUploader:
             )
 
             # Check for error in response
-            if 'error' in response or ('status' in response and response['status'] == 'error'):
-                error_msg = response.get('error', response.get('message', 'Unknown API error'))
+            if "error" in response or (
+                "status" in response and response["status"] == "error"
+            ):
+                error_msg = response.get(
+                    "error", response.get("message", "Unknown API error")
+                )
                 raise RequestException(f"API error: {error_msg}")
 
             # Extract album information from nested data structure
             api_data = response.get("data")
             if not isinstance(api_data, dict):
-                raise RequestException("Invalid response: missing or invalid data field")
+                raise RequestException(
+                    "Invalid response: missing or invalid data field"
+                )
 
             album_id = api_data.get("id")
             if not isinstance(album_id, str):
-                raise RequestException("Invalid response: missing or invalid post ID")
+                raise RequestException(
+                    "Invalid response: missing or invalid post ID"
+                )
 
             album_url = f"https://imgchest.com/p/{album_id}"
 
@@ -279,23 +304,24 @@ class ImgChestUploader:
         except Exception as e:
             raise RequestException(f"Failed to create album: {e}") from e
 
-    def add_images_to_album(self, album_id: str, images: list[Path]) -> bool:
+    def add_images_to_album(self, album_id: str, images: list[Path], max_batch_size: int = 20) -> bool:
         """Add images to an existing album.
 
         Args:
             album_id: ID of the existing album
-            images: List of image file paths (max 20)
+            images: List of image file paths
+            max_batch_size: Maximum number of images per batch
 
         Returns:
             True if images were successfully added
 
         Raises:
-            ValueError: If more than 20 images provided
+            ValueError: If more images than max_batch_size provided
             RequestException: If API request fails
         """
-        if len(images) > 20:
+        if len(images) > max_batch_size:
             raise ValueError(
-                f"Cannot upload more than 20 images in one batch. Got {len(images)}"
+                f"Cannot upload more than {max_batch_size} images in one batch. Got {len(images)}"
             )
 
         if not images:
@@ -304,13 +330,19 @@ class ImgChestUploader:
         files = self._prepare_image_files(images)
 
         try:
-            response = self._make_request("POST", f"/post/{album_id}/add", files=files)
-            
+            response = self._make_request(
+                "POST", f"/post/{album_id}/add", files=files
+            )
+
             # Check for error in response
-            if 'error' in response or ('status' in response and response['status'] == 'error'):
-                error_msg = response.get('error', response.get('message', 'Unknown API error'))
+            if "error" in response or (
+                "status" in response and response["status"] == "error"
+            ):
+                error_msg = response.get(
+                    "error", response.get("message", "Unknown API error")
+                )
                 raise RequestException(f"API error: {error_msg}")
-            
+
             return True
 
         except Exception as e:
@@ -332,16 +364,22 @@ class ImgChestUploader:
         """
         try:
             response = self._make_request("DELETE", f"/post/{album_id}")
-            
+
             # Check for error in response
-            if 'error' in response or ('status' in response and response['status'] == 'error'):
-                error_msg = response.get('error', response.get('message', 'Unknown API error'))
+            if "error" in response or (
+                "status" in response and response["status"] == "error"
+            ):
+                error_msg = response.get(
+                    "error", response.get("message", "Unknown API error")
+                )
                 raise RequestException(f"API error: {error_msg}")
-            
+
             return True
 
         except Exception as e:
-            raise RequestException(f"Failed to delete album {album_id}: {e}") from e
+            raise RequestException(
+                f"Failed to delete album {album_id}: {e}"
+            ) from e
 
     def upload_chapter_images(
         self,
@@ -349,7 +387,7 @@ class ImgChestUploader:
         chapter_name: str,
         progress_callback: Callable[[int, int], None] | None = None,
     ) -> UploadResult:
-        """Upload all images for a chapter in batches.
+        """Upload all images for a chapter in batches with dynamic batch size reduction.
 
         Args:
             images: List of all image file paths for the chapter
@@ -369,30 +407,75 @@ class ImgChestUploader:
             )
 
         try:
-            # Split images into batches of maximum 20
+            # Start with batch size of 20, reduce if we get 413 errors
             batch_size = 20
-            batches = [
-                images[i : i + batch_size]
-                for i in range(0, len(images), batch_size)
-            ]
-            total_batches = len(batches)
-
             album_url = None
             album_id = None
+            processed_images = 0
 
-            # Process first batch - create album
-            if progress_callback:
-                progress_callback(1, total_batches)
+            while processed_images < len(images):
+                remaining_images = images[processed_images:]
+                
+                # Create batches with current batch size
+                batches = [
+                    remaining_images[i : i + batch_size]
+                    for i in range(0, len(remaining_images), batch_size)
+                ]
 
-            first_batch = batches[0]
-            album_url, album_id = self.create_album(first_batch, chapter_name)
+                try:
+                    if album_id is None:
+                        # First batch - create album
+                        first_batch = batches[0]
+                        album_url, album_id = self.create_album(
+                            first_batch, chapter_name, batch_size
+                        )
+                        processed_images += len(first_batch)
+                        
+                        if progress_callback:
+                            total_batches = len(images) // batch_size + (1 if len(images) % batch_size else 0)
+                            current_batch = processed_images // batch_size
+                            progress_callback(current_batch, total_batches)
 
-            # Process remaining batches - add to existing album
-            for batch_num, batch in enumerate(batches[1:], start=2):
-                if progress_callback:
-                    progress_callback(batch_num, total_batches)
+                        # Process remaining batches in this iteration
+                        for batch in batches[1:]:
+                            self.add_images_to_album(album_id, batch, batch_size)
+                            processed_images += len(batch)
+                            
+                            if progress_callback:
+                                current_batch = processed_images // batch_size
+                                progress_callback(current_batch, total_batches)
+                    else:
+                        # Add to existing album
+                        for batch in batches:
+                            self.add_images_to_album(album_id, batch, batch_size)
+                            processed_images += len(batch)
+                            
+                            if progress_callback:
+                                total_batches = len(images) // batch_size + (1 if len(images) % batch_size else 0)
+                                current_batch = processed_images // batch_size
+                                progress_callback(current_batch, total_batches)
 
-                _ = self.add_images_to_album(album_id, batch)
+                    # If we get here, all remaining images were processed successfully
+                    break
+
+                except PayloadTooLargeError:
+                    # Reduce batch size and try again
+                    if batch_size > 1:
+                        batch_size = max(1, batch_size // 2)
+                        print(f"Info: Payload too large, reducing batch size to {batch_size}")
+                        
+                        # If we had created an album but failed on subsequent batches, 
+                        # we need to continue from where we left off
+                        continue
+                    else:
+                        # Even single image is too large
+                        return UploadResult(
+                            success=False,
+                            album_url=None,
+                            album_id=None,
+                            total_images=len(images),
+                            error_message="Individual image file is too large for upload",
+                        )
 
             return UploadResult(
                 success=True,
