@@ -70,5 +70,69 @@
     "group": "danke-Empire",
     "chapter_title": "Mother - 母親 - Hahaoya",
     "volume": "01"
+  },
+  "10": {
+    "album_id": "md7oaqbgayp",
+    "timestamp": "2025-10-21T11:52:39.872853",
+    "image_count": 45,
+    "group": "danke-Empire",
+    "chapter_title": "Concern - こだわり - Kodawari",
+    "volume": "02"
+  },
+  "11": {
+    "album_id": "ljyqark9e72",
+    "timestamp": "2025-10-21T11:53:35.885238",
+    "image_count": 28,
+    "group": "danke-Empire",
+    "chapter_title": "Farewell - 別れ - Wakare",
+    "volume": "02"
+  },
+  "12": {
+    "album_id": "n87w9xn63yx",
+    "timestamp": "2025-10-21T11:54:36.686173",
+    "image_count": 34,
+    "group": "danke-Empire",
+    "chapter_title": "Hole in Chest - 胸の穴 - Mune no Ana",
+    "volume": "02"
+  },
+  "13": {
+    "album_id": "qb4z58p9g4j",
+    "timestamp": "2025-10-21T11:55:20.210282",
+    "image_count": 30,
+    "group": "danke-Empire",
+    "chapter_title": "Absent Tears - 出ない涙 - Denai Namida",
+    "volume": "02"
+  },
+  "14": {
+    "album_id": "a84635oxg4x",
+    "timestamp": "2025-10-21T11:56:12.729127",
+    "image_count": 36,
+    "group": "danke-Empire",
+    "chapter_title": "Friends - 仲間 - Nakama",
+    "volume": "02"
+  },
+  "15": {
+    "album_id": "92492pkavyn",
+    "timestamp": "2025-10-21T11:57:02.922489",
+    "image_count": 38,
+    "group": "danke-Empire",
+    "chapter_title": "The Missing 30% - 消えた30% - Kieta 30%",
+    "volume": "02"
+  },
+  "16": {
+    "album_id": "dl7padnq87o",
+    "timestamp": "2025-10-21T11:58:10.934260",
+    "image_count": 38,
+    "group": "danke-Empire",
+    "chapter_title": "Ch16 Journey's End - 旅の終わり - Tabi no Owari",
+    "volume": "02"
+  },
+  "17": {
+    "album_id": "5xy2q8oenyl",
+    "timestamp": "2025-10-21T11:58:58.059234",
+    "image_count": 37,
+    "group": "danke-Empire",
+    "chapter_title": "Transformation - 変貌 - Henbō",
+    "volume": "02"
   }
 }
