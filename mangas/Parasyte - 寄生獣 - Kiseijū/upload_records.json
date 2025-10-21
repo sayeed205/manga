@@ -1,0 +1,58 @@
+{
+  "01": {
+    "album_id": "6eyramaol4p",
+    "timestamp": "2025-10-21T11:13:11.659905",
+    "image_count": 49,
+    "group": "danke-Empire",
+    "chapter_title": "Invasion - 侵入 - Shin'nyū",
+    "volume": "01"
+  },
+  "02": {
+    "album_id": "qb4z585ol4j",
+    "timestamp": "2025-10-21T11:14:07.696374",
+    "image_count": 36,
+    "group": "danke-Empire",
+    "chapter_title": "Wild Animal - 野獣 - Yajū",
+    "volume": "01"
+  },
+  "03": {
+    "album_id": "xny8e5ejwyb",
+    "timestamp": "2025-10-21T11:14:57.238555",
+    "image_count": 37,
+    "group": "danke-Empire",
+    "chapter_title": "Contact - 接触 - Sesshoku",
+    "volume": "01"
+  },
+  "04": {
+    "album_id": "m9yx989o6yq",
+    "timestamp": "2025-10-21T11:15:42.326467",
+    "image_count": 26,
+    "group": "danke-Empire",
+    "chapter_title": "Killer's Aura - 殺気 - Sakki",
+    "volume": "01"
+  },
+  "05": {
+    "album_id": "9p4nvjvb5yn",
+    "timestamp": "2025-10-21T11:16:13.238108",
+    "image_count": 24,
+    "group": "danke-Empire",
+    "chapter_title": "Studyholic - 勉強好き - Benkyō Suki",
+    "volume": "01"
+  },
+  "06": {
+    "album_id": "wl7la2av3yx",
+    "timestamp": "2025-10-21T11:16:51.121095",
+    "image_count": 24,
+    "group": "danke-Empire",
+    "chapter_title": "Ryoko Tamiya - 田宮良子 - Tamiya Ryōko",
+    "volume": "01"
+  },
+  "08": {
+    "album_id": "5xy2q8q98yl",
+    "timestamp": "2025-10-21T11:17:46.628693",
+    "image_count": 29,
+    "group": "danke-Empire",
+    "chapter_title": "Attack - 襲撃 - Shūgeki",
+    "volume": "01"
+  }
+}

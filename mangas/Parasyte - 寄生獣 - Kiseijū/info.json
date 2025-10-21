@@ -1,0 +1,65 @@
+{
+  "title": "Parasyte - 寄生獣 - Kiseijū",
+  "description": "They arrive in silence and darkness. They descend from the skies. They have a hunger for human flesh. They are everywhere. They are parasites, alien creatures who must invade and take control of a human host to survive. And once they have infected their victims, they can assume any deadly form they choose: monsters with giant teeth, winged demons, creatures with blades for hands. But most have chosen to conceal their lethal purpose behind ordinary human faces. So no one knows their secret except an ordinary high school student. Shin is battling for control of his own body against an alien parasite, but can he find a way to warn humanity of the horrors to come?",
+  "artist": "Hitoshi Iwaaki",
+  "author": "Hitoshi Iwaaki",
+  "cover": "https://m.media-amazon.com/images/I/51g4w9A+RGL.jpg",
+  "chapters": {
+    "01": {
+      "title": "Invasion - 侵入 - Shin'nyū",
+      "volume": "01",
+      "last_updated": "1761025391",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/6eyramaol4p"
+      }
+    },
+    "02": {
+      "title": "Wild Animal - 野獣 - Yajū",
+      "volume": "01",
+      "last_updated": "1761025447",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qb4z585ol4j"
+      }
+    },
+    "03": {
+      "title": "Contact - 接触 - Sesshoku",
+      "volume": "01",
+      "last_updated": "1761025497",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/xny8e5ejwyb"
+      }
+    },
+    "04": {
+      "title": "Killer's Aura - 殺気 - Sakki",
+      "volume": "01",
+      "last_updated": "1761025542",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/m9yx989o6yq"
+      }
+    },
+    "05": {
+      "title": "Studyholic - 勉強好き - Benkyō Suki",
+      "volume": "01",
+      "last_updated": "1761025573",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9p4nvjvb5yn"
+      }
+    },
+    "06": {
+      "title": "Ryoko Tamiya - 田宮良子 - Tamiya Ryōko",
+      "volume": "01",
+      "last_updated": "1761025611",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/wl7la2av3yx"
+      }
+    },
+    "08": {
+      "title": "Attack - 襲撃 - Shūgeki",
+      "volume": "01",
+      "last_updated": "1761025666",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/5xy2q8q98yl"
+      }
+    }
+  }
+}
