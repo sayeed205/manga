@@ -454,5 +454,61 @@
     "group": "danke-Empire",
     "chapter_title": "Hero - ヒーロー - Hīrō",
     "volume": "07"
+  },
+  "58": {
+    "album_id": "ljyqarkjk72",
+    "timestamp": "2025-10-21T13:54:21.286358",
+    "image_count": 43,
+    "group": "danke-Empire",
+    "chapter_title": "Migi - ミギー - Migī",
+    "volume": "08"
+  },
+  "59": {
+    "album_id": "qe4gm5qab4j",
+    "timestamp": "2025-10-21T13:55:41.305848",
+    "image_count": 32,
+    "group": "danke-Empire",
+    "chapter_title": "Old Woman - 老婆 - Rōba",
+    "volume": "08"
+  },
+  "60": {
+    "album_id": "agyvx9nmz78",
+    "timestamp": "2025-10-21T13:57:02.363552",
+    "image_count": 36,
+    "group": "danke-Empire",
+    "chapter_title": "Resolve - 覚悟 - Kakugo",
+    "volume": "08"
+  },
+  "61": {
+    "album_id": "ej7malegj7d",
+    "timestamp": "2025-10-21T13:58:56.410586",
+    "image_count": 36,
+    "group": "danke-Empire",
+    "chapter_title": "Sinister Form - 異形 - Igyō",
+    "volume": "08"
+  },
+  "62": {
+    "album_id": "bp45m5oagy5",
+    "timestamp": "2025-10-21T14:00:33.353711",
+    "image_count": 42,
+    "group": "danke-Empire",
+    "chapter_title": "Morning - 朝 - Asa",
+    "volume": "08"
+  },
+  "63": {
+    "album_id": "na7kav5xm48",
+    "timestamp": "2025-10-21T14:01:19.041383",
+    "image_count": 29,
+    "group": "danke-Empire",
+    "chapter_title": "Return To Normal - 日常の中へ - Nichijō no naka e",
+    "volume": "08"
+  },
+  "64": {
+    "album_id": "ljyqar5gk72",
+    "timestamp": "2025-10-21T14:03:43.088195",
+    "image_count": 66,
+    "group": "danke-Empire",
+    "chapter_title": "You - きみ - Kimi",
+    "volume": "08"
   }
 }

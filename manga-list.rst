@@ -109,9 +109,9 @@ P
      - `info.json <mangas/Parasyte%20-%20%E5%AF%84%E7%94%9F%E7%8D%A3%20-%20Kiseij%C5%AB/info.json>`_
      - `Read <https://cubari.moe/read/gist/cmF3L3NheWVlZDIwNS9tYW5nYS9yZWZzL2hlYWRzL21haW4vbWFuZ2FzL1BhcmFzeXRlJTIwLSUyMCVFNSVBRiU4NCVFNyU5NCU5RiVFNyU4RCVBMyUyMC0lMjBLaXNlaWolQzUlQUIvaW5mby5qc29u/>`_
      - 2025-10-21 05:43 UTC
-     - 2025-10-21 08:19 UTC
-     - 7
-     - 57
+     - 2025-10-21 08:33 UTC
+     - 8
+     - 64
 
 U
 -
