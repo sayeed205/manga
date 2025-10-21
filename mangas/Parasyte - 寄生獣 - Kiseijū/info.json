@@ -268,6 +268,70 @@
       "groups": {
         "danke-Empire": "/proxy/api/imgchest/chapter/pg73d5o8gyr"
       }
+    },
+    "34": {
+      "title": "Iron and Glass - 鉄とガラス - Tetsu to Garasu",
+      "volume": "05",
+      "last_updated": "1761033339",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/vj4jegmj378"
+      }
+    },
+    "35": {
+      "title": "Indifferently Named - 名前に無頓着 - Namae ni Mutonjaku",
+      "volume": "05",
+      "last_updated": "1761033392",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/pg73d5o3gyr"
+      }
+    },
+    "36": {
+      "title": "The Devil's Face - 悪魔の面影 - Akuma no Omokage",
+      "volume": "05",
+      "last_updated": "1761033438",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/xny8e5682yb"
+      }
+    },
+    "37": {
+      "title": "Dining Room - 食堂 - Shokudō",
+      "volume": "05",
+      "last_updated": "1761033477",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/a84635ozz4x"
+      }
+    },
+    "38": {
+      "title": "Face-Off - 敵対 - Tekitai",
+      "volume": "05",
+      "last_updated": "1761033534",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/md7oaqb32yp"
+      }
+    },
+    "39": {
+      "title": "Assassin - 刺客 - Shikaku",
+      "volume": "05",
+      "last_updated": "1761033593",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/6eyramnbx4p"
+      }
+    },
+    "40": {
+      "title": "Command Tower - 司令塔 - Shireitō",
+      "volume": "05",
+      "last_updated": "1761033642",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qb4z58pb54j"
+      }
+    },
+    "41": {
+      "title": "Final Form - 完全体 - Kanzentai",
+      "volume": "05",
+      "last_updated": "1761033715",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/m9yx98nbpyq"
+      }
     }
   }
 }
