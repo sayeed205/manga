@@ -332,6 +332,134 @@
       "groups": {
         "danke-Empire": "/proxy/api/imgchest/chapter/m9yx98nbpyq"
       }
+    },
+    "42": {
+      "title": "A Little Family 1 - 小さな家族 (1) - Chīsana Kazoku (1)",
+      "volume": "06",
+      "last_updated": "1761033797",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/5xy2q8o5zyl"
+      }
+    },
+    "43": {
+      "title": "A Little Family 2 - 小さな家族 (2) - Chīsana Kazoku (2)",
+      "volume": "06",
+      "last_updated": "1761033846",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9rydq62964k"
+      }
+    },
+    "44": {
+      "title": "Impetuosity - 性急に - Seikyū ni",
+      "volume": "06",
+      "last_updated": "1761033889",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ej7malepa7d"
+      }
+    },
+    "45": {
+      "title": "Cold-Blooded Battle - 冷血の戦い - Reiketsu no Tatakai",
+      "volume": "06",
+      "last_updated": "1761033944",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/bp45m5ovvy5"
+      }
+    },
+    "46": {
+      "title": "The Park - となり町の公園 - Tonari machi no kōen",
+      "volume": "06",
+      "last_updated": "1761033992",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/92492pkn8yn"
+      }
+    },
+    "47": {
+      "title": "Some Child's Parent - 人の子の親 - Hito no ko no oya",
+      "volume": "06",
+      "last_updated": "1761034047",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/na7kavklw48"
+      }
+    },
+    "48": {
+      "title": "Homecoming - ただいま - Tadaima",
+      "volume": "06",
+      "last_updated": "1761034128",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/6eyramnwl4p"
+      }
+    },
+    "49": {
+      "title": "Staring Experiment - お見合い実験 - O miai jikken",
+      "volume": "06",
+      "last_updated": "1761034201",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qe4gm5q6k4j"
+      }
+    },
+    "50": {
+      "title": "Weapon - 狂気 - Kyōki",
+      "volume": "07",
+      "last_updated": "1761034280",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/wl7la2wb3yx"
+      }
+    },
+    "51": {
+      "title": "Bearing - 進路 - Shinro",
+      "volume": "07",
+      "last_updated": "1761034338",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/n87w9xnoqyx"
+      }
+    },
+    "52": {
+      "title": "Surrounded - 包囲 - Hōi",
+      "volume": "07",
+      "last_updated": "1761034402",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/xny8e56jwyb"
+      }
+    },
+    "53": {
+      "title": "Fuse - 口火 - Kuchibi",
+      "volume": "07",
+      "last_updated": "1761034446",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/92492pkq8yn"
+      }
+    },
+    "54": {
+      "title": "Fuse - 口火 - Kuchibi",
+      "volume": "07",
+      "last_updated": "1761034545",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/wl7la2wv3yx"
+      }
+    },
+    "55": {
+      "title": "Parasyte - 寄生獣 - Kisei-jū",
+      "volume": "07",
+      "last_updated": "1761034615",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qb4z58pzl4j"
+      }
+    },
+    "56": {
+      "title": "Head - 首 - Kubi",
+      "volume": "07",
+      "last_updated": "1761034705",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9p4nvjz95yn"
+      }
+    },
+    "57": {
+      "title": "Hero - ヒーロー - Hīrō",
+      "volume": "07",
+      "last_updated": "1761034788",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/wl7la2wqoyx"
+      }
     }
   }
 }
