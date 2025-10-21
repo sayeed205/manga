@@ -140,6 +140,70 @@
       "groups": {
         "danke-Empire": "/proxy/api/imgchest/chapter/5xy2q8oenyl"
       }
+    },
+    "18": {
+      "title": "Humans - 人間 - Ningen",
+      "volume": "03",
+      "last_updated": "1761029961",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/92492pkd2yn"
+      }
+    },
+    "19": {
+      "title": "Shimada Hideo - 島田 秀雄",
+      "volume": "03",
+      "last_updated": "1761030018",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ne7blk62ny5"
+      }
+    },
+    "20": {
+      "title": "Signs - 兆し - Kizashi",
+      "volume": "03",
+      "last_updated": "1761030069",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/md7oaqbedyp"
+      }
+    },
+    "21": {
+      "title": "Observation - 観察 - Kansatsu",
+      "volume": "03",
+      "last_updated": "1761030132",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/na7kavkdq48"
+      }
+    },
+    "22": {
+      "title": "Fissure - 亀裂 - Kiretsu",
+      "volume": "03",
+      "last_updated": "1761030229",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/dl7padnv67o"
+      }
+    },
+    "23": {
+      "title": "Confusion and Slaughter - 混乱と殺戮 - Konran to Satsuriku",
+      "volume": "03",
+      "last_updated": "1761030284",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/vj4jegm9278"
+      }
+    },
+    "24": {
+      "title": "One Blow - 一撃 - Ichigeki",
+      "volume": "03",
+      "last_updated": "1761030340",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/n87w9xndzyx"
+      }
+    },
+    "25": {
+      "title": "Ripples - 波紋 - Hamon",
+      "volume": "03",
+      "last_updated": "1761030381",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/lqyedgl237d"
+      }
     }
   }
 }

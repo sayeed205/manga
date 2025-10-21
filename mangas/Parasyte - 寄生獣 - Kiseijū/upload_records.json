@@ -134,5 +134,69 @@
     "group": "danke-Empire",
     "chapter_title": "Transformation - 変貌 - Henbō",
     "volume": "02"
+  },
+  "18": {
+    "album_id": "92492pkd2yn",
+    "timestamp": "2025-10-21T12:29:21.318571",
+    "image_count": 43,
+    "group": "danke-Empire",
+    "chapter_title": "Humans - 人間 - Ningen",
+    "volume": "03"
+  },
+  "19": {
+    "album_id": "ne7blk62ny5",
+    "timestamp": "2025-10-21T12:30:18.142590",
+    "image_count": 36,
+    "group": "danke-Empire",
+    "chapter_title": "Shimada Hideo - 島田 秀雄",
+    "volume": "03"
+  },
+  "20": {
+    "album_id": "md7oaqbedyp",
+    "timestamp": "2025-10-21T12:31:09.936608",
+    "image_count": 32,
+    "group": "danke-Empire",
+    "chapter_title": "Signs - 兆し - Kizashi",
+    "volume": "03"
+  },
+  "21": {
+    "album_id": "na7kavkdq48",
+    "timestamp": "2025-10-21T12:32:12.491536",
+    "image_count": 36,
+    "group": "danke-Empire",
+    "chapter_title": "Observation - 観察 - Kansatsu",
+    "volume": "03"
+  },
+  "22": {
+    "album_id": "dl7padnv67o",
+    "timestamp": "2025-10-21T12:33:49.734164",
+    "image_count": 36,
+    "group": "danke-Empire",
+    "chapter_title": "Fissure - 亀裂 - Kiretsu",
+    "volume": "03"
+  },
+  "23": {
+    "album_id": "vj4jegm9278",
+    "timestamp": "2025-10-21T12:34:44.268755",
+    "image_count": 34,
+    "group": "danke-Empire",
+    "chapter_title": "Confusion and Slaughter - 混乱と殺戮 - Konran to Satsuriku",
+    "volume": "03"
+  },
+  "24": {
+    "album_id": "n87w9xndzyx",
+    "timestamp": "2025-10-21T12:35:40.871179",
+    "image_count": 35,
+    "group": "danke-Empire",
+    "chapter_title": "One Blow - 一撃 - Ichigeki",
+    "volume": "03"
+  },
+  "25": {
+    "album_id": "lqyedgl237d",
+    "timestamp": "2025-10-21T12:36:21.869641",
+    "image_count": 32,
+    "group": "danke-Empire",
+    "chapter_title": "Ripples - 波紋 - Hamon",
+    "volume": "03"
   }
 }
