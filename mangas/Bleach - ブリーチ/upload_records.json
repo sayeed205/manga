@@ -630,5 +630,85 @@
     "group": "VIZ Media",
     "chapter_title": "FOURTEEN DAYS FOR CONSPIRACY",
     "volume": "09"
+  },
+  "080": {
+    "album_id": "9p4nvzoabyn",
+    "timestamp": "2025-10-28T10:29:24.400992",
+    "image_count": 26,
+    "group": "VIZ Media",
+    "chapter_title": "The Shooting Star Project",
+    "volume": "10"
+  },
+  "081": {
+    "album_id": "ne7bl69jmy5",
+    "timestamp": "2025-10-28T10:29:48.511527",
+    "image_count": 19,
+    "group": "VIZ Media",
+    "chapter_title": "Twelve-Tone Rendezvous",
+    "volume": "10"
+  },
+  "082": {
+    "album_id": "md7oabpk2yp",
+    "timestamp": "2025-10-28T10:30:19.848876",
+    "image_count": 19,
+    "group": "VIZ Media",
+    "chapter_title": "Conflictable Composition",
+    "volume": "10"
+  },
+  "083": {
+    "album_id": "5xy2qo55zyl",
+    "timestamp": "2025-10-28T10:30:34.858792",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "COME WITH ME",
+    "volume": "10"
+  },
+  "084": {
+    "album_id": "vj4jempp378",
+    "timestamp": "2025-10-28T10:30:55.454571",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "The Shooting Star Project 2 (Tattoo on the Sky)",
+    "volume": "10"
+  },
+  "085": {
+    "album_id": "6eyrankkx4p",
+    "timestamp": "2025-10-28T10:31:19.903046",
+    "image_count": 21,
+    "group": "VIZ Media",
+    "chapter_title": "INTRUDERZ 2 (Breakthrough the Roof Mix)",
+    "volume": "10"
+  },
+  "086": {
+    "album_id": "pg73doaagyr",
+    "timestamp": "2025-10-28T10:31:42.639029",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "Making Good Relations, OK?",
+    "volume": "10"
+  },
+  "087": {
+    "album_id": "lqyedlkkm7d",
+    "timestamp": "2025-10-28T10:32:07.293169",
+    "image_count": 25,
+    "group": "VIZ Media",
+    "chapter_title": "Dancing with Spears",
+    "volume": "10"
+  },
+  "088": {
+    "album_id": "dl7panp3j7o",
+    "timestamp": "2025-10-28T10:32:51.578041",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "SO UNLUCKY WE ARE",
+    "volume": "10"
+  },
+  "088.5": {
+    "album_id": "bp45movvny5",
+    "timestamp": "2025-10-28T10:32:51.578041",
+    "image_count": 5,
+    "group": "VIZ Media",
+    "chapter_title": "KARAKURA SUPERHEROES",
+    "volume": "10"
   }
 }

@@ -636,6 +636,86 @@
       "groups": {
         "VIZ Media": "/proxy/api/imgchest/chapter/a8463dja24x"
       }
+    },
+    "080": {
+      "title": "The Shooting Star Project",
+      "volume": "10",
+      "last_updated": "1761627564",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/9p4nvzoabyn"
+      }
+    },
+    "081": {
+      "title": "Twelve-Tone Rendezvous",
+      "volume": "10",
+      "last_updated": "1761627588",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/ne7bl69jmy5"
+      }
+    },
+    "082": {
+      "title": "Conflictable Composition",
+      "volume": "10",
+      "last_updated": "1761627619",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/md7oabpk2yp"
+      }
+    },
+    "083": {
+      "title": "COME WITH ME",
+      "volume": "10",
+      "last_updated": "1761627634",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/5xy2qo55zyl"
+      }
+    },
+    "084": {
+      "title": "The Shooting Star Project 2 (Tattoo on the Sky)",
+      "volume": "10",
+      "last_updated": "1761627655",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/vj4jempp378"
+      }
+    },
+    "085": {
+      "title": "INTRUDERZ 2 (Breakthrough the Roof Mix)",
+      "volume": "10",
+      "last_updated": "1761627679",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/6eyrankkx4p"
+      }
+    },
+    "086": {
+      "title": "Making Good Relations, OK?",
+      "volume": "10",
+      "last_updated": "1761627702",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/pg73doaagyr"
+      }
+    },
+    "087": {
+      "title": "Dancing with Spears",
+      "volume": "10",
+      "last_updated": "1761627727",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/lqyedlkkm7d"
+      }
+    },
+    "088": {
+      "title": "SO UNLUCKY WE ARE",
+      "volume": "10",
+      "last_updated": "1761627771",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/dl7panp3j7o"
+      }
+    },
+    "088.5": {
+      "title": "KARAKURA SUPERHEROES",
+      "volume": "10",
+      "last_updated": "1761629354",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/bp45movvny5"
+      }
     }
   }
 }
