@@ -796,6 +796,54 @@
       "groups": {
         "VIZ Media": "/proxy/api/imgchest/chapter/a8463zkg24x"
       }
+    },
+    "099": {
+      "title": "Dead Black War Cloud",
+      "volume": "12",
+      "last_updated": "1762705123",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/vj4jepoa378"
+      }
+    },
+    "100": {
+      "title": "Flower on the Precipice - それは岩壁の花に似て - Sore wa Ganpeki no Hana ni Nite",
+      "volume": "12",
+      "last_updated": "1762705140",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/9rydq9lwa4k"
+      }
+    },
+    "101": {
+      "title": "Split Under the Red Stalk",
+      "volume": "12",
+      "last_updated": "1762705159",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/6eyrakrjx4p"
+      }
+    },
+    "102": {
+      "title": "Nobody Beats",
+      "volume": "12",
+      "last_updated": "1762705179",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/lqyedkjem7d"
+      }
+    },
+    "103": {
+      "title": "Dominion",
+      "volume": "12",
+      "last_updated": "1762705200",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/o24a29xrd7l"
+      }
+    },
+    "104": {
+      "title": "The Undead",
+      "volume": "12",
+      "last_updated": "1762705234",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/m9yx9pxwpyq"
+      }
     }
   }
 }

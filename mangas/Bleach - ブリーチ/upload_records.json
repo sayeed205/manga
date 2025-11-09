@@ -790,5 +790,53 @@
     "group": "VIZ Media",
     "chapter_title": "A Star And A Stray Dog - 星と野良犬 - Hoshi to Norainu",
     "volume": "11"
+  },
+  "099": {
+    "album_id": "vj4jepoa378",
+    "timestamp": "2025-11-09T21:48:43.774764",
+    "image_count": 22,
+    "group": "VIZ Media",
+    "chapter_title": "Dead Black War Cloud",
+    "volume": "12"
+  },
+  "100": {
+    "album_id": "9rydq9lwa4k",
+    "timestamp": "2025-11-09T21:49:00.161064",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "Flower on the Precipice - それは岩壁の花に似て - Sore wa Ganpeki no Hana ni Nite",
+    "volume": "12"
+  },
+  "101": {
+    "album_id": "6eyrakrjx4p",
+    "timestamp": "2025-11-09T21:49:19.052956",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "Split Under the Red Stalk",
+    "volume": "12"
+  },
+  "102": {
+    "album_id": "lqyedkjem7d",
+    "timestamp": "2025-11-09T21:49:39.897328",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "Nobody Beats",
+    "volume": "12"
+  },
+  "103": {
+    "album_id": "o24a29xrd7l",
+    "timestamp": "2025-11-09T21:50:00.504274",
+    "image_count": 18,
+    "group": "VIZ Media",
+    "chapter_title": "Dominion",
+    "volume": "12"
+  },
+  "104": {
+    "album_id": "m9yx9pxwpyq",
+    "timestamp": "2025-11-09T21:50:34.329845",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "The Undead",
+    "volume": "12"
   }
 }
