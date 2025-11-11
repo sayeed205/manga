@@ -870,5 +870,69 @@
     "group": "VIZ Media",
     "chapter_title": "0.8 a wonderful error",
     "volume": "12"
+  },
+  "108": {
+    "album_id": "o24a29ble7l",
+    "timestamp": "2025-11-11T11:01:49.370139",
+    "image_count": 30,
+    "group": "VIZ Media",
+    "chapter_title": "A Time to Scare",
+    "volume": "13"
+  },
+  "109": {
+    "album_id": "agyvxpobk78",
+    "timestamp": "2025-11-11T11:02:05.525630",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "Like a Tiger Trying Not to Crush the Flowers - 花を踏まぬ虎のように - Hana o Fumanu Tora no Yō Ni",
+    "volume": "13"
+  },
+  "110": {
+    "album_id": "92492nqe8yn",
+    "timestamp": "2025-11-11T11:02:25.583770",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "The Dark Side of the Universe",
+    "volume": "13"
+  },
+  "111": {
+    "album_id": "9p4nvoba5yn",
+    "timestamp": "2025-11-11T11:02:40.352726",
+    "image_count": 18,
+    "group": "VIZ Media",
+    "chapter_title": "Black & White",
+    "volume": "13"
+  },
+  "112": {
+    "album_id": "md7oapoplyp",
+    "timestamp": "2025-11-11T11:02:56.260139",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "The Undead 2 (Rise & Rage)",
+    "volume": "13"
+  },
+  "113": {
+    "album_id": "wl7lapbp3yx",
+    "timestamp": "2025-11-11T11:03:12.306565",
+    "image_count": 19,
+    "group": "VIZ Media",
+    "chapter_title": "The Undead 3 (Closing Frantica)",
+    "volume": "13"
+  },
+  "114": {
+    "album_id": "vj4jepbp978",
+    "timestamp": "2025-11-11T11:03:32.545295",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "Everything Relating to the Crumbling World - 崩れゆく世界のすべてについて - Kuzureyuku Sekai no Subete ni Tsuite",
+    "volume": "13"
+  },
+  "115": {
+    "album_id": "9rydq9b964k",
+    "timestamp": "2025-11-11T11:04:00.410613",
+    "image_count": 33,
+    "group": "VIZ Media",
+    "chapter_title": "Remnant",
+    "volume": "13"
   }
 }
