@@ -838,5 +838,37 @@
     "group": "VIZ Media",
     "chapter_title": "The Undead",
     "volume": "12"
+  },
+  "105": {
+    "album_id": "6eyrakozx4p",
+    "timestamp": "2025-11-11T10:52:59.224538",
+    "image_count": 18,
+    "group": "VIZ Media",
+    "chapter_title": "Spring, Spring, Meets the Tiger",
+    "volume": "12"
+  },
+  "106": {
+    "album_id": "pg73dav3gyr",
+    "timestamp": "2025-11-11T10:53:23.534868",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "Cause to Confront",
+    "volume": "12"
+  },
+  "107": {
+    "album_id": "qe4gm9bkq4j",
+    "timestamp": "2025-11-11T10:53:43.007042",
+    "image_count": 24,
+    "group": "VIZ Media",
+    "chapter_title": "Heat in Trust",
+    "volume": "12"
+  },
+  "107.5": {
+    "album_id": "agyvxpoab78",
+    "timestamp": "2025-11-11T10:54:50.871864",
+    "image_count": 15,
+    "group": "VIZ Media",
+    "chapter_title": "0.8 a wonderful error",
+    "volume": "12"
   }
 }

@@ -844,6 +844,38 @@
       "groups": {
         "VIZ Media": "/proxy/api/imgchest/chapter/m9yx9pxwpyq"
       }
+    },
+    "105": {
+      "title": "Spring, Spring, Meets the Tiger",
+      "volume": "12",
+      "last_updated": "1762838579",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/6eyrakozx4p"
+      }
+    },
+    "106": {
+      "title": "Cause to Confront",
+      "volume": "12",
+      "last_updated": "1762838603",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/pg73dav3gyr"
+      }
+    },
+    "107": {
+      "title": "Heat in Trust",
+      "volume": "12",
+      "last_updated": "1762838623",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/qe4gm9bkq4j"
+      }
+    },
+    "107.5": {
+      "title": "0.8 a wonderful error",
+      "volume": "12",
+      "last_updated": "1762838690",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/agyvxpoab78"
+      }
     }
   }
 }
