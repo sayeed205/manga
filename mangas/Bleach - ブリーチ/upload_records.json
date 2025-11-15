@@ -1134,5 +1134,85 @@
     "group": "VIZ Media",
     "chapter_title": "Drowsy, Bloody, Crazy",
     "volume": "16"
+  },
+  "140": {
+    "album_id": "pg73dvqjjyr",
+    "timestamp": "2025-11-15T16:05:07.975932",
+    "image_count": 27,
+    "group": "VIZ Media",
+    "chapter_title": "Bite at the Moon",
+    "volume": "17"
+  },
+  "141": {
+    "album_id": "lqyedbrpq7d",
+    "timestamp": "2025-11-15T16:05:25.379041",
+    "image_count": 19,
+    "group": "VIZ Media",
+    "chapter_title": "Kneel to the Baboon King",
+    "volume": "17"
+  },
+  "142": {
+    "album_id": "bp45m9rdqy5",
+    "timestamp": "2025-11-15T16:05:42.479477",
+    "image_count": 18,
+    "group": "VIZ Media",
+    "chapter_title": "To Those Capturing the Moon - 月を捉うものへ告ぐ - Tsuki o Torau Mono e Tsugu",
+    "volume": "17"
+  },
+  "143": {
+    "album_id": "o24a2blk27l",
+    "timestamp": "2025-11-15T16:06:03.481635",
+    "image_count": 22,
+    "group": "VIZ Media",
+    "chapter_title": "Blazing Souls",
+    "volume": "17"
+  },
+  "144": {
+    "album_id": "92492qejmyn",
+    "timestamp": "2025-11-15T16:06:28.026940",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "Rosa Rubicundior, Lilio Candidior",
+    "volume": "17"
+  },
+  "145": {
+    "album_id": "dl7paobzp7o",
+    "timestamp": "2025-11-15T16:06:47.253479",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "Shaken",
+    "volume": "17"
+  },
+  "146": {
+    "album_id": "na7kabgwb48",
+    "timestamp": "2025-11-15T16:07:06.727623",
+    "image_count": 19,
+    "group": "VIZ Media",
+    "chapter_title": "Demon Loves the Dark",
+    "volume": "17"
+  },
+  "147": {
+    "album_id": "9rydqbdal4k",
+    "timestamp": "2025-11-15T16:07:32.950968",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "Countdown to the End: 3 (Blind Light, Deaf Beat)",
+    "volume": "17"
+  },
+  "148": {
+    "album_id": "ej7mao5kn7d",
+    "timestamp": "2025-11-15T16:07:53.258051",
+    "image_count": 19,
+    "group": "VIZ Media",
+    "chapter_title": "Countdown to the End: 2 (Lady Lennon~Frankenstein)",
+    "volume": "17"
+  },
+  "149": {
+    "album_id": "qe4gmb3xj4j",
+    "timestamp": "2025-11-15T16:08:12.304545",
+    "image_count": 23,
+    "group": "VIZ Media",
+    "chapter_title": "Countdown to the End: 1 (Only Mercifully)",
+    "volume": "17"
   }
 }
