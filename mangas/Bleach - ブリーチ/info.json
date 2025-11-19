@@ -1612,6 +1612,30 @@
       "groups": {
         "VIZ Media": "/proxy/api/imgchest/chapter/vj4jea33e78"
       }
+    },
+    "198": {
+      "title": "The Icecold Discord",
+      "volume": "23",
+      "last_updated": "1763549263",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/wl7laqo2oyx"
+      }
+    },
+    "199": {
+      "title": "Ugly",
+      "volume": "23",
+      "last_updated": "1763549331",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/ljyqaw2rk72"
+      }
+    },
+    "200": {
+      "title": "Night of Sledgehammer",
+      "volume": "23",
+      "last_updated": "1763549404",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/6eyraelm64p"
+      }
     }
   }
 }
