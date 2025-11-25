@@ -1830,5 +1830,85 @@
     "group": "VIZ Media",
     "chapter_title": "The Scarlet Creation",
     "volume": "25"
+  },
+  "224": {
+    "album_id": "m9yxnx2kk7q",
+    "timestamp": "2025-11-25T19:04:40.344035",
+    "image_count": 26,
+    "group": "VIZ Media",
+    "chapter_title": "Imitated Gaiety",
+    "volume": "26"
+  },
+  "225": {
+    "album_id": "vj4jmovde48",
+    "timestamp": "2025-11-25T19:06:24.790548",
+    "image_count": 18,
+    "group": "VIZ Media",
+    "chapter_title": "Slip into My Barrier",
+    "volume": "26"
+  },
+  "226": {
+    "album_id": "a846orkav4x",
+    "timestamp": "2025-11-25T19:07:38.265257",
+    "image_count": 18,
+    "group": "VIZ Media",
+    "chapter_title": "Right of My Heart",
+    "volume": "26"
+  },
+  "227": {
+    "album_id": "5xy2oz3e84l",
+    "timestamp": "2025-11-25T19:09:19.901555",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "The Swordless Soldier",
+    "volume": "26"
+  },
+  "228": {
+    "album_id": "wl7lwzrk64x",
+    "timestamp": "2025-11-25T19:10:54.217676",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "Don't Look Back",
+    "volume": "26"
+  },
+  "229": {
+    "album_id": "6eyrnr82k7p",
+    "timestamp": "2025-11-25T19:12:45.392554",
+    "image_count": 21,
+    "group": "VIZ Media",
+    "chapter_title": "The Howling Tempest",
+    "volume": "26"
+  },
+  "230": {
+    "album_id": "qe4gqvxlo7j",
+    "timestamp": "2025-11-25T19:14:37.418675",
+    "image_count": 19,
+    "group": "VIZ Media",
+    "chapter_title": "Dead White Invasion",
+    "volume": "26"
+  },
+  "231": {
+    "album_id": "ne7b6gvxky5",
+    "timestamp": "2025-11-25T19:16:21.077457",
+    "image_count": 19,
+    "group": "VIZ Media",
+    "chapter_title": "The Mascaron Drive",
+    "volume": "26"
+  },
+  "232": {
+    "album_id": "ej7mezk2qyd",
+    "timestamp": "2025-11-25T19:17:47.597890",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "The Mascaron Drive 2",
+    "volume": "26"
+  },
+  "233": {
+    "album_id": "a846orklg4x",
+    "timestamp": "2025-11-25T19:27:12.359367",
+    "image_count": 22,
+    "group": "VIZ Media",
+    "chapter_title": "El Violador",
+    "volume": "26"
   }
 }
