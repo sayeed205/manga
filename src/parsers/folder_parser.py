@@ -24,21 +24,22 @@ def parse_volume_chapter_from_folder(folder_name: str) -> tuple[str | None, str 
         tuple: (volume, chapter, title) where volume/chapter may be None if not found
     """
     # Pattern 1: "V1 Ch1 Title" or "Volume 1 Chapter 1 Title"
-    pattern1 = r'(?:V|Volume)\s*(\d+)(?:\s+(?:Ch|Chapter)\s*(\d+))?(?:\s+(.+))?'
+    # Support floats for both volume and chapter (e.g. Vol 1.5 Ch 10.5)
+    pattern1 = r'(?:V|Volume)\s*(\d+(?:\.\d+)?)(?:\s+(?:Ch|Chapter)\s*(\d+(?:\.\d+)?))?(?:\s+(.+))?'
     match = re.match(pattern1, folder_name, re.IGNORECASE)
     if match:
         volume, chapter, title = match.groups()
         return volume, chapter, title or ""
     
     # Pattern 2: "Ch1 Title" or "Chapter 1 Title" (no volume)
-    pattern2 = r'(?:Ch|Chapter)\s*(\d+)(?:\s+(.+))?'
+    pattern2 = r'(?:Ch|Chapter)\s*(\d+(?:\.\d+)?)(?:\s+(.+))?'
     match = re.match(pattern2, folder_name, re.IGNORECASE)
     if match:
         chapter, title = match.groups()
         return None, chapter, title or ""
     
     # Pattern 3: Just numbers at the start "1 Title" or "01 Title"
-    pattern3 = r'^(\d+)(?:\s+(.+))?'
+    pattern3 = r'^(\d+(?:\.\d+)?)(?:\s+(.+))?'
     match = re.match(pattern3, folder_name)
     if match:
         number, title = match.groups()
@@ -46,7 +47,7 @@ def parse_volume_chapter_from_folder(folder_name: str) -> tuple[str | None, str 
         return None, number, title or ""
     
     # Fallback: Extract any numbers found in the folder name
-    numbers = re.findall(r'\d+', folder_name)
+    numbers = re.findall(r'\d+(?:\.\d+)?', folder_name)
     if numbers:
         warning_msg = (
             f"[yellow]Warning: Using fallback parsing for folder '{folder_name}'. "
