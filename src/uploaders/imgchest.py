@@ -168,7 +168,13 @@ class ImgChestUploader:
         result = response.json()
         
         data = result.get("data", {})
-        return data.get("url"), data.get("id")
+        album_id = data.get("id")
+        album_url = data.get("links", {}).get("url") or data.get("url")
+        
+        if not album_url and album_id:
+            album_url = f"https://imgchest.com/p/{album_id}"
+            
+        return album_url, album_id
 
     def add_images_to_album(
         self, 

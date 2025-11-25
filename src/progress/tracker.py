@@ -137,7 +137,7 @@ class ProgressTracker:
             upload_result: Result of the upload operation
             group: Selected group for the chapter
         """
-        if not upload_result.success or not upload_result.album_url:
+        if not upload_result.success or not upload_result.album_id:
             return
 
         chapter_key = chapter_info.chapter
