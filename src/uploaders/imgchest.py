@@ -254,27 +254,30 @@ class ImgChestUploader:
             )
 
         try:
-            # Batch images by size (5MB limit)
-            max_batch_size_bytes = 5 * 1024 * 1024  # 5MB
+            # Batch images by count (5 images per batch)
+            max_image_size_bytes = 30 * 1024 * 1024  # 30MB
+            batch_size_count = 5
+            
             album_url = None
             album_id = None
             processed_images = 0
             
-            # Calculate file sizes first
-            image_sizes = []
+            # Validate individual image sizes
+            valid_images = []
             total_bytes = 0
+            
             for img_path in images:
                 try:
                     size = img_path.stat().st_size
-                    if size > max_batch_size_bytes:
+                    if size > max_image_size_bytes:
                         return UploadResult(
                             success=False,
                             album_url=None,
                             album_id=None,
                             total_images=len(images),
-                            error_message=f"Image {img_path.name} ({size/1024/1024:.2f}MB) exceeds the 5MB batch limit",
+                            error_message=f"Image {img_path.name} ({size/1024/1024:.2f}MB) exceeds the 30MB limit",
                         )
-                    image_sizes.append((img_path, size))
+                    valid_images.append((img_path, size))
                     total_bytes += size
                 except OSError as e:
                     return UploadResult(
@@ -285,24 +288,13 @@ class ImgChestUploader:
                         error_message=f"Failed to get size of {img_path}: {e}",
                     )
 
-            # Create batches based on size
+            # Create batches based on count
             batches = []
-            current_batch = []
-            current_batch_size = 0
-            
-            for img_path, size in image_sizes:
-                # If adding this image would exceed the limit, start a new batch
-                # But always ensure at least one image per batch (checked above that single image < limit)
-                if current_batch and (current_batch_size + size > max_batch_size_bytes):
-                    batches.append((current_batch, current_batch_size))
-                    current_batch = []
-                    current_batch_size = 0
-                
-                current_batch.append(img_path)
-                current_batch_size += size
-            
-            if current_batch:
-                batches.append((current_batch, current_batch_size))
+            for i in range(0, len(valid_images), batch_size_count):
+                batch_chunk = valid_images[i:i + batch_size_count]
+                batch_images = [img for img, _ in batch_chunk]
+                batch_size = sum(size for _, size in batch_chunk)
+                batches.append((batch_images, batch_size))
 
             total_batches = len(batches)
             uploaded_bytes = 0
@@ -323,7 +315,7 @@ class ImgChestUploader:
                         album_url, album_id = self.create_album(
                             batch, 
                             chapter_name, 
-                            max_batch_size=9999,
+                            max_batch_size=batch_size_count,
                             progress_callback=batch_monitor
                         )
                     else:
@@ -331,7 +323,7 @@ class ImgChestUploader:
                         self.add_images_to_album(
                             album_id, 
                             batch, 
-                            max_batch_size=9999,
+                            max_batch_size=batch_size_count,
                             progress_callback=batch_monitor
                         )
                     
