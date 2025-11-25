@@ -17,6 +17,7 @@ from rich.progress import (
     TaskID,
     TextColumn,
     TimeElapsedColumn,
+    TransferSpeedColumn,
 )
 from rich.table import Table
 
@@ -263,8 +264,10 @@ class ProgressTracker:
         return response.lower().strip() in ("y", "yes")
 
     @contextmanager
-    def track_chapter_processing(self, total_chapters: int):
-        """Context manager for tracking overall chapter processing progress.
+    def track_uploads(self, total_chapters: int):
+        """Context manager for tracking chapter uploads with specific format.
+        
+        Format: uploading chapter_number: bar time - speed - (index_number/total manga number)
         
         Args:
             total_chapters: Total number of chapters to process
@@ -273,17 +276,23 @@ class ProgressTracker:
             Progress instance for updating chapter progress
         """
         with Progress(
-            SpinnerColumn(),
-            TextColumn("[progress.description]{task.description}"),
+            TextColumn("Uploading {task.fields[chapter_num]}:"),
             BarColumn(),
-            MofNCompleteColumn(),
             TimeElapsedColumn(),
+            TextColumn("-"),
+            TransferSpeedColumn(),
+            TextColumn("-"),
+            TextColumn("({task.fields[chapter_index]}/{task.fields[total_chapters]})"),
             console=self.console,
         ) as progress:
             task_id = progress.add_task(
-                "Processing chapters...", total=total_chapters
+                "upload", 
+                total=None, # We'll update total bytes for speed calculation
+                chapter_num="...",
+                chapter_index=0,
+                total_chapters=total_chapters
             )
-            yield ChapterProgressContext(progress, task_id)
+            yield UploadProgressContext(progress, task_id)
 
     @contextmanager
     def track_batch_upload(self, chapter_name: str, total_batches: int):
@@ -365,8 +374,8 @@ class ProgressTracker:
 
 
 @final
-class ChapterProgressContext:
-    """Context for tracking chapter processing progress."""
+class UploadProgressContext:
+    """Context for tracking upload progress."""
 
     def __init__(self, progress: Progress, task_id: TaskID) -> None:
         """Initialize the context.
@@ -379,21 +388,33 @@ class ChapterProgressContext:
         self.task_id = task_id
 
     def update(self, advance: int = 1, description: str | None = None) -> None:
-        """Update the chapter progress.
-        
-        Args:
-            advance: Number of chapters to advance
-            description: Optional description update
-        """
+        """Update the progress (legacy method compatibility)."""
         self.progress.update(self.task_id, advance=advance, description=description)
 
-    def set_description(self, description: str) -> None:
-        """Set the progress description.
+    def update_progress(
+        self, 
+        completed: int, 
+        total: int | None = None,
+        chapter_num: str | None = None,
+        chapter_index: int | None = None
+    ) -> None:
+        """Update the upload progress.
         
         Args:
-            description: New description for the progress bar
+            completed: Completed bytes
+            total: Total bytes (optional)
+            chapter_num: Current chapter number (optional)
+            chapter_index: Current chapter index (optional)
         """
-        self.progress.update(self.task_id, description=description)
+        updates = {"completed": completed}
+        if total is not None:
+            updates["total"] = total
+        if chapter_num is not None:
+            updates["chapter_num"] = chapter_num
+        if chapter_index is not None:
+            updates["chapter_index"] = chapter_index
+            
+        self.progress.update(self.task_id, **updates)
 
 
 @final
