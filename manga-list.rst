@@ -21,9 +21,9 @@ B
      - `info.json <mangas/Bleach%20-%20%E3%83%96%E3%83%AA%E3%83%BC%E3%83%81/info.json>`_
      - `Read <https://cubari.moe/read/gist/cmF3L3NheWVlZDIwNS9tYW5nYS9yZWZzL2hlYWRzL21haW4vbWFuZ2FzL0JsZWFjaCUyMC0lMjAlRTMlODMlOTYlRTMlODMlQUElRTMlODMlQkMlRTMlODMlODEvaW5mby5qc29u/>`_
      - 2025-10-16 08:08 UTC
-     - 2025-11-25 15:24 UTC
-     - 30
-     - 276
+     - 2025-11-25 15:57 UTC
+     - 32
+     - 294
 
 G
 -
