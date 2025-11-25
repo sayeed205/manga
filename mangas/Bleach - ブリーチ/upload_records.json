@@ -1630,5 +1630,61 @@
     "group": "VIZ Media",
     "chapter_title": "Night of Sledgehammer",
     "volume": "23"
+  },
+  "201": {
+    "album_id": "9rydqkqa64k",
+    "timestamp": "2025-11-19T18:27:20.488809",
+    "image_count": 23,
+    "group": "VIZ Media",
+    "chapter_title": "Wind & Snowbound",
+    "volume": "23"
+  },
+  "202": {
+    "album_id": "qb4z5x5jl4j",
+    "timestamp": "2025-11-19T18:28:24.373293",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "¡Mala Suerte!",
+    "volume": "23"
+  },
+  "203": {
+    "album_id": "xny8eaeqwyb",
+    "timestamp": "2025-11-19T18:31:56.593834",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "¡Mala Suerte! 2 (El Monstruo)",
+    "volume": "23"
+  },
+  "204": {
+    "album_id": "o24a6xg9eyl",
+    "timestamp": "2025-11-25T18:31:56.593834",
+    "image_count": 23,
+    "group": "VIZ Media",
+    "chapter_title": "¡Mala Suerte! 3 (Monstruo Sangrienta)",
+    "volume": "23"
+  },
+  "205": {
+    "album_id": "pg73okpvo7r",
+    "timestamp": "2025-11-25T18:31:57.593834",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "¡Mala Suerte! 4 (Tempestad de La Lucha)",
+    "volume": "23"
+  },
+  "205.1": {
+    "album_id": "ljyqkgqlxy2",
+    "timestamp": "2025-11-25T18:35:57.593834",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "side-A the sand",
+    "volume": "23"
+  },
+  "205.2": {
+    "album_id": "ej7meznxayd",
+    "timestamp": "2025-11-25T18:36:57.593834",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "side-B the rotator",
+    "volume": "23"
   }
 }

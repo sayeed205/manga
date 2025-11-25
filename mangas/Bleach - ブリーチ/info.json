@@ -1636,6 +1636,62 @@
       "groups": {
         "VIZ Media": "/proxy/api/imgchest/chapter/6eyraelm64p"
       }
+    },
+    "201": {
+      "title": "Wind & Snowbound",
+      "volume": "23",
+      "last_updated": "1763557040",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/9rydqkqa64k"
+      }
+    },
+    "202": {
+      "title": "¡Mala Suerte!",
+      "volume": "23",
+      "last_updated": "1763557104",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/qb4z5x5jl4j"
+      }
+    },
+    "203": {
+      "title": "¡Mala Suerte! 2 (El Monstruo)",
+      "volume": "23",
+      "last_updated": "1763557316",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/xny8eaeqwyb"
+      }
+    },
+    "204": {
+      "title": "¡Mala Suerte! 3 (Monstruo Sangrienta)",
+      "volume": "23",
+      "last_updated": "1764066422",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/o24a6xg9eyl"
+      }
+    },
+    "205": {
+      "title": "¡Mala Suerte! 4 (Tempestad de La Lucha)",
+      "volume": "23",
+      "last_updated": "1764066422",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/pg73okpvo7r"
+      }
+    },
+    "205.1": {
+      "title": "side-A the sand",
+      "volume": "23",
+      "last_updated": "1764066422",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/ljyqkgqlxy2"
+      }
+    },
+    "205.2": {
+      "title": "side-B the rotator",
+      "volume": "23",
+      "last_updated": "1764066422",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/ej7meznxayd"
+      }
     }
   }
 }
