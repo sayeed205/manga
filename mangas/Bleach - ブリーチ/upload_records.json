@@ -2878,5 +2878,77 @@
     "group": "VIZ Media",
     "chapter_title": "The Antagonizer",
     "volume": "39"
+  },
+  "341": {
+    "album_id": "m9yxnv8e67q",
+    "timestamp": "2025-11-30T17:11:24.018464",
+    "image_count": 26,
+    "group": "VIZ Media",
+    "chapter_title": "The Envy",
+    "volume": "40"
+  },
+  "342": {
+    "album_id": "9p4nz2jp54n",
+    "timestamp": "2025-11-30T17:12:17.594168",
+    "image_count": 19,
+    "group": "VIZ Media",
+    "chapter_title": "The Gluttony",
+    "volume": "40"
+  },
+  "343": {
+    "album_id": "dl7pnqdxjyo",
+    "timestamp": "2025-11-30T17:13:11.073000",
+    "image_count": 18,
+    "group": "VIZ Media",
+    "chapter_title": "The Greed",
+    "volume": "40"
+  },
+  "344": {
+    "album_id": "wl7lwk2e34x",
+    "timestamp": "2025-11-30T17:14:08.097007",
+    "image_count": 19,
+    "group": "VIZ Media",
+    "chapter_title": "The Pride",
+    "volume": "40"
+  },
+  "345": {
+    "album_id": "9ryd2z6v64k",
+    "timestamp": "2025-11-30T17:15:07.191702",
+    "image_count": 19,
+    "group": "VIZ Media",
+    "chapter_title": "The Sloth",
+    "volume": "40"
+  },
+  "346": {
+    "album_id": "qe4gql5ok7j",
+    "timestamp": "2025-11-30T17:16:04.944566",
+    "image_count": 19,
+    "group": "VIZ Media",
+    "chapter_title": "The Wrath",
+    "volume": "40"
+  },
+  "347": {
+    "album_id": "a846ox5v24x",
+    "timestamp": "2025-11-30T17:17:05.579300",
+    "image_count": 19,
+    "group": "VIZ Media",
+    "chapter_title": "The Lust",
+    "volume": "40"
+  },
+  "348": {
+    "album_id": "na7kkr8xw78",
+    "timestamp": "2025-11-30T17:18:10.000862",
+    "image_count": 19,
+    "group": "VIZ Media",
+    "chapter_title": "The Lust 2",
+    "volume": "40"
+  },
+  "349": {
+    "album_id": "vj4jm38o948",
+    "timestamp": "2025-11-30T17:19:20.941534",
+    "image_count": 23,
+    "group": "VIZ Media",
+    "chapter_title": "The Lust 3",
+    "volume": "40"
   }
 }
