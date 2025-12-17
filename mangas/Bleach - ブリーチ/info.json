@@ -4156,6 +4156,86 @@
       "groups": {
         "VIZ Media": "/proxy/api/imgchest/chapter/dl7pn8lo6yo"
       }
+    },
+    "500": {
+      "title": "Rescuer in the Deep Dark",
+      "volume": "57",
+      "last_updated": "1765942436",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/wl7lwonbq4x"
+      }
+    },
+    "501": {
+      "title": "Hear. Fear. Here",
+      "volume": "57",
+      "last_updated": "1765942467",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/n87wnmk3g7x"
+      }
+    },
+    "502": {
+      "title": "Falling Sakura - 散桜 - San'ō",
+      "volume": "57",
+      "last_updated": "1765942493",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/qb4zpngzdyj"
+      }
+    },
+    "503": {
+      "title": "Wrath as a Lightning",
+      "volume": "57",
+      "last_updated": "1765942516",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/qe4gqwagj7j"
+      }
+    },
+    "504": {
+      "title": "Beyond the Thunder - 雷鳴の彼方へ - Raimei no Kanata e",
+      "volume": "57",
+      "last_updated": "1765942542",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/o24a6jwr2yl"
+      }
+    },
+    "505": {
+      "title": "The Fire",
+      "volume": "57",
+      "last_updated": "1765942571",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/a846odejo4x"
+      }
+    },
+    "506": {
+      "title": "The Fire 2",
+      "volume": "57",
+      "last_updated": "1765942593",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/dl7pn8l2pyo"
+      }
+    },
+    "507": {
+      "title": "The Fire 3",
+      "volume": "57",
+      "last_updated": "1765942630",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/na7kk896b78"
+      }
+    },
+    "508": {
+      "title": "Like a Raging Fire - 烈火の如し- Rekka no Gotoshi",
+      "volume": "57",
+      "last_updated": "1765942664",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/ljyqk2jlny2"
+      }
+    },
+    "509": {
+      "title": "Tenchi Kaijin - 天地灰尽 - Tenchi Kaijin",
+      "volume": "57",
+      "last_updated": "1765942683",
+      "groups": {
+        "VIZ Media": "/proxy/api/imgchest/chapter/9ryd2rgkl4k"
+      }
     }
   }
 }
