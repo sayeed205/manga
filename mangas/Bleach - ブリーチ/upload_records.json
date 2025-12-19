@@ -4471,7 +4471,7 @@
     "volume": "60"
   },
   "540": {
-    "album_id": "a846o332v4x",
+    "album_id": "qb4zp5g3lyj",
     "timestamp": "2025-12-18T15:27:31.484837",
     "image_count": 18,
     "group": "VIZ Media",
@@ -4637,5 +4637,85 @@
     "group": "VIZ Media",
     "chapter_title": "Rages at Ringside",
     "volume": "62"
+  },
+  "561": {
+    "album_id": "o24a62wl3yl",
+    "timestamp": "2025-12-19T15:57:16.436780",
+    "image_count": 24,
+    "group": "VIZ Media",
+    "chapter_title": "The Villain",
+    "volume": "63"
+  },
+  "562": {
+    "album_id": "agyvnx3b948",
+    "timestamp": "2025-12-19T15:57:47.337365",
+    "image_count": 18,
+    "group": "VIZ Media",
+    "chapter_title": "The Villain 2",
+    "volume": "63"
+  },
+  "563": {
+    "album_id": "9249k28e2yn",
+    "timestamp": "2025-12-19T15:58:11.854481",
+    "image_count": 16,
+    "group": "VIZ Media",
+    "chapter_title": "Superstar Never Die",
+    "volume": "63"
+  },
+  "564": {
+    "album_id": "md7oba2kd4p",
+    "timestamp": "2025-12-19T15:58:39.176927",
+    "image_count": 19,
+    "group": "VIZ Media",
+    "chapter_title": "Red Bristled KingsRed Bristled Kings",
+    "volume": "63"
+  },
+  "565": {
+    "album_id": "na7kka9gq78",
+    "timestamp": "2025-12-19T15:59:07.696843",
+    "image_count": 18,
+    "group": "VIZ Media",
+    "chapter_title": "God Like You",
+    "volume": "63"
+  },
+  "566": {
+    "album_id": "wl7lwan8p4x",
+    "timestamp": "2025-12-19T15:59:35.883922",
+    "image_count": 18,
+    "group": "VIZ Media",
+    "chapter_title": "What is Your Fear?",
+    "volume": "63"
+  },
+  "567": {
+    "album_id": "lqyeld9pz4d",
+    "timestamp": "2025-12-19T17:40:15.762695",
+    "image_count": 18,
+    "group": "VIZ Media",
+    "chapter_title": "Dance With Snowwhite",
+    "volume": "63"
+  },
+  "568": {
+    "album_id": "qe4gqmork7j",
+    "timestamp": "2025-12-19T17:40:52.148414",
+    "image_count": 17,
+    "group": "VIZ Media",
+    "chapter_title": "Hear. Fear. Here 2",
+    "volume": "63"
+  },
+  "569": {
+    "album_id": "a846o3vg24x",
+    "timestamp": "2025-12-19T17:41:33.156438",
+    "image_count": 17,
+    "group": "VIZ Media",
+    "chapter_title": "The White Haze",
+    "volume": "63"
+  },
+  "570": {
+    "album_id": "m9yxn9zg67q",
+    "timestamp": "2025-12-19T17:42:12.867830",
+    "image_count": 17,
+    "group": "VIZ Media",
+    "chapter_title": "Closer, Closer",
+    "volume": "63"
   }
 }
