@@ -4797,5 +4797,93 @@
     "group": "VIZ Media",
     "chapter_title": "The Light",
     "volume": "64"
+  },
+  "581": {
+    "album_id": "9249kkebbyn",
+    "timestamp": "2025-12-21T10:40:27.695037",
+    "image_count": 25,
+    "group": "VIZ Media",
+    "chapter_title": "The Hero 2",
+    "volume": "65"
+  },
+  "582": {
+    "album_id": "wl7lww8bx4x",
+    "timestamp": "2025-12-21T10:41:15.523639",
+    "image_count": 18,
+    "group": "VIZ Media",
+    "chapter_title": "The Headless Star",
+    "volume": "65"
+  },
+  "583": {
+    "album_id": "ej7mee5o9yd",
+    "timestamp": "2025-12-21T10:41:58.199351",
+    "image_count": 17,
+    "group": "VIZ Media",
+    "chapter_title": "The Headless Star 2",
+    "volume": "65"
+  },
+  "584": {
+    "album_id": "lqyellrbm4d",
+    "timestamp": "2025-12-21T10:42:44.616638",
+    "image_count": 18,
+    "group": "VIZ Media",
+    "chapter_title": "The Headless Star 3",
+    "volume": "65"
+  },
+  "585": {
+    "album_id": "bp45oor9n75",
+    "timestamp": "2025-12-21T10:43:20.405443",
+    "image_count": 17,
+    "group": "VIZ Media",
+    "chapter_title": "The Headless Star 4",
+    "volume": "65"
+  },
+  "586": {
+    "album_id": "9p4nzzabb4n",
+    "timestamp": "2025-12-21T10:43:56.425725",
+    "image_count": 17,
+    "group": "VIZ Media",
+    "chapter_title": "The Headless Star 5",
+    "volume": "65"
+  },
+  "587": {
+    "album_id": "na7kkkgb378",
+    "timestamp": "2025-12-21T10:44:42.864416",
+    "image_count": 19,
+    "group": "VIZ Media",
+    "chapter_title": "The Headless Star 6",
+    "volume": "65"
+  },
+  "588": {
+    "album_id": "wl7lww8vx4x",
+    "timestamp": "2025-12-21T10:45:12.881755",
+    "image_count": 18,
+    "group": "VIZ Media",
+    "chapter_title": "The Headless Star 7",
+    "volume": "65"
+  },
+  "589": {
+    "album_id": "ljyqkkbldy2",
+    "timestamp": "2025-12-21T10:45:53.327467",
+    "image_count": 16,
+    "group": "VIZ Media",
+    "chapter_title": "The Shooting Star Project (The Old and New Trust)",
+    "volume": "65"
+  },
+  "590": {
+    "album_id": "vj4jmmza948",
+    "timestamp": "2025-12-21T10:46:41.677407",
+    "image_count": 17,
+    "group": "VIZ Media",
+    "chapter_title": "Marching Out the ZOMBIES",
+    "volume": "65"
+  },
+  "591": {
+    "album_id": "6eyrnnbjl7p",
+    "timestamp": "2025-12-21T10:47:08.415449",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "Marching Out the ZOMBIES 2",
+    "volume": "65"
   }
 }
