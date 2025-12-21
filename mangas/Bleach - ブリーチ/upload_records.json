@@ -4717,5 +4717,85 @@
     "group": "VIZ Media",
     "chapter_title": "Closer, Closer",
     "volume": "63"
+  },
+  "571": {
+    "album_id": "5xy2oojjz4l",
+    "timestamp": "2025-12-21T10:21:12.981502",
+    "image_count": 24,
+    "group": "VIZ Media",
+    "chapter_title": "a Devilish Perspective",
+    "volume": "64"
+  },
+  "572": {
+    "album_id": "6eyrnnbbx7p",
+    "timestamp": "2025-12-21T10:21:50.997177",
+    "image_count": 18,
+    "group": "VIZ Media",
+    "chapter_title": "The Blaster",
+    "volume": "64"
+  },
+  "573": {
+    "album_id": "ej7mee559yd",
+    "timestamp": "2025-12-21T10:22:55.027887",
+    "image_count": 18,
+    "group": "VIZ Media",
+    "chapter_title": "I Am The Edge",
+    "volume": "64"
+  },
+  "574": {
+    "album_id": "qe4gqq33q7j",
+    "timestamp": "2025-12-21T10:23:47.833714",
+    "image_count": 19,
+    "group": "VIZ Media",
+    "chapter_title": "Death in Vision",
+    "volume": "64"
+  },
+  "575": {
+    "album_id": "a846oommz4x",
+    "timestamp": "2025-12-21T10:24:34.381552",
+    "image_count": 18,
+    "group": "VIZ Media",
+    "chapter_title": "The Killers High",
+    "volume": "64"
+  },
+  "576": {
+    "album_id": "9249kkeebyn",
+    "timestamp": "2025-12-21T10:25:00.733703",
+    "image_count": 20,
+    "group": "VIZ Media",
+    "chapter_title": "The Killers High 2",
+    "volume": "64"
+  },
+  "577": {
+    "album_id": "bp45oorvn75",
+    "timestamp": "2025-12-21T10:29:47.017283",
+    "image_count": 16,
+    "group": "VIZ Media",
+    "chapter_title": "Blade - 刃 - Yaiba",
+    "volume": "64"
+  },
+  "578": {
+    "album_id": "m9yxnnbpp7q",
+    "timestamp": "2025-12-21T10:30:48.535009",
+    "image_count": 17,
+    "group": "VIZ Media",
+    "chapter_title": "The Undead 5",
+    "volume": "64"
+  },
+  "579": {
+    "album_id": "ne7b66j9my5",
+    "timestamp": "2025-12-21T10:31:30.292464",
+    "image_count": 18,
+    "group": "VIZ Media",
+    "chapter_title": "The Undead 6",
+    "volume": "64"
+  },
+  "580": {
+    "album_id": "na7kkkgp378",
+    "timestamp": "2025-12-21T10:32:45.017044",
+    "image_count": 17,
+    "group": "VIZ Media",
+    "chapter_title": "The Light",
+    "volume": "64"
   }
 }
