@@ -190,5 +190,197 @@
     "group": "danke-Empire",
     "chapter_title": "Random Encounter - 遭遇 - Sōgū",
     "volume": "03"
+  },
+  "016.1": {
+    "album_id": "dl7pn6aepyo",
+    "timestamp": "2025-12-25T12:08:09.752185",
+    "image_count": 4,
+    "group": "danke-Empire",
+    "chapter_title": "Tanaka senpai's Nightmare - 田中せんぱいの悪夢 - Tanaka-senpai no Akumu",
+    "volume": "02"
+  },
+  "025.1": {
+    "album_id": "na7kknamb78",
+    "timestamp": "2025-12-25T12:08:24.744615",
+    "image_count": 6,
+    "group": "danke-Empire",
+    "chapter_title": "What Really Happened with the T-Shirts - Tシャツ裏事情 - Tīshatsu ura Jijō",
+    "volume": "03"
+  },
+  "026": {
+    "album_id": "wl7lw6a2x4x",
+    "timestamp": "2025-12-25T12:09:29.098253",
+    "image_count": 27,
+    "group": "danke-Empire",
+    "chapter_title": "The Decision - 決断 - Ketsudan",
+    "volume": "04"
+  },
+  "027": {
+    "album_id": "ljyqk6ardy2",
+    "timestamp": "2025-12-25T12:10:30.545658",
+    "image_count": 23,
+    "group": "danke-Empire",
+    "chapter_title": "The Cat-Crow Reunion - ネコとカラスの再会 - Neko to Karasu no Saikai",
+    "volume": "04"
+  },
+  "028": {
+    "album_id": "6eyrn6amx7p",
+    "timestamp": "2025-12-25T12:11:33.648342",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "A Monster and His Club - 鬼と金棒 - Oni to Kanabō",
+    "volume": "04"
+  },
+  "029": {
+    "album_id": "ej7me6al9yd",
+    "timestamp": "2025-12-25T12:12:18.574768",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "The Brain - 脳 - Nō",
+    "volume": "04"
+  },
+  "030": {
+    "album_id": "n87wnj9xx7x",
+    "timestamp": "2025-12-25T12:13:19.598465",
+    "image_count": 21,
+    "group": "danke-Empire",
+    "chapter_title": "How to Fly - 飛びかた - Tobikata",
+    "volume": "04"
+  },
+  "031": {
+    "album_id": "qb4zpr585yj",
+    "timestamp": "2025-12-25T12:14:15.471052",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "Rivals! - ライバル - Raibaru",
+    "volume": "04"
+  },
+  "032": {
+    "album_id": "o24a6m28dyl",
+    "timestamp": "2025-12-25T12:15:01.653963",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Grown Cat vs. Baby Crow - 大人ネコと雛カラス - Otona Neko to Hina Karasu",
+    "volume": "04"
+  },
+  "033": {
+    "album_id": "m9yxnq98p7q",
+    "timestamp": "2025-12-25T12:15:53.291278",
+    "image_count": 17,
+    "group": "danke-Empire",
+    "chapter_title": "What It Means to Connect - 繋ぐということ - Tsunagu to Iu Koto",
+    "volume": "04"
+  },
+  "034": {
+    "album_id": "wl7lw6aox4x",
+    "timestamp": "2025-12-25T12:16:47.146165",
+    "image_count": 21,
+    "group": "danke-Empire",
+    "chapter_title": "Vow for a Rematch - 再戦を誓って - Saisen o Chikatte",
+    "volume": "04"
+  },
+  "034.1": {
+    "album_id": "ljyqk6a2dy2",
+    "timestamp": "2025-12-25T12:16:57.601003",
+    "image_count": 4,
+    "group": "danke-Empire",
+    "chapter_title": "The Pudding Head Story - 『プリンヘッド物語』 - Purin Heddo Monogatari",
+    "volume": "04"
+  },
+  "035": {
+    "album_id": "ej7me6a89yd",
+    "timestamp": "2025-12-25T12:18:15.434650",
+    "image_count": 27,
+    "group": "danke-Empire",
+    "chapter_title": "Powerful Opponents - 強敵たち - Kyōteki-tachi",
+    "volume": "05"
+  },
+  "036": {
+    "album_id": "lqyelzdmm4d",
+    "timestamp": "2025-12-25T12:18:59.454558",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "Preparing for Flight - 飛行準備 - Hikō Junbi",
+    "volume": "05"
+  },
+  "037": {
+    "album_id": "qe4gq8mwq7j",
+    "timestamp": "2025-12-25T12:19:53.813469",
+    "image_count": 17,
+    "group": "danke-Empire",
+    "chapter_title": "It Begins - 突入 - Totsunyū",
+    "volume": "05"
+  },
+  "038": {
+    "album_id": "na7kkna8378",
+    "timestamp": "2025-12-25T12:20:46.871267",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "Warm-Ups - ウォームアップ - Uōmuappu",
+    "volume": "05"
+  },
+  "039": {
+    "album_id": "ljyqk6aady2",
+    "timestamp": "2025-12-25T12:21:36.940832",
+    "image_count": 17,
+    "group": "danke-Empire",
+    "chapter_title": "The Return - 復活 - Fukkatsu",
+    "volume": "05"
+  },
+  "040": {
+    "album_id": "n87wnj99x7x",
+    "timestamp": "2025-12-25T12:22:57.637966",
+    "image_count": 21,
+    "group": "danke-Empire",
+    "chapter_title": "Winners and Losers - 勝者と敗者 - Shōsha to Haisha",
+    "volume": "05"
+  },
+  "041": {
+    "album_id": "qb4zpr555yj",
+    "timestamp": "2025-12-25T12:23:53.325657",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Round 2 - 2回戦突入 - 2-kaisen Totsunyū",
+    "volume": "05"
+  },
+  "042": {
+    "album_id": "qe4gq8mmq7j",
+    "timestamp": "2025-12-25T12:24:49.640349",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "The Iron Wall - 鉄壁 - Teppeki",
+    "volume": "05"
+  },
+  "043": {
+    "album_id": "xny869ee24b",
+    "timestamp": "2025-12-25T12:25:34.821013",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "Freak Quick Unleashed - 変人速攻解禁 - Henjin Sokkō Kaikin",
+    "volume": "05"
+  },
+  "044": {
+    "album_id": "a846o933z4x",
+    "timestamp": "2025-12-25T12:26:28.564858",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "The Greatest Decoy - 最強の囮 - Saikyō no Otori",
+    "volume": "05"
+  },
+  "045": {
+    "album_id": "9249k922byn",
+    "timestamp": "2025-12-25T12:27:30.909900",
+    "image_count": 26,
+    "group": "danke-Empire",
+    "chapter_title": "Behind The Light - 光の裏側 - Hikari no Uragawa",
+    "volume": "06"
+  },
+  "046": {
+    "album_id": "md7obvaa24p",
+    "timestamp": "2025-12-25T12:28:28.561053",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "Got Your Back - エース - Ēsu",
+    "volume": "06"
   }
 }
