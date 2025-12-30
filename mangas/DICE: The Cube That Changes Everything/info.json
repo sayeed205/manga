@@ -60,6 +60,166 @@
       "groups": {
         "LINE": "/proxy/api/imgchest/chapter/md7ob3oqd4p"
       }
+    },
+    "007": {
+      "title": "Once The Dice Stops, It Never Rolls Again (2)",
+      "volume": "1",
+      "last_updated": "1767123425",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/vj4jmjlg548"
+      }
+    },
+    "008": {
+      "title": "On The Opposite Side of 1, There Is 6",
+      "volume": "1",
+      "last_updated": "1767123508",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/wl7lwdq2p4x"
+      }
+    },
+    "009": {
+      "title": "Move Three Spaces Forward",
+      "volume": "1",
+      "last_updated": "1767123600",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/n87wn2amz7x"
+      }
+    },
+    "010": {
+      "title": "Two Dice Roll In Their Own Way",
+      "volume": "1",
+      "last_updated": "1767123686",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/m9yxnl6337q"
+      }
+    },
+    "011": {
+      "title": "Move One Space Backwards",
+      "volume": "1",
+      "last_updated": "1767124343",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/m9yxnl6d37q"
+      }
+    },
+    "012": {
+      "title": "Once A Dice Has Fallen, It's Useless",
+      "volume": "1",
+      "last_updated": "1767124437",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/vj4jmjln248"
+      }
+    },
+    "013": {
+      "title": "On The Opposite Side of 6, There Is 1",
+      "volume": "1",
+      "last_updated": "1767124531",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/ej7merd6nyd"
+      }
+    },
+    "014": {
+      "title": "Roll The Bones",
+      "volume": "1",
+      "last_updated": "1767124620",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/o24a6o5m2yl"
+      }
+    },
+    "015": {
+      "title": "Alea Iacta Est",
+      "volume": "1",
+      "last_updated": "1767124728",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/md7ob3mvr4p"
+      }
+    },
+    "016": {
+      "title": "CHAOS",
+      "volume": "1",
+      "last_updated": "1767124851",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/n87wn2a8g7x"
+      }
+    },
+    "017": {
+      "title": "Pandora (1)",
+      "volume": "1",
+      "last_updated": "1767124947",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/o24a6o5d2yl"
+      }
+    },
+    "018": {
+      "title": "Pandora (2)",
+      "volume": "1",
+      "last_updated": "1767125022",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/xny868a854b"
+      }
+    },
+    "019": {
+      "title": "Pandora (3)",
+      "volume": "1",
+      "last_updated": "1767125112",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/5xy2omkm94l"
+      }
+    },
+    "020": {
+      "title": "Pandora (4)",
+      "volume": "1",
+      "last_updated": "1767125191",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/n87wn2abg7x"
+      }
+    },
+    "021": {
+      "title": "Pandora (5)",
+      "volume": "1",
+      "last_updated": "1767125279",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/xny868aw54b"
+      }
+    },
+    "022": {
+      "title": "Pandora (6)",
+      "volume": "1",
+      "last_updated": "1767125370",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/ne7b6oajjy5"
+      }
+    },
+    "023": {
+      "title": "Pandora (7)",
+      "volume": "1",
+      "last_updated": "1767125436",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/ljyqkewbny2"
+      }
+    },
+    "024": {
+      "title": "Pandora (8)",
+      "volume": "1",
+      "last_updated": "1767125526",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/pg73o3eag7r"
+      }
+    },
+    "025": {
+      "title": "Pandora (9)",
+      "volume": "1",
+      "last_updated": "1767125604",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/9249k56nbyn"
+      }
+    },
+    "026": {
+      "title": "A Long Day (1)",
+      "volume": "1",
+      "last_updated": "1767125691",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/ljyqkew3dy2"
+      }
     }
   }
 }
