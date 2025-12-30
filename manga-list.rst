@@ -25,6 +25,28 @@ B
      - 74
      - 707
 
+D
+-
+
+.. list-table::
+   :header-rows: 1
+   :widths: 25 12 12 16 16 6 6
+
+   * - Title
+     - Gist
+     - Cubari
+     - Added On
+     - Last Updated
+     - Volumes
+     - Chapters
+   * - DICE: The Cube That Changes Everything
+     - `info.json <mangas/DICE%3A%20The%20Cube%20That%20Changes%20Everything/info.json>`_
+     - `Read <https://cubari.moe/read/gist/cmF3L3NheWVlZDIwNS9tYW5nYS9yZWZzL2hlYWRzL21haW4vbWFuZ2FzL0RJQ0U6JTIwVGhlJTIwQ3ViZSUyMFRoYXQlMjBDaGFuZ2VzJTIwRXZlcnl0aGluZy9pbmZvLmpzb24=/>`_
+     - 2025-12-30 14:50 UTC
+     - 2025-12-30 15:04 UTC
+     - 1
+     - 7
+
 G
 -
 
@@ -65,9 +87,9 @@ H
      - `info.json <mangas/Haiky%C5%AB%21%21%20-%20%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%21%21/info.json>`_
      - `Read <https://cubari.moe/read/gist/cmF3L3NheWVlZDIwNS9tYW5nYS9yZWZzL2hlYWRzL21haW4vbWFuZ2FzL0hhaWt5JUM1JUFCJTIxJTIxJTIwLSUyMCVFMyU4MyU4RiVFMyU4MiVBNCVFMyU4MiVBRCVFMyU4MyVBNSVFMyU4MyVCQyUyMSUyMS9pbmZvLmpzb24=/>`_
      - 2025-10-09 14:55 UTC
-     - 2025-10-10 06:50 UTC
-     - 3
-     - 25
+     - 2025-12-30 18:53 UTC
+     - 45
+     - 428
 
 N
 -
