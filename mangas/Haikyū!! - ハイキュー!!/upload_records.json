@@ -2984,67 +2984,75 @@
     "volume": "39"
   },
   "349": {
-    "album_id": "xny868j3p4b",
-    "timestamp": "2025-12-30T20:19:29.675331",
+    "album_id": "md7ob3oad4p",
+    "timestamp": "2025-12-30T20:43:17.083858",
     "image_count": 25,
     "group": "danke-Empire",
     "chapter_title": "Scraping By - 低空飛行 - Teikū Hikō",
     "volume": "39"
   },
   "350": {
-    "album_id": "9p4nzmbnw4n",
-    "timestamp": "2025-12-30T20:21:25.170422",
+    "album_id": "ljyqkeoaoy2",
+    "timestamp": "2025-12-30T20:44:11.034203",
     "image_count": 28,
     "group": "danke-Empire",
     "chapter_title": "Freedom and Confinement - 自由と不自由 - Jiyū to Fujiyū",
     "volume": "40"
   },
   "351": {
-    "album_id": "5xy2om6dn4l",
-    "timestamp": "2025-12-30T20:22:14.862694",
+    "album_id": "9ryd2ob2l4k",
+    "timestamp": "2025-12-30T20:44:47.356049",
     "image_count": 21,
     "group": "danke-Empire",
     "chapter_title": "Nimble - 身軽 - Migaru",
     "volume": "40"
   },
   "352": {
-    "album_id": "vj4jmjb9548",
-    "timestamp": "2025-12-30T20:23:05.755242",
+    "album_id": "n87wn2ong7x",
+    "timestamp": "2025-12-30T20:45:38.288888",
     "image_count": 17,
     "group": "danke-Empire",
     "chapter_title": "Affirmation - 肯定 - Kōtei",
     "volume": "40"
   },
   "353": {
-    "album_id": "5xy2om6dj4l",
-    "timestamp": "2025-12-30T20:24:43.932487",
+    "album_id": "bp45oe9oq75",
+    "timestamp": "2025-12-30T20:46:12.109426",
     "image_count": 18,
     "group": "danke-Empire",
     "chapter_title": "A Quiet Awakening - 静かな覚醒 - Shizukana Kakusei",
     "volume": "40"
   },
   "354": {
-    "album_id": "n87wn2odz7x",
-    "timestamp": "2025-12-30T20:26:56.865408",
+    "album_id": "9249k5qkmyn",
+    "timestamp": "2025-12-30T20:47:06.495593",
     "image_count": 21,
     "group": "danke-Empire",
     "chapter_title": "Give Your All for Your Teammates - 仲間のためにがんばろ - Nakama no Tameni Ganbaro",
     "volume": "40"
   },
   "355": {
-    "album_id": "5xy2om6aj4l",
-    "timestamp": "2025-12-30T20:28:52.662861",
+    "album_id": "ljyqkeokny2",
+    "timestamp": "2025-12-30T20:47:52.692254",
     "image_count": 17,
     "group": "danke-Empire",
     "chapter_title": "Retry - 再挑戦 - Sai Chōsen",
     "volume": "40"
   },
   "356": {
-    "album_id": "lqyelobg34d",
-    "timestamp": "2025-12-30T20:30:56.549996",
+    "album_id": "pg73o3v6j7r",
+    "timestamp": "2025-12-30T20:48:40.514199",
     "image_count": 17,
     "group": "danke-Empire",
     "chapter_title": "Mental Stamina - 思考体力 - Shikō Tairyoku",
+    "volume": "40"
+  },
+  "357": {
+    "album_id": "qb4zpqomdyj",
+    "timestamp": "2025-12-30T20:49:42.570052",
+    "image_count": 25,
+    "group": "danke-Empire",
+    "chapter_title": "Guide: Part 2 - 導2 - Shirube 2",
     "volume": "40"
   }
 }

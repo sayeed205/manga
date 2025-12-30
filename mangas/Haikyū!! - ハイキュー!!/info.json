@@ -3000,65 +3000,73 @@
     "349": {
       "title": "Scraping By - 低空飛行 - Teikū Hikō",
       "volume": "39",
-      "last_updated": "1767106169",
+      "last_updated": "1767107597",
       "groups": {
-        "danke-Empire": "/proxy/api/imgchest/chapter/xny868j3p4b"
+        "danke-Empire": "/proxy/api/imgchest/chapter/md7ob3oad4p"
       }
     },
     "350": {
       "title": "Freedom and Confinement - 自由と不自由 - Jiyū to Fujiyū",
       "volume": "40",
-      "last_updated": "1767106285",
+      "last_updated": "1767107651",
       "groups": {
-        "danke-Empire": "/proxy/api/imgchest/chapter/9p4nzmbnw4n"
+        "danke-Empire": "/proxy/api/imgchest/chapter/ljyqkeoaoy2"
       }
     },
     "351": {
       "title": "Nimble - 身軽 - Migaru",
       "volume": "40",
-      "last_updated": "1767106334",
+      "last_updated": "1767107687",
       "groups": {
-        "danke-Empire": "/proxy/api/imgchest/chapter/5xy2om6dn4l"
+        "danke-Empire": "/proxy/api/imgchest/chapter/9ryd2ob2l4k"
       }
     },
     "352": {
       "title": "Affirmation - 肯定 - Kōtei",
       "volume": "40",
-      "last_updated": "1767106385",
+      "last_updated": "1767107738",
       "groups": {
-        "danke-Empire": "/proxy/api/imgchest/chapter/vj4jmjb9548"
+        "danke-Empire": "/proxy/api/imgchest/chapter/n87wn2ong7x"
       }
     },
     "353": {
       "title": "A Quiet Awakening - 静かな覚醒 - Shizukana Kakusei",
       "volume": "40",
-      "last_updated": "1767106483",
+      "last_updated": "1767107772",
       "groups": {
-        "danke-Empire": "/proxy/api/imgchest/chapter/5xy2om6dj4l"
+        "danke-Empire": "/proxy/api/imgchest/chapter/bp45oe9oq75"
       }
     },
     "354": {
       "title": "Give Your All for Your Teammates - 仲間のためにがんばろ - Nakama no Tameni Ganbaro",
       "volume": "40",
-      "last_updated": "1767106616",
+      "last_updated": "1767107826",
       "groups": {
-        "danke-Empire": "/proxy/api/imgchest/chapter/n87wn2odz7x"
+        "danke-Empire": "/proxy/api/imgchest/chapter/9249k5qkmyn"
       }
     },
     "355": {
       "title": "Retry - 再挑戦 - Sai Chōsen",
       "volume": "40",
-      "last_updated": "1767106732",
+      "last_updated": "1767107872",
       "groups": {
-        "danke-Empire": "/proxy/api/imgchest/chapter/5xy2om6aj4l"
+        "danke-Empire": "/proxy/api/imgchest/chapter/ljyqkeokny2"
       }
     },
     "356": {
       "title": "Mental Stamina - 思考体力 - Shikō Tairyoku",
       "volume": "40",
-      "last_updated": "1767106856",
+      "last_updated": "1767107920",
       "groups": {
-        "danke-Empire": "/proxy/api/imgchest/chapter/lqyelobg34d"
+        "danke-Empire": "/proxy/api/imgchest/chapter/pg73o3v6j7r"
+      }
+    },
+    "357": {
+      "title": "Guide: Part 2 - 導2 - Shirube 2",
+      "volume": "40",
+      "last_updated": "1767107982",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qb4zpqomdyj"
       }
     }
   }
