@@ -1,5 +1,5 @@
 {
-  "title": "DICE: The Cube That Changes",
+  "title": "DICE: The Cube That Changes Everything Wiki",
   "description": "[Complete]\nDongtae, a bullied, unpopular high schooler who gets a chance to transform his life when a mysterious transfer student, Taebin, introduces him to magical dice that grant wishes and skills with each roll, but quickly becomes a dark, addictive game where appearance, status, and even fighting power are altered, leading Dongtae down a complex path filled with unforeseen consequences, moral dilemmas, and battles against other \"Dicers\" who seek power, questioning if true change is possible or just a game.",
   "artist": "YUN Hyunseok",
   "author": "YUN Hyunseok",
@@ -27,6 +27,22 @@
       "last_updated": "1767102927",
       "groups": {
         "LINE": "/proxy/api/imgchest/chapter/5xy2omvjz4l"
+      }
+    },
+    "003": {
+      "title": "1 Cannot Ever Beat 6",
+      "volume": "1",
+      "last_updated": "1767103527",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/9ryd2o8864k"
+      }
+    },
+    "004": {
+      "title": "Congratulations, You've Become A Dicer",
+      "volume": "1",
+      "last_updated": "1767103641",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/qb4zpqvvlyj"
       }
     }
   }
