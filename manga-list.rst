@@ -39,13 +39,20 @@ D
      - Last Updated
      - Volumes
      - Chapters
+   * - Deserter
+     - `info.json <mangas/Deserter/info.json>`_
+     - `Read <https://cubari.moe/read/gist/cmF3L3NheWVlZDIwNS9tYW5nYS9yZWZzL2hlYWRzL21haW4vbWFuZ2FzL0Rlc2VydGVyL2luZm8uanNvbg==/>`_
+     - 2025-12-30 20:17 UTC
+     - 2025-12-30 20:29 UTC
+     - 1
+     - 12
    * - DICE: The Cube That Changes Everything
      - `info.json <mangas/DICE%3A%20The%20Cube%20That%20Changes%20Everything/info.json>`_
      - `Read <https://cubari.moe/read/gist/cmF3L3NheWVlZDIwNS9tYW5nYS9yZWZzL2hlYWRzL21haW4vbWFuZ2FzL0RJQ0U6JTIwVGhlJTIwQ3ViZSUyMFRoYXQlMjBDaGFuZ2VzJTIwRXZlcnl0aGluZy9pbmZvLmpzb24=/>`_
      - 2025-12-30 14:50 UTC
-     - 2025-12-30 15:04 UTC
+     - 2025-12-30 20:14 UTC
      - 1
-     - 7
+     - 27
 
 G
 -

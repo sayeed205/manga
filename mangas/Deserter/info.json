@@ -1,0 +1,105 @@
+{
+  "title": "Deserter",
+  "description": "[Complete]\nDeserter is a collection of 12 stories published in English by Viz Media on December 21, 2021. It compiles the same stories as Dark Horse Comics' [Museum of Terror vol. 3](https://junjiitomanga.fandom.com/wiki/Museum_of_Terror_vol._3), originally released in 2006. The stories are published in chronological order with some titles being changed from Dark Horse's original English titles.",
+  "artist": "Junji Ito",
+  "author": "Junji Ito",
+  "cover": "https://m.media-amazon.com/images/I/81MKsr1ukbL.jpg",
+  "chapters": {
+    "01": {
+      "title": "Bio House",
+      "volume": "1",
+      "last_updated": "1767125821",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/m9yxnl6ap7q"
+      }
+    },
+    "02": {
+      "title": "Face Thief",
+      "volume": "1",
+      "last_updated": "1767125880",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9ryd2okba4k"
+      }
+    },
+    "03": {
+      "title": "Where the Sandman Lives",
+      "volume": "1",
+      "last_updated": "1767125934",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qe4gqknbq7j"
+      }
+    },
+    "04": {
+      "title": "The Devil's Logic",
+      "volume": "1",
+      "last_updated": "1767125952",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9p4nzmrbb4n"
+      }
+    },
+    "05": {
+      "title": "The Long Hair in the Attic",
+      "volume": "1",
+      "last_updated": "1767126027",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/dl7pnw3o3yo"
+      }
+    },
+    "06": {
+      "title": "Scripted Love",
+      "volume": "1",
+      "last_updated": "1767126074",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qe4gqkngq7j"
+      }
+    },
+    "07": {
+      "title": "The Reanimator's Sword",
+      "volume": "1",
+      "last_updated": "1767126150",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9p4nzmr9b4n"
+      }
+    },
+    "08": {
+      "title": "A Father's Love",
+      "volume": "1",
+      "last_updated": "1767126275",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/6eyrnzeel7p"
+      }
+    },
+    "09": {
+      "title": "Unendurable Labyrinth",
+      "volume": "1",
+      "last_updated": "1767126342",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/wl7lwdqn34x"
+      }
+    },
+    "10": {
+      "title": "Village of the Siren",
+      "volume": "1",
+      "last_updated": "1767126430",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/lqyelox8z4d"
+      }
+    },
+    "11": {
+      "title": "Bullied",
+      "volume": "1",
+      "last_updated": "1767126487",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ljyqkewnxy2"
+      }
+    },
+    "12": {
+      "title": "Deserter",
+      "volume": "1",
+      "last_updated": "1767126567",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qe4gqknok7j"
+      }
+    }
+  }
+}
