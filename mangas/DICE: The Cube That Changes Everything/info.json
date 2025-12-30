@@ -220,6 +220,62 @@
       "groups": {
         "LINE": "/proxy/api/imgchest/chapter/ljyqkew3dy2"
       }
+    },
+    "027": {
+      "title": "A Long Day (2)",
+      "volume": "1",
+      "last_updated": "1767126655",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/md7ob32zl4p"
+      }
+    },
+    "028": {
+      "title": "A Long Day (3)",
+      "volume": "1",
+      "last_updated": "1767126706",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/ej7merbzayd"
+      }
+    },
+    "029": {
+      "title": "A Long Day (4)",
+      "volume": "1",
+      "last_updated": "1767126797",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/o24a6owxeyl"
+      }
+    },
+    "030": {
+      "title": "A Long Day (5)",
+      "volume": "1",
+      "last_updated": "1767126865",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/wl7lwdnx34x"
+      }
+    },
+    "031": {
+      "title": "A Long Day (6)",
+      "volume": "1",
+      "last_updated": "1767126949",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/9ryd2og5n4k"
+      }
+    },
+    "031.1": {
+      "title": "",
+      "volume": "1",
+      "last_updated": "1767126957",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/qe4gqkadb7j"
+      }
+    },
+    "032": {
+      "title": "A Long Day (7)",
+      "volume": "1",
+      "last_updated": "1767127073",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/xny868gxd4b"
+      }
     }
   }
 }
