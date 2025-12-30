@@ -2892,6 +2892,38 @@
       "groups": {
         "danke-Empire": "/proxy/api/imgchest/chapter/qb4zpqvmdyj"
       }
+    },
+    "336": {
+      "title": "Where Monsters Go - バケモノたちの行くところ - Bakemono-tachi no Yuku Tokoro",
+      "volume": "38",
+      "last_updated": "1767103049",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/m9yxnlabp7q"
+      }
+    },
+    "337": {
+      "title": "Next - 次 - Tsugi",
+      "volume": "38",
+      "last_updated": "1767103133",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/wl7lwdjpx4x"
+      }
+    },
+    "338": {
+      "title": "The Game to Crown the New Little Giant - 小さな巨人決定戦 - Chīsana Kyojin Kettei-sen",
+      "volume": "38",
+      "last_updated": "1767103226",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/6eyrnzwkx7p"
+      }
+    },
+    "339": {
+      "title": "Acknowledgement - 認知 - Ninchi",
+      "volume": "38",
+      "last_updated": "1767103315",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/m9yxnlapp7q"
+      }
     }
   }
 }
