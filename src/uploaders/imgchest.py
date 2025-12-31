@@ -4,17 +4,13 @@ from __future__ import annotations
 
 import mimetypes
 import os
-import time
 from pathlib import Path
-from typing import Callable, cast
+from typing import Callable
 
 import requests
 from dotenv import load_dotenv
 from requests.exceptions import (
-    ConnectionError,
-    HTTPError,
     RequestException,
-    Timeout,
 )
 from requests_toolbelt.multipart.encoder import MultipartEncoder, MultipartEncoderMonitor
 
