@@ -3,7 +3,7 @@
   "description": "[Complete]\nDongtae, a bullied, unpopular high schooler who gets a chance to transform his life when a mysterious transfer student, Taebin, introduces him to magical dice that grant wishes and skills with each roll, but quickly becomes a dark, addictive game where appearance, status, and even fighting power are altered, leading Dongtae down a complex path filled with unforeseen consequences, moral dilemmas, and battles against other \"Dicers\" who seek power, questioning if true change is possible or just a game.",
   "artist": "YUN Hyunseok",
   "author": "YUN Hyunseok",
-  "cover": "https://cdn.imgchest.com/files/6491f5a4d0ac.webp",
+  "cover": "https://cdn.imgchest.com/files/74f85f11113b.png",
   "chapters": {
     "000": {
       "title": "Prologue",
@@ -627,6 +627,350 @@
       "last_updated": "1767155960",
       "groups": {
         "LINE": "/proxy/api/imgchest/chapter/a846omgaz4x"
+      }
+    },
+    "077": {
+      "title": "Icarus (1)",
+      "volume": "2",
+      "last_updated": "1767159798",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/ej7me52vqyd"
+      }
+    },
+    "078": {
+      "title": "Icarus (2)",
+      "volume": "2",
+      "last_updated": "1767159914",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/qe4gq3rpo7j"
+      }
+    },
+    "079": {
+      "title": "Icarus (3)",
+      "volume": "2",
+      "last_updated": "1767160030",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/ne7b6jx3ky5"
+      }
+    },
+    "080": {
+      "title": "Icarus (4)",
+      "volume": "2",
+      "last_updated": "1767160136",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/6eyrnbd6k7p"
+      }
+    },
+    "081": {
+      "title": "Icarus (5)",
+      "volume": "2",
+      "last_updated": "1767160239",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/xny86wlrp4b"
+      }
+    },
+    "082": {
+      "title": "The Joker (1)",
+      "volume": "2",
+      "last_updated": "1767160329",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/9p4nzalqw4n"
+      }
+    },
+    "083": {
+      "title": "The Joker (2)",
+      "volume": "2",
+      "last_updated": "1767160433",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/wl7lw8ml64x"
+      }
+    },
+    "084": {
+      "title": "The Joker (3)",
+      "volume": "2",
+      "last_updated": "1767160530",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/qb4zpbkq3yj"
+      }
+    },
+    "085": {
+      "title": "The Joker (4)",
+      "volume": "2",
+      "last_updated": "1767160611",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/9p4nzalmz4n"
+      }
+    },
+    "086": {
+      "title": "Eunjoo I",
+      "volume": "2",
+      "last_updated": "1767160711",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/9ryd2dpow4k"
+      }
+    },
+    "087": {
+      "title": "Gambit",
+      "volume": "2",
+      "last_updated": "1767160809",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/bp45ordr275"
+      }
+    },
+    "088": {
+      "title": "First Period (1)",
+      "volume": "2",
+      "last_updated": "1767160900",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/ne7b6jxjny5"
+      }
+    },
+    "089": {
+      "title": "First Period (2)",
+      "volume": "2",
+      "last_updated": "1767161008",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/na7kkgwgq78"
+      }
+    },
+    "090": {
+      "title": "First Period (3)",
+      "volume": "2",
+      "last_updated": "1767161082",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/vj4jmzwz248"
+      }
+    },
+    "091": {
+      "title": "First Period (4)",
+      "volume": "2",
+      "last_updated": "1767161175",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/ej7me525byd"
+      }
+    },
+    "092": {
+      "title": "First Period (5)",
+      "volume": "2",
+      "last_updated": "1767161268",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/xny86wlno4b"
+      }
+    },
+    "093": {
+      "title": "Samsusaeng",
+      "volume": "2",
+      "last_updated": "1767161361",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/md7obkjpd4p"
+      }
+    },
+    "094": {
+      "title": "First Period (6)",
+      "volume": "2",
+      "last_updated": "1767161461",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/n87wnbr5z7x"
+      }
+    },
+    "095": {
+      "title": "First Period (7)",
+      "volume": "2",
+      "last_updated": "1767161558",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/lqyelrp534d"
+      }
+    },
+    "096": {
+      "title": "First Period > Break",
+      "volume": "2",
+      "last_updated": "1767161651",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/m9yxnbga37q"
+      }
+    },
+    "097": {
+      "title": "Break (2)",
+      "volume": "2",
+      "last_updated": "1767161740",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/ljyqkbd3oy2"
+      }
+    },
+    "098": {
+      "title": "End of Break",
+      "volume": "2",
+      "last_updated": "1767161875",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/xny86wlj54b"
+      }
+    },
+    "099": {
+      "title": "Second Period (1)",
+      "volume": "2",
+      "last_updated": "1767161946",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/vj4jmzwbx48"
+      }
+    },
+    "100": {
+      "title": "Second Period (2)",
+      "volume": "2",
+      "last_updated": "1767162047",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/n87wnbr3g7x"
+      }
+    },
+    "100.5": {
+      "title": "Bonus Stage 1",
+      "volume": "2",
+      "last_updated": "1767162058",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/o24a6lkr2yl"
+      }
+    },
+    "101": {
+      "title": "Second Period (3)",
+      "volume": "2",
+      "last_updated": "1767162149",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/a846omgjo4x"
+      }
+    },
+    "102": {
+      "title": "Second Period (4)",
+      "volume": "2",
+      "last_updated": "1767162243",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/9249kejrmyn"
+      }
+    },
+    "103": {
+      "title": "The Versus Game",
+      "volume": "2",
+      "last_updated": "1767162359",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/na7kkgw6b78"
+      }
+    },
+    "104": {
+      "title": "Second Period (5)",
+      "volume": "2",
+      "last_updated": "1767162457",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/pg73oqjej7r"
+      }
+    },
+    "105": {
+      "title": "Zugzwang",
+      "volume": "2",
+      "last_updated": "1767162566",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/m9yxnbg6q7q"
+      }
+    },
+    "106": {
+      "title": "Third Period (1)",
+      "volume": "2",
+      "last_updated": "1767162693",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/wl7lw8mqq4x"
+      }
+    },
+    "107": {
+      "title": "Third Period (2)",
+      "volume": "2",
+      "last_updated": "1767162797",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/lqyelrp8q4d"
+      }
+    },
+    "108": {
+      "title": "Third Period (3)",
+      "volume": "2",
+      "last_updated": "1767162920",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/9249kej8myn"
+      }
+    },
+    "109": {
+      "title": "Taebin (Mooyoung) VII",
+      "volume": "2",
+      "last_updated": "1767163055",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/wl7lw8mnq4x"
+      }
+    },
+    "110": {
+      "title": "The Castling",
+      "volume": "2",
+      "last_updated": "1767163174",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/6eyrnbdpx7p"
+      }
+    },
+    "111": {
+      "title": "Third Period (4)",
+      "volume": "2",
+      "last_updated": "1767163254",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/a846omgvz4x"
+      }
+    },
+    "112": {
+      "title": "Third Period (5)",
+      "volume": "2",
+      "last_updated": "1767163325",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/ne7b6jx8my5"
+      }
+    },
+    "113": {
+      "title": "Check",
+      "volume": "2",
+      "last_updated": "1767163414",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/5xy2oj3zz4l"
+      }
+    },
+    "114": {
+      "title": "Zwischenzug (Queen's Gambit)",
+      "volume": "2",
+      "last_updated": "1767163509",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/vj4jmzvo348"
+      }
+    },
+    "115": {
+      "title": "Third Period (6)..?",
+      "volume": "2",
+      "last_updated": "1767163625",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/n87wnbgzx7x"
+      }
+    },
+    "116": {
+      "title": "Stalemate",
+      "volume": "2",
+      "last_updated": "1767163736",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/a846omkrz4x"
+      }
+    },
+    "117": {
+      "title": "Parallel lines",
+      "volume": "2",
+      "last_updated": "1767163831",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/md7obkxz24p"
+      }
+    },
+    "118": {
+      "title": "A Sunday Beyond Dice (1)",
+      "volume": "2",
+      "last_updated": "1767163928",
+      "groups": {
+        "LINE": "/proxy/api/imgchest/chapter/9ryd2da5a4k"
       }
     }
   }

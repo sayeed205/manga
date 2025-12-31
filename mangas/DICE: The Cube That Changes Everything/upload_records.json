@@ -622,5 +622,349 @@
     "group": "LINE",
     "chapter_title": "Taebin (Mooyoung) VI",
     "volume": "2"
+  },
+  "077": {
+    "album_id": "ej7me52vqyd",
+    "timestamp": "2025-12-31T11:13:18.769355",
+    "image_count": 63,
+    "group": "LINE",
+    "chapter_title": "Icarus (1)",
+    "volume": "2"
+  },
+  "078": {
+    "album_id": "qe4gq3rpo7j",
+    "timestamp": "2025-12-31T11:15:14.907200",
+    "image_count": 62,
+    "group": "LINE",
+    "chapter_title": "Icarus (2)",
+    "volume": "2"
+  },
+  "079": {
+    "album_id": "ne7b6jx3ky5",
+    "timestamp": "2025-12-31T11:17:10.265742",
+    "image_count": 68,
+    "group": "LINE",
+    "chapter_title": "Icarus (3)",
+    "volume": "2"
+  },
+  "080": {
+    "album_id": "6eyrnbd6k7p",
+    "timestamp": "2025-12-31T11:18:56.180957",
+    "image_count": 61,
+    "group": "LINE",
+    "chapter_title": "Icarus (4)",
+    "volume": "2"
+  },
+  "081": {
+    "album_id": "xny86wlrp4b",
+    "timestamp": "2025-12-31T11:20:39.141491",
+    "image_count": 69,
+    "group": "LINE",
+    "chapter_title": "Icarus (5)",
+    "volume": "2"
+  },
+  "082": {
+    "album_id": "9p4nzalqw4n",
+    "timestamp": "2025-12-31T11:22:09.719302",
+    "image_count": 55,
+    "group": "LINE",
+    "chapter_title": "The Joker (1)",
+    "volume": "2"
+  },
+  "083": {
+    "album_id": "wl7lw8ml64x",
+    "timestamp": "2025-12-31T11:23:53.386240",
+    "image_count": 64,
+    "group": "LINE",
+    "chapter_title": "The Joker (2)",
+    "volume": "2"
+  },
+  "084": {
+    "album_id": "qb4zpbkq3yj",
+    "timestamp": "2025-12-31T11:25:30.229614",
+    "image_count": 65,
+    "group": "LINE",
+    "chapter_title": "The Joker (3)",
+    "volume": "2"
+  },
+  "085": {
+    "album_id": "9p4nzalmz4n",
+    "timestamp": "2025-12-31T11:26:51.228416",
+    "image_count": 56,
+    "group": "LINE",
+    "chapter_title": "The Joker (4)",
+    "volume": "2"
+  },
+  "086": {
+    "album_id": "9ryd2dpow4k",
+    "timestamp": "2025-12-31T11:28:31.225072",
+    "image_count": 64,
+    "group": "LINE",
+    "chapter_title": "Eunjoo I",
+    "volume": "2"
+  },
+  "087": {
+    "album_id": "bp45ordr275",
+    "timestamp": "2025-12-31T11:30:09.605969",
+    "image_count": 63,
+    "group": "LINE",
+    "chapter_title": "Gambit",
+    "volume": "2"
+  },
+  "088": {
+    "album_id": "ne7b6jxjny5",
+    "timestamp": "2025-12-31T11:31:40.348680",
+    "image_count": 63,
+    "group": "LINE",
+    "chapter_title": "First Period (1)",
+    "volume": "2"
+  },
+  "089": {
+    "album_id": "na7kkgwgq78",
+    "timestamp": "2025-12-31T11:33:28.225079",
+    "image_count": 69,
+    "group": "LINE",
+    "chapter_title": "First Period (2)",
+    "volume": "2"
+  },
+  "090": {
+    "album_id": "vj4jmzwz248",
+    "timestamp": "2025-12-31T11:34:42.295550",
+    "image_count": 56,
+    "group": "LINE",
+    "chapter_title": "First Period (3)",
+    "volume": "2"
+  },
+  "091": {
+    "album_id": "ej7me525byd",
+    "timestamp": "2025-12-31T11:36:15.726220",
+    "image_count": 49,
+    "group": "LINE",
+    "chapter_title": "First Period (4)",
+    "volume": "2"
+  },
+  "092": {
+    "album_id": "xny86wlno4b",
+    "timestamp": "2025-12-31T11:37:48.314663",
+    "image_count": 59,
+    "group": "LINE",
+    "chapter_title": "First Period (5)",
+    "volume": "2"
+  },
+  "093": {
+    "album_id": "md7obkjpd4p",
+    "timestamp": "2025-12-31T11:39:21.795034",
+    "image_count": 55,
+    "group": "LINE",
+    "chapter_title": "Samsusaeng",
+    "volume": "2"
+  },
+  "094": {
+    "album_id": "n87wnbr5z7x",
+    "timestamp": "2025-12-31T11:41:01.485422",
+    "image_count": 65,
+    "group": "LINE",
+    "chapter_title": "First Period (6)",
+    "volume": "2"
+  },
+  "095": {
+    "album_id": "lqyelrp534d",
+    "timestamp": "2025-12-31T11:42:38.668248",
+    "image_count": 61,
+    "group": "LINE",
+    "chapter_title": "First Period (7)",
+    "volume": "2"
+  },
+  "096": {
+    "album_id": "m9yxnbga37q",
+    "timestamp": "2025-12-31T11:44:11.993154",
+    "image_count": 64,
+    "group": "LINE",
+    "chapter_title": "First Period > Break",
+    "volume": "2"
+  },
+  "097": {
+    "album_id": "ljyqkbd3oy2",
+    "timestamp": "2025-12-31T11:45:40.614681",
+    "image_count": 59,
+    "group": "LINE",
+    "chapter_title": "Break (2)",
+    "volume": "2"
+  },
+  "098": {
+    "album_id": "xny86wlj54b",
+    "timestamp": "2025-12-31T11:47:55.215388",
+    "image_count": 52,
+    "group": "LINE",
+    "chapter_title": "End of Break",
+    "volume": "2"
+  },
+  "099": {
+    "album_id": "vj4jmzwbx48",
+    "timestamp": "2025-12-31T11:49:06.300573",
+    "image_count": 60,
+    "group": "LINE",
+    "chapter_title": "Second Period (1)",
+    "volume": "2"
+  },
+  "100": {
+    "album_id": "n87wnbr3g7x",
+    "timestamp": "2025-12-31T11:50:47.310673",
+    "image_count": 69,
+    "group": "LINE",
+    "chapter_title": "Second Period (2)",
+    "volume": "2"
+  },
+  "100.5": {
+    "album_id": "o24a6lkr2yl",
+    "timestamp": "2025-12-31T11:50:58.436869",
+    "image_count": 9,
+    "group": "LINE",
+    "chapter_title": "Bonus Stage 1",
+    "volume": "2"
+  },
+  "101": {
+    "album_id": "a846omgjo4x",
+    "timestamp": "2025-12-31T11:52:29.224005",
+    "image_count": 62,
+    "group": "LINE",
+    "chapter_title": "Second Period (3)",
+    "volume": "2"
+  },
+  "102": {
+    "album_id": "9249kejrmyn",
+    "timestamp": "2025-12-31T11:54:03.629916",
+    "image_count": 67,
+    "group": "LINE",
+    "chapter_title": "Second Period (4)",
+    "volume": "2"
+  },
+  "103": {
+    "album_id": "na7kkgw6b78",
+    "timestamp": "2025-12-31T11:55:59.022460",
+    "image_count": 69,
+    "group": "LINE",
+    "chapter_title": "The Versus Game",
+    "volume": "2"
+  },
+  "104": {
+    "album_id": "pg73oqjej7r",
+    "timestamp": "2025-12-31T11:57:37.865084",
+    "image_count": 71,
+    "group": "LINE",
+    "chapter_title": "Second Period (5)",
+    "volume": "2"
+  },
+  "105": {
+    "album_id": "m9yxnbg6q7q",
+    "timestamp": "2025-12-31T11:59:26.548157",
+    "image_count": 67,
+    "group": "LINE",
+    "chapter_title": "Zugzwang",
+    "volume": "2"
+  },
+  "106": {
+    "album_id": "wl7lw8mqq4x",
+    "timestamp": "2025-12-31T12:01:33.922424",
+    "image_count": 78,
+    "group": "LINE",
+    "chapter_title": "Third Period (1)",
+    "volume": "2"
+  },
+  "107": {
+    "album_id": "lqyelrp8q4d",
+    "timestamp": "2025-12-31T12:03:17.394130",
+    "image_count": 64,
+    "group": "LINE",
+    "chapter_title": "Third Period (2)",
+    "volume": "2"
+  },
+  "108": {
+    "album_id": "9249kej8myn",
+    "timestamp": "2025-12-31T12:05:20.936239",
+    "image_count": 75,
+    "group": "LINE",
+    "chapter_title": "Third Period (3)",
+    "volume": "2"
+  },
+  "109": {
+    "album_id": "wl7lw8mnq4x",
+    "timestamp": "2025-12-31T12:07:35.878808",
+    "image_count": 69,
+    "group": "LINE",
+    "chapter_title": "Taebin (Mooyoung) VII",
+    "volume": "2"
+  },
+  "110": {
+    "album_id": "6eyrnbdpx7p",
+    "timestamp": "2025-12-31T12:09:34.711723",
+    "image_count": 70,
+    "group": "LINE",
+    "chapter_title": "The Castling",
+    "volume": "2"
+  },
+  "111": {
+    "album_id": "a846omgvz4x",
+    "timestamp": "2025-12-31T12:10:54.340485",
+    "image_count": 62,
+    "group": "LINE",
+    "chapter_title": "Third Period (4)",
+    "volume": "2"
+  },
+  "112": {
+    "album_id": "ne7b6jx8my5",
+    "timestamp": "2025-12-31T12:12:05.836618",
+    "image_count": 64,
+    "group": "LINE",
+    "chapter_title": "Third Period (5)",
+    "volume": "2"
+  },
+  "113": {
+    "album_id": "5xy2oj3zz4l",
+    "timestamp": "2025-12-31T12:13:34.643533",
+    "image_count": 80,
+    "group": "LINE",
+    "chapter_title": "Check",
+    "volume": "2"
+  },
+  "114": {
+    "album_id": "vj4jmzvo348",
+    "timestamp": "2025-12-31T12:15:09.730106",
+    "image_count": 76,
+    "group": "LINE",
+    "chapter_title": "Zwischenzug (Queen's Gambit)",
+    "volume": "2"
+  },
+  "115": {
+    "album_id": "n87wnbgzx7x",
+    "timestamp": "2025-12-31T12:17:05.038894",
+    "image_count": 74,
+    "group": "LINE",
+    "chapter_title": "Third Period (6)..?",
+    "volume": "2"
+  },
+  "116": {
+    "album_id": "a846omkrz4x",
+    "timestamp": "2025-12-31T12:18:56.549149",
+    "image_count": 76,
+    "group": "LINE",
+    "chapter_title": "Stalemate",
+    "volume": "2"
+  },
+  "117": {
+    "album_id": "md7obkxz24p",
+    "timestamp": "2025-12-31T12:20:31.651586",
+    "image_count": 65,
+    "group": "LINE",
+    "chapter_title": "Parallel lines",
+    "volume": "2"
+  },
+  "118": {
+    "album_id": "9ryd2da5a4k",
+    "timestamp": "2025-12-31T12:22:08.417085",
+    "image_count": 62,
+    "group": "LINE",
+    "chapter_title": "A Sunday Beyond Dice (1)",
+    "volume": "2"
   }
 }
