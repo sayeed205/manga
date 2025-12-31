@@ -1,0 +1,57 @@
+{
+  "title": "Attack on Titan - 進撃の巨人 - Shingeki no Kyojin",
+  "description": "Eren Yeager, who vows to exterminate giant, man-eating Titans after they destroy his home, forcing humanity to live within massive walls for survival. The story starts as a fight for survival but evolves into a complex tale of war, lost history, the true nature of Titans, and a world where \"enemies\" and \"heroes\" shift, exploring themes of freedom, hatred, and perspective as Eren and friends uncover shocking truths about their world and the cycle of conflict. ",
+  "artist": "Hajime Isayama",
+  "author": "Hajime Isayama",
+  "cover": "https://cdn.imgchest.com/files/31638a89c1d2.png",
+  "chapters": {
+    "001": {
+      "title": "To You, 2,000 Years from Now - 二千年後の君へ - Ni Sen Nen Go no Kimi e",
+      "volume": "01",
+      "last_updated": "1767170260",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/o24a6lapdyl"
+      }
+    },
+    "002": {
+      "title": "That Day - その日 - Sono Hi",
+      "volume": "01",
+      "last_updated": "1767170370",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ljyqkb8qdy2"
+      }
+    },
+    "003": {
+      "title": "Night of the Disbanding Ceremony - 解散式の夜 - Kaisanshiki no Yoru",
+      "volume": "01",
+      "last_updated": "1767170507",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/md7obkel24p"
+      }
+    },
+    "004": {
+      "title": "First Battle - 初陣 - Uijin",
+      "volume": "01",
+      "last_updated": "1767170696",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9p4nza3lb4n"
+      }
+    },
+    "005": {
+      "title": "A Dull Glow in the Midst of Despair - 絶望の中で鈍く光る - Zetsubō no Naka de Nibuku Hikaru",
+      "volume": "02",
+      "last_updated": "1767170803",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/o24a6laveyl"
+      }
+    },
+    "006": {
+      "title": "The World that the Girl Saw - 少女が見た世界 - Shōjo ga Mita Sekai",
+      "volume": "02",
+      "last_updated": "1767170920",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ej7me533ayd"
+      }
+    }
+  }
+}
