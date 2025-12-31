@@ -46,5 +46,125 @@
     "group": "danke-Empire",
     "chapter_title": "The World that the Girl Saw - 少女が見た世界 - Shōjo ga Mita Sekai",
     "volume": "02"
+  },
+  "007": {
+    "album_id": "pg73oqbgo7r",
+    "timestamp": "2025-12-31T14:27:32.918277",
+    "image_count": 35,
+    "group": "danke-Empire",
+    "chapter_title": "Small Blade - 小さな刃 - Chiisa na Yaiba",
+    "volume": "02"
+  },
+  "008": {
+    "album_id": "o24a6laqeyl",
+    "timestamp": "2025-12-31T14:29:17.081423",
+    "image_count": 36,
+    "group": "danke-Empire",
+    "chapter_title": "Roar - 咆哮 - Hōkō",
+    "volume": "02"
+  },
+  "009": {
+    "album_id": "dl7pnbkdjyo",
+    "timestamp": "2025-12-31T14:31:39.379147",
+    "image_count": 41,
+    "group": "danke-Empire",
+    "chapter_title": "The Beating of a Heart Can Be Heard - 心臓の鼓動が聞こえる - Shinzō no Kodō ga Kikoeru",
+    "volume": "02"
+  },
+  "009.1": {
+    "album_id": "5xy2ojb884l",
+    "timestamp": "2025-12-31T14:32:53.656678",
+    "image_count": 24,
+    "group": "danke-Empire",
+    "chapter_title": "Side Story: Captain Levi - リヴァイ兵士長 - Rivai Heishichō",
+    "volume": "03"
+  },
+  "010": {
+    "album_id": "pg73oqb537r",
+    "timestamp": "2025-12-31T14:35:09.779299",
+    "image_count": 43,
+    "group": "danke-Empire",
+    "chapter_title": "Where's the Left Arm? - 左腕の行方 - Hidariude no Yukue",
+    "volume": "03"
+  },
+  "011": {
+    "album_id": "m9yxnbm3k7q",
+    "timestamp": "2025-12-31T14:37:15.358290",
+    "image_count": 41,
+    "group": "danke-Empire",
+    "chapter_title": "Response - 応える - Kotaeru",
+    "volume": "03"
+  },
+  "012": {
+    "album_id": "5xy2ojb284l",
+    "timestamp": "2025-12-31T14:39:21.445461",
+    "image_count": 44,
+    "group": "danke-Empire",
+    "chapter_title": "Icon - 偶像 - Gūzō",
+    "volume": "03"
+  },
+  "013": {
+    "album_id": "bp45or2mg75",
+    "timestamp": "2025-12-31T14:49:26.015668",
+    "image_count": 53,
+    "group": "danke-Empire",
+    "chapter_title": "Wound - 傷 - Kizu",
+    "volume": "03"
+  },
+  "014": {
+    "album_id": "na7kkgdkm78",
+    "timestamp": "2025-12-31T14:52:33.713699",
+    "image_count": 46,
+    "group": "danke-Empire",
+    "chapter_title": "Primitive Desire - 原初的欲求 - Genshoteki Yokkyū",
+    "volume": "04"
+  },
+  "015": {
+    "album_id": "pg73oqbo37r",
+    "timestamp": "2025-12-31T14:54:47.755571",
+    "image_count": 38,
+    "group": "danke-Empire",
+    "chapter_title": "One by One - 個々 - Koko",
+    "volume": "04"
+  },
+  "016": {
+    "album_id": "qb4zpbwpvyj",
+    "timestamp": "2025-12-31T14:56:31.486894",
+    "image_count": 32,
+    "group": "danke-Empire",
+    "chapter_title": "Necessity - 必要 - Hitsuyō",
+    "volume": "04"
+  },
+  "017": {
+    "album_id": "agyvnbvjz48",
+    "timestamp": "2025-12-31T14:58:41.976838",
+    "image_count": 34,
+    "group": "danke-Empire",
+    "chapter_title": "Delusions of Strength - 武力幻想 - Buryoku Gensō",
+    "volume": "04"
+  },
+  "018": {
+    "album_id": "ne7b6j2nvy5",
+    "timestamp": "2025-12-31T15:02:31.977663",
+    "image_count": 41,
+    "group": "danke-Empire",
+    "chapter_title": "What Should I Do Now? - 今、何をすべきか - Ima, Nani o Subeki ka",
+    "volume": "04"
+  },
+  "018.1": {
+    "album_id": "vj4jmzqne48",
+    "timestamp": "2025-12-31T15:03:50.003198",
+    "image_count": 22,
+    "group": "danke-Empire",
+    "chapter_title": "Side Story: Ilse's Notebook - イルゼの手帳 - Iruze no Techō",
+    "volume": "05"
+  },
+  "019": {
+    "album_id": "6eyrnbx5k7p",
+    "timestamp": "2025-12-31T15:06:20.574186",
+    "image_count": 46,
+    "group": "danke-Empire",
+    "chapter_title": "Still Can't See - まだ目を見れない - Mada Me o Mirenai",
+    "volume": "05"
   }
 }
