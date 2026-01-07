@@ -3,6 +3,28 @@ Manga List
 
 Complete list of available manga organized alphabetically.
 
+A
+-
+
+.. list-table::
+   :header-rows: 1
+   :widths: 25 12 12 16 16 6 6
+
+   * - Title
+     - Gist
+     - Cubari
+     - Added On
+     - Last Updated
+     - Volumes
+     - Chapters
+   * - Attack on Titan - 進撃の巨人 - Shingeki no Kyojin
+     - `info.json <mangas/Attack%20on%20Titan%20-%20%E9%80%B2%E6%92%83%E3%81%AE%E5%B7%A8%E4%BA%BA%20-%20Shingeki%20no%20Kyojin/info.json>`_
+     - `Read <https://cubari.moe/read/gist/cmF3L3NheWVlZDIwNS9tYW5nYS9yZWZzL2hlYWRzL21haW4vbWFuZ2FzL0F0dGFjayUyMG9uJTIwVGl0YW4lMjAtJTIwJUU5JTgwJUIyJUU2JTkyJTgzJUUzJTgxJUFFJUU1JUI3JUE4JUU0JUJBJUJBJTIwLSUyMFNoaW5nZWtpJTIwbm8lMjBLeW9qaW4vaW5mby5qc29u/>`_
+     - 2025-12-31 08:37 UTC
+     - 2025-12-31 11:36 UTC
+     - 10
+     - 43
+
 B
 -
 
@@ -50,9 +72,9 @@ D
      - `info.json <mangas/DICE%3A%20The%20Cube%20That%20Changes%20Everything/info.json>`_
      - `Read <https://cubari.moe/read/gist/cmF3L3NheWVlZDIwNS9tYW5nYS9yZWZzL2hlYWRzL21haW4vbWFuZ2FzL0RJQ0U6JTIwVGhlJTIwQ3ViZSUyMFRoYXQlMjBDaGFuZ2VzJTIwRXZlcnl0aGluZy9pbmZvLmpzb24=/>`_
      - 2025-12-30 14:50 UTC
-     - 2025-12-30 20:14 UTC
-     - 1
-     - 27
+     - 2026-01-07 05:45 UTC
+     - 4
+     - 393
 
 G
 -
