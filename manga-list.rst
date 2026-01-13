@@ -21,9 +21,9 @@ A
      - `info.json <mangas/Attack%20on%20Titan%20-%20%E9%80%B2%E6%92%83%E3%81%AE%E5%B7%A8%E4%BA%BA%20-%20Shingeki%20no%20Kyojin/info.json>`_
      - `Read <https://cubari.moe/read/gist/cmF3L3NheWVlZDIwNS9tYW5nYS9yZWZzL2hlYWRzL21haW4vbWFuZ2FzL0F0dGFjayUyMG9uJTIwVGl0YW4lMjAtJTIwJUU5JTgwJUIyJUU2JTkyJTgzJUUzJTgxJUFFJUU1JUI3JUE4JUU0JUJBJUJBJTIwLSUyMFNoaW5nZWtpJTIwbm8lMjBLeW9qaW4vaW5mby5qc29u/>`_
      - 2025-12-31 08:37 UTC
-     - 2025-12-31 11:36 UTC
-     - 10
-     - 43
+     - 2026-01-13 09:39 UTC
+     - 34
+     - 141
 
 B
 -
