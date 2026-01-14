@@ -1,0 +1,1665 @@
+{
+  "title": "Demon Slayer - Kimetsu no Yaiba",
+  "description": "In Taisho-era Japan, a kind-hearted boy named Tanjiro Kamado returns home one day to find his family slaughtered by demons, with only his younger sister Nezuko surviving—though she has been transformed into a demon herself. Determined to avenge his family and find a cure for Nezuko, Tanjiro joins the secretive Demon Slayer Corps. Armed with his keen sense of smell and unwavering resolve, he faces terrifying demons and powerful swordsmen while uncovering the tragic humanity behind his enemies and the true evil threatening the world.",
+  "artist": "Koyoharu Gotouge",
+  "author": "Koyoharu Gotouge",
+  "cover": "https://cdn.imgchest.com/files/4e8c9f75b94a.png",
+  "chapters": {
+    "001": {
+      "title": "Cruelty - 残酷 - Zankoku",
+      "volume": "01",
+      "last_updated": "1768379908",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/o24a6zelwyl"
+      }
+    },
+    "002": {
+      "title": "The Stranger - 見知らぬ誰か - Mishiranu Dareka",
+      "volume": "01",
+      "last_updated": "1768379958",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ne7b68z9vy5"
+      }
+    },
+    "003": {
+      "title": "To Return by Dawn Without Fail - 必ず戻る夜明けまでには - Kanarazu Modoru Yoake made ni wa",
+      "volume": "01",
+      "last_updated": "1768379996",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/na7kk3lpm78"
+      }
+    },
+    "004": {
+      "title": "Tanjiro's Journal, Part 1 - 炭治郎日記・前編 - Tanjirō Nikki: Zenpen",
+      "volume": "01",
+      "last_updated": "1768380030",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/wl7lwejpo4x"
+      }
+    },
+    "005": {
+      "title": "Tanjiro's Journal, Part 2 - 炭治郎日記・後篇 - Tanjirō Nikki: Kōhen",
+      "volume": "01",
+      "last_updated": "1768380069",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ljyqkn3pky2"
+      }
+    },
+    "006": {
+      "title": "A Mountain of Hands - 山ほどの手が - Yamahodo no Te ga",
+      "volume": "01",
+      "last_updated": "1768380109",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ej7megqpjyd"
+      }
+    },
+    "007": {
+      "title": "Spirits of the Deceased - 亡霊 - Bōrei",
+      "volume": "01",
+      "last_updated": "1768380158",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/n87wnw5pb7x"
+      }
+    },
+    "008": {
+      "title": "Big Brother - 兄ちゃん - Nīchan",
+      "volume": "02",
+      "last_updated": "1768380249",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/a846ovbnv4x"
+      }
+    },
+    "009": {
+      "title": "Welcome Back - おかえり - Okaeri",
+      "volume": "02",
+      "last_updated": "1768380342",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ne7b68zzvy5"
+      }
+    },
+    "010": {
+      "title": "Kidnapper's Bog - 人攫い沼 - Hitosarai-numa",
+      "volume": "02",
+      "last_updated": "1768380489",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/dl7pnxmmkyo"
+      }
+    },
+    "011": {
+      "title": "Suggestion - 暗示 - Anji",
+      "volume": "02",
+      "last_updated": "1768380595",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/wl7lwejjo4x"
+      }
+    },
+    "012": {
+      "title": "I Can't Tell You - 言えない - Ienai",
+      "volume": "02",
+      "last_updated": "1768380708",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/5xy2owvvn4l"
+      }
+    },
+    "013": {
+      "title": "It Was You - お前が - Omae ga",
+      "volume": "02",
+      "last_updated": "1768380815",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ljyqkn33ey2"
+      }
+    },
+    "014": {
+      "title": "Kibutsuji's Wrath: The Smell of Enchanting Blood - 鬼舞辻の癇癪・幻惑の血の香り - Kibutsuji no Kanshaku・Genwaku no Chi no Kaori",
+      "volume": "02",
+      "last_updated": "1768380937",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ej7megqqqyd"
+      }
+    },
+    "015": {
+      "title": "The Doctor's Opinion - 医師の見解 - Ishi no Kenkai",
+      "volume": "02",
+      "last_updated": "1768381050",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qe4gqo66o7j"
+      }
+    },
+    "016": {
+      "title": "Playing Temari - 手鞠遊び - Temari Asobi",
+      "volume": "02",
+      "last_updated": "1768381181",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/bp45oab9x75"
+      }
+    },
+    "017": {
+      "title": "Arrow Demon - 矢印鬼 - Yajirushi Oni",
+      "volume": "03",
+      "last_updated": "1768381336",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/m9yxnzaom7q"
+      }
+    },
+    "018": {
+      "title": "The Curse - 呪縛 - Jubaku",
+      "volume": "03",
+      "last_updated": "1768381432",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/md7ob6roa4p"
+      }
+    },
+    "019": {
+      "title": "Together Forever - ずっと一緒にいる - Zutto Issho ni Iru",
+      "volume": "03",
+      "last_updated": "1768381530",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/vj4jmr2b548"
+      }
+    },
+    "020": {
+      "title": "Zenitsu Agatsuma - 我妻善逸 - Agatsuma Zen'itsu",
+      "volume": "03",
+      "last_updated": "1768381619",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ljyqkn3oey2"
+      }
+    },
+    "021": {
+      "title": "Tsuzumi Mansion - 鼓屋敷 - Tsuzumi Yashiki",
+      "volume": "03",
+      "last_updated": "1768381723",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/pg73ozxvv7r"
+      }
+    },
+    "022": {
+      "title": "Rushing Boar - 突然の猪 - Totsuzen no Inoshishi",
+      "volume": "03",
+      "last_updated": "1768381782",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qe4gqo6bo7j"
+      }
+    },
+    "023": {
+      "title": "The Boar Bares Its Fangs, Zenitsu Sleeps - 猪は牙を剥き善逸は眠る - Inoshishi wa Kiba o Muki Zen'itsu wa Nemuru",
+      "volume": "03",
+      "last_updated": "1768381812",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/bp45oablx75"
+      }
+    },
+    "024": {
+      "title": "Former Member of the Twelve Kizuki - 元十二鬼月 - Moto jū ni Kizuki",
+      "volume": "03",
+      "last_updated": "1768381853",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/agyvnm8kw48"
+      }
+    },
+    "025": {
+      "title": "Believe in Yourself - 己を鼓舞せよ - Onore o Kobu seyo",
+      "volume": "03",
+      "last_updated": "1768381884",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/dl7pnxm28yo"
+      }
+    },
+    "026": {
+      "title": "Barehanded Fight - 素手喧嘩 - Sutegoro",
+      "volume": "04",
+      "last_updated": "1768381925",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/vj4jmr2a548"
+      }
+    },
+    "027": {
+      "title": "Inosuke Hashibira - 嘴平伊之助 - Hashibira Inosuke",
+      "volume": "04",
+      "last_updated": "1768381963",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/6eyrnpwjk7p"
+      }
+    },
+    "028": {
+      "title": "Urgent Summons - 緊急の呼び出し - Kinkyū no Yobidashi",
+      "volume": "04",
+      "last_updated": "1768381990",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/pg73ozxnv7r"
+      }
+    },
+    "029": {
+      "title": "Mount Natagumo - 那田蜘蛛山 - Natagumo Yama",
+      "volume": "04",
+      "last_updated": "1768382024",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qb4zpavzgyj"
+      }
+    },
+    "030": {
+      "title": "Marionettes - 操り人形 - Ayatsuri Ningyō",
+      "volume": "04",
+      "last_updated": "1768382058",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/bp45oabgx75"
+      }
+    },
+    "031": {
+      "title": "Letting Someone Else Go First - 自分ではない誰かを前へ - Jibun de wa nai Dareka o Mae e",
+      "volume": "04",
+      "last_updated": "1768382089",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/o24a6ze5gyl"
+      }
+    },
+    "032": {
+      "title": "Pungent Odor - 刺激臭 - Shigeki-shū",
+      "volume": "04",
+      "last_updated": "1768382125",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9249kob6vyn"
+      }
+    },
+    "033": {
+      "title": "Suffering and Floundering As You Move Forward - 苦しみ、のたうちながら前へ - Kurushimi, Notauchinagara Mae e",
+      "volume": "04",
+      "last_updated": "1768382166",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9p4nz5drw4n"
+      }
+    },
+    "034": {
+      "title": "Robust Blade - 強靱な刃 - Kyōjinna Yaiba",
+      "volume": "04",
+      "last_updated": "1768382206",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/md7ob6rma4p"
+      }
+    },
+    "035": {
+      "title": "Scattered - 散り散り - Chirijiri",
+      "volume": "05",
+      "last_updated": "1768382264",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/na7kk3ljk78"
+      }
+    },
+    "036": {
+      "title": "This Is Bad! - これはやべぇ - Kore wa Yabee",
+      "volume": "05",
+      "last_updated": "1768382293",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9ryd2v8kd4k"
+      }
+    },
+    "037": {
+      "title": "Broken Blade - 折れた刀身 - Oreta Tōshin",
+      "volume": "05",
+      "last_updated": "1768382333",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/lqyel95xx4d"
+      }
+    },
+    "038": {
+      "title": "Real and Fake - 本物と偽物 - Honmono to Nisemono",
+      "volume": "05",
+      "last_updated": "1768382368",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qe4gqo6no7j"
+      }
+    },
+    "039": {
+      "title": "Life Passing Before One's Eyes - 走馬灯の中 - Sōmatō no Naka",
+      "volume": "05",
+      "last_updated": "1768382408",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/agyvnm83w48"
+      }
+    },
+    "040": {
+      "title": "Hinokami - ヒノカミ - Hinokami",
+      "volume": "05",
+      "last_updated": "1768382456",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9249kob8vyn"
+      }
+    },
+    "041": {
+      "title": "Shinobu Kocho - 胡蝶しのぶ - Kochō Shinobu",
+      "volume": "05",
+      "last_updated": "1768382521",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/md7ob6r2a4p"
+      }
+    },
+    "042": {
+      "title": "Behind - 後ろ - Ushiro",
+      "volume": "05",
+      "last_updated": "1768382569",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/5xy2owvrj4l"
+      }
+    },
+    "043": {
+      "title": "To Hell - 地獄へ - Jigoku e",
+      "volume": "05",
+      "last_updated": "1768382612",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/pg73ozxmz7r"
+      }
+    },
+    "044": {
+      "title": "Against Corps Rules - 隊律違反 - Tairitsu Ihan",
+      "volume": "06",
+      "last_updated": "1768382696",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/bp45oaba275"
+      }
+    },
+    "045": {
+      "title": "Trial by Hashira - 鬼殺隊柱合裁判 - Kisatsutai Chūgō Saiban",
+      "volume": "06",
+      "last_updated": "1768382753",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/dl7pnxmx6yo"
+      }
+    },
+    "046": {
+      "title": "Master of the Mansion - お館様 - Oyakata-sama",
+      "volume": "06",
+      "last_updated": "1768382799",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/wl7lwejep4x"
+      }
+    },
+    "047": {
+      "title": "Hmph! - プイ - Pui",
+      "volume": "06",
+      "last_updated": "1768382842",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/pg73ozxzz7r"
+      }
+    },
+    "048": {
+      "title": "Butterfly Mansion - 蝶屋敷 - Chō Yashiki",
+      "volume": "06",
+      "last_updated": "1768382886",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/bp45oa9k275"
+      }
+    },
+    "049": {
+      "title": "Rehabilitation Training, Part 1 - 機能回復訓練・前編 - Kinō Kaifuku Kunren: Zenpen",
+      "volume": "06",
+      "last_updated": "1768382935",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/agyvnmoz948"
+      }
+    },
+    "050": {
+      "title": "Rehabilitation Training, Part 2 - 機能回復訓練・後編 - Kinō Kaifuku Kunren・Kōhen",
+      "volume": "06",
+      "last_updated": "1768382988",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ne7b68bgny5"
+      }
+    },
+    "051": {
+      "title": "The Nichirin Sword Returns - 日輪刀還る - Nichirintō Kaeru",
+      "volume": "06",
+      "last_updated": "1768383040",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/5xy2ow6zj4l"
+      }
+    },
+    "052": {
+      "title": "Cruel and Heartless - 冷酷無情 - Reikokumujō",
+      "volume": "06",
+      "last_updated": "1768383097",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/n87wnwo6z7x"
+      }
+    },
+    "053": {
+      "title": "You Are - 君は - Kimi wa",
+      "volume": "07",
+      "last_updated": "1768383189",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/bp45oa9x275"
+      }
+    },
+    "054": {
+      "title": "Good Evening, Rengoku - こんばんは煉獄さん - Konbanwa Rengoku-san",
+      "volume": "07",
+      "last_updated": "1768383242",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9p4nz5bez4n"
+      }
+    },
+    "055": {
+      "title": "Train of Infinite Dreams - 無限夢列車 - Mugen Yume Ressha",
+      "volume": "07",
+      "last_updated": "1768383281",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/md7ob6ogd4p"
+      }
+    },
+    "056": {
+      "title": "Wake Up - 目覚めろ - Mezamero",
+      "volume": "07",
+      "last_updated": "1768383329",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/wl7lwebxp4x"
+      }
+    },
+    "057": {
+      "title": "Draw Your Blade - 刃を持て - Yaiba o Mote",
+      "volume": "07",
+      "last_updated": "1768383365",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ej7megombyd"
+      }
+    },
+    "058": {
+      "title": "Good Morning - おはよう - Ohayō",
+      "volume": "07",
+      "last_updated": "1768383401",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/lqyel9bv34d"
+      }
+    },
+    "059": {
+      "title": "Insult - 侮辱 - Bujoku",
+      "volume": "07",
+      "last_updated": "1768383445",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qe4gqoblr7j"
+      }
+    },
+    "060": {
+      "title": "Defending 200 People - 二百人を守る - Nihyaku nin o Mamoru",
+      "volume": "07",
+      "last_updated": "1768383489",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/m9yxnzov37q"
+      }
+    },
+    "061": {
+      "title": "Trading Blows at Close Quarters - 狭所の攻防 - Kyōsho no Kōbō",
+      "volume": "07",
+      "last_updated": "1768383538",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ne7b68bpny5"
+      }
+    },
+    "061.5": {
+      "title": "Bonus Manga",
+      "volume": "07",
+      "last_updated": "1768383564",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ljyqknoqny2"
+      }
+    },
+    "062": {
+      "title": "Ending in a Dream - 悪夢に終わる - Akumu ni Owaru",
+      "volume": "08",
+      "last_updated": "1768383631",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/n87wnworg7x"
+      }
+    },
+    "063": {
+      "title": "Akaza - 猗窩座 - Akaza",
+      "volume": "08",
+      "last_updated": "1768383678",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/bp45oa9dq75"
+      }
+    },
+    "064": {
+      "title": "The Strength of the Hashira - 上弦の力・柱の力 - Jōgen no Chikara, Hashira no Chikara",
+      "volume": "08",
+      "last_updated": "1768383724",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9249koqjmyn"
+      }
+    },
+    "065": {
+      "title": "Whose Victory? - 誰の勝ちか - Dare no Kachi ka",
+      "volume": "08",
+      "last_updated": "1768383767",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/na7kk3bwb78"
+      }
+    },
+    "066": {
+      "title": "Scattering Into Dawn - 黎明に散る - Reimei ni Chiru",
+      "volume": "08",
+      "last_updated": "1768383802",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ljyqknodny2"
+      }
+    },
+    "067": {
+      "title": "Looking for Something - さがしもの - Sagashimono",
+      "volume": "08",
+      "last_updated": "1768383837",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/6eyrnpo8g7p"
+      }
+    },
+    "068": {
+      "title": "Wielder - 使い手 - Tsukaite",
+      "volume": "08",
+      "last_updated": "1768383872",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/pg73ozvwj7r"
+      }
+    },
+    "069": {
+      "title": "Move Forward—Even If Just a Little - 前へ進もう少しずつで構わないから - Mae e Susumou Sukoshizutsu de Kamawanai kara",
+      "volume": "08",
+      "last_updated": "1768383912",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qe4gqobxj7j"
+      }
+    },
+    "070": {
+      "title": "Kidnapper - 人攫い - Hitosarai",
+      "volume": "08",
+      "last_updated": "1768383956",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/agyvnmowj48"
+      }
+    },
+    "071": {
+      "title": "Operation: Entertainment District - 遊郭潜入大作戦 - Yūkaku Sennyū Dai Sakusen",
+      "volume": "09",
+      "last_updated": "1768384020",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/dl7pnxo9pyo"
+      }
+    },
+    "072": {
+      "title": "Search for My Wives - お嫁さんを探せ - Oyomesan o Sagase",
+      "volume": "09",
+      "last_updated": "1768384063",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/wl7lwebrq4x"
+      }
+    },
+    "073": {
+      "title": "The Chase - 追跡 - Tsuiseki",
+      "volume": "09",
+      "last_updated": "1768384100",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/6eyrnpoxg7p"
+      }
+    },
+    "074": {
+      "title": "Daki - 堕姫 - Daki",
+      "volume": "09",
+      "last_updated": "1768384138",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/n87wnwoeg7x"
+      }
+    },
+    "075": {
+      "title": "Various Feelings - それぞれの思い - Sorezore no Omoi",
+      "volume": "09",
+      "last_updated": "1768384171",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/xny86bjq54b"
+      }
+    },
+    "076": {
+      "title": "In Various Places - それぞれの場所で - Sorezore no Basho de",
+      "volume": "09",
+      "last_updated": "1768384216",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/m9yxnzomq7q"
+      }
+    },
+    "077": {
+      "title": "Roar - 轟く - Todoroku",
+      "volume": "09",
+      "last_updated": "1768384258",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ne7b68b2jy5"
+      }
+    },
+    "078": {
+      "title": "Wriggly - ぐねぐね - Gunegune",
+      "volume": "09",
+      "last_updated": "1768384306",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/5xy2ow6b94l"
+      }
+    },
+    "079": {
+      "title": "Air Hole - 風穴 - Kazaana",
+      "volume": "09",
+      "last_updated": "1768384359",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/6eyrnpovg7p"
+      }
+    },
+    "080": {
+      "title": "Value - 価値 - Kachi",
+      "volume": "10",
+      "last_updated": "1768384408",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qb4zpaoddyj"
+      }
+    },
+    "081": {
+      "title": "Layered Memories - 重なる記憶 - Kasanaru Kioku",
+      "volume": "10",
+      "last_updated": "1768384464",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/bp45oa93q75"
+      }
+    },
+    "082": {
+      "title": "Human and Demon - 人間と鬼 - Ningen to Oni",
+      "volume": "10",
+      "last_updated": "1768384505",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/m9yxnzojq7q"
+      }
+    },
+    "083": {
+      "title": "Transformation - 変貌 - Henbō",
+      "volume": "10",
+      "last_updated": "1768384549",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/md7ob6o9r4p"
+      }
+    },
+    "084": {
+      "title": "What Is Important - 大切なもの - Taisetsuna Mono",
+      "volume": "10",
+      "last_updated": "1768384591",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/wl7lwebgx4x"
+      }
+    },
+    "085": {
+      "title": "Weeping - 大泣き - Ō Naki",
+      "volume": "10",
+      "last_updated": "1768384635",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9ryd2vbma4k"
+      }
+    },
+    "086": {
+      "title": "Gyutaro - 妓夫太郎 - Gyūtarō",
+      "volume": "10",
+      "last_updated": "1768384691",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/n87wnwodx7x"
+      }
+    },
+    "087": {
+      "title": "Gathering - 集結 - Shūketsu",
+      "volume": "10",
+      "last_updated": "1768387188",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/wl7lwebdo4x"
+      }
+    },
+    "088": {
+      "title": "How to Defeat Them - 倒し方 - Taoshikata",
+      "volume": "10",
+      "last_updated": "1768387228",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9ryd2vbon4k"
+      }
+    },
+    "088.5": {
+      "title": "Bonus Chapter: Inosuke's Fairy Tale",
+      "volume": "10",
+      "last_updated": "1768387244",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/6eyrnpoz67p"
+      }
+    },
+    "089": {
+      "title": "A Close Fight - 混戦 - Konsen",
+      "volume": "11",
+      "last_updated": "1768387306",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/n87wnwo2b7x"
+      }
+    },
+    "090": {
+      "title": "Grateful - 感謝する - Kansha Suru",
+      "volume": "11",
+      "last_updated": "1768387357",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/o24a6zbowyl"
+      }
+    },
+    "091": {
+      "title": "A Change of Strategy - 作戦変更 - Sakusen Henkō",
+      "volume": "11",
+      "last_updated": "1768387405",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9p4nz5bal4n"
+      }
+    },
+    "092": {
+      "title": "Worm, Simpleton, Stupid Coward - 虫ケラボンクラのろまの腑抜け - Mushikera Bonkura Noroma no Funuke",
+      "volume": "11",
+      "last_updated": "1768387464",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/na7kk3bgm78"
+      }
+    },
+    "093": {
+      "title": "Never Give Up - 絶対にあきらめない - Zettai ni Akiramenai",
+      "volume": "11",
+      "last_updated": "1768387508",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9ryd2vbdn4k"
+      }
+    },
+    "094": {
+      "title": "Do Something - 何とかして - Nantoka Shite",
+      "volume": "11",
+      "last_updated": "1768387560",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/pg73ozvq37r"
+      }
+    },
+    "095": {
+      "title": "Final Moments - 最期 - Saigo",
+      "volume": "11",
+      "last_updated": "1768387594",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qb4zpaobvyj"
+      }
+    },
+    "096": {
+      "title": "No Matter How Many Lives, Part 1 - 何度生まれ変わっても（前編） - Nando Umarekawatte mo (Zenpen)",
+      "volume": "11",
+      "last_updated": "1768387633",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/m9yxnzopk7q"
+      }
+    },
+    "097": {
+      "title": "No Matter How Many Lives, Part 2 - 何度生まれ変わっても（後編） - Nando Umarekawatte mo (Kōhen)",
+      "volume": "11",
+      "last_updated": "1768387685",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9ryd2vb9n4k"
+      }
+    },
+    "098": {
+      "title": "The Upper Ranks Gather - 上弦集結 - Jōgen Shūketsu",
+      "volume": "12",
+      "last_updated": "1768387758",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/n87wnwopb7x"
+      }
+    },
+    "099": {
+      "title": "Someone's Dream - 誰かの夢 - Dareka no Yume",
+      "volume": "12",
+      "last_updated": "1768387806",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/o24a6zb9wyl"
+      }
+    },
+    "100": {
+      "title": "Go to the Village! - いざ行け里へ!! - Iza Yuke Sato e!!",
+      "volume": "12",
+      "last_updated": "1768387861",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/md7ob6or94p"
+      }
+    },
+    "101": {
+      "title": "A Secret - 内緒話 - Naisho-Banashi",
+      "volume": "12",
+      "last_updated": "1768387910",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9ryd2vb8n4k"
+      }
+    },
+    "102": {
+      "title": "Hello, Tokito - 時透くんコンニチハ - Tokitō-kun Konnichiwa",
+      "volume": "12",
+      "last_updated": "1768387954",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qe4gqob6b7j"
+      }
+    },
+    "103": {
+      "title": "Yoriichi Type Zero - 緑壱零式 - Yoriichi Zeroshiki",
+      "volume": "12",
+      "last_updated": "1768388002",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/agyvnmooz48"
+      }
+    },
+    "104": {
+      "title": "Kotetsu - 小鉄さん - Kotetsu-san",
+      "volume": "12",
+      "last_updated": "1768388036",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/md7ob6oo94p"
+      }
+    },
+    "105": {
+      "title": "Something Came Out - なんか出た - Nanka Deta",
+      "volume": "12",
+      "last_updated": "1768388081",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ljyqknooey2"
+      }
+    },
+    "106": {
+      "title": "Enemy Attack - 敵襲 - Tekishū",
+      "volume": "12",
+      "last_updated": "1768388133",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/pg73ozvvv7r"
+      }
+    },
+    "107": {
+      "title": "In the Way - 邪魔 - Jama",
+      "volume": "13",
+      "last_updated": "1768388183",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/xny86bjdp4b"
+      }
+    },
+    "108": {
+      "title": "Thank You, Tokito - 時透君ありがとう - Tokitō-kun Arigatō",
+      "volume": "13",
+      "last_updated": "1768388234",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9p4nz5b9w4n"
+      }
+    },
+    "109": {
+      "title": "Won't Die - 死なない - Shinanai",
+      "volume": "13",
+      "last_updated": "1768388283",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/5xy2ow69n4l"
+      }
+    },
+    "110": {
+      "title": "Sneaking Around - あばら屋でこそこそ - Abaraya de Kosokoso",
+      "volume": "13",
+      "last_updated": "1768388339",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/pg73ozvnv7r"
+      }
+    },
+    "111": {
+      "title": "Pretentious Artist - 芸術家気取り - Geijutsuka Kidori",
+      "volume": "13",
+      "last_updated": "1768388407",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/a846ov28g4x"
+      }
+    },
+    "112": {
+      "title": "Transitions - 遷移変転 - Sen'i Henten",
+      "volume": "13",
+      "last_updated": "1768388494",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9p4nz5brw4n"
+      }
+    },
+    "113": {
+      "title": "Bright Red Blade - 赫刀 - Kakutō",
+      "volume": "13",
+      "last_updated": "1768388562",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/6eyrnpoek7p"
+      }
+    },
+    "114": {
+      "title": "Wanted: Respect - 認められたかった - Mitomeraretakatta",
+      "volume": "13",
+      "last_updated": "1768388627",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qe4gqobno7j"
+      }
+    },
+    "115": {
+      "title": "To Be a Hashira - 柱に - Hashira ni",
+      "volume": "13",
+      "last_updated": "1768388684",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/agyvnmo3w48"
+      }
+    },
+    "116": {
+      "title": "Awful Villain - 極悪人 - Gokuakunin",
+      "volume": "14",
+      "last_updated": "1768388752",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/dl7pnxol8yo"
+      }
+    },
+    "117": {
+      "title": "Swordsmith - 刀鍛冶 - Katanakaji",
+      "volume": "14",
+      "last_updated": "1768388808",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ljyqknojey2"
+      }
+    },
+    "118": {
+      "title": "The Mu of Muichiro - 無一郎の無 - Muichirō no Mu",
+      "volume": "14",
+      "last_updated": "1768388853",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qe4gqobao7j"
+      }
+    },
+    "119": {
+      "title": "Coming Back - よみがえる - Yomigaeru",
+      "volume": "14",
+      "last_updated": "1768388908",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/a846ov2vg4x"
+      }
+    },
+    "120": {
+      "title": "Trading Insults - 悪口合戦 - Waruguchi Gassen",
+      "volume": "14",
+      "last_updated": "1768388986",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/dl7pnxox8yo"
+      }
+    },
+    "121": {
+      "title": "Abnormal Situation - 異常事態 - Ijō Jitai",
+      "volume": "14",
+      "last_updated": "1768389052",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/wl7lwebep4x"
+      }
+    },
+    "122": {
+      "title": "A Passing Moment of Excitement - それは一時的な興奮状態 - Sore wa Ichijitekina Kōfun Jōtai",
+      "volume": "14",
+      "last_updated": "1768389094",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ej7megogbyd"
+      }
+    },
+    "123": {
+      "title": "Mitsuri Kanroji's Life Passes Before Her Eyes - 甘露寺蜜璃の走馬灯 - Kanroji Mitsuri no Sōmatō",
+      "volume": "14",
+      "last_updated": "1768389146",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/lqyel9ej34d"
+      }
+    },
+    "124": {
+      "title": "Get It Together, Moron! - いい加減にしろ バカタレ - Īkagenni shiro Bakatare",
+      "volume": "14",
+      "last_updated": "1768389188",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/bp45oalk275"
+      }
+    },
+    "125": {
+      "title": "Dawn Approaches - 迫る夜明け - Semaru Yoake",
+      "volume": "15",
+      "last_updated": "1768389265",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9249korx2yn"
+      }
+    },
+    "126": {
+      "title": "Daybreak and First Light - 彼は誰時・朝ぼらけ - Kawataredoki Asaborake",
+      "volume": "15",
+      "last_updated": "1768389312",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9ryd2vwlw4k"
+      }
+    },
+    "127": {
+      "title": "The Rumble of Victory - 勝利の鳴動 - Shōri no Meidō",
+      "volume": "15",
+      "last_updated": "1768389358",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ej7megxzbyd"
+      }
+    },
+    "128": {
+      "title": "A Request for Instruction - 御教示願う - Gokyōji Negau",
+      "volume": "15",
+      "last_updated": "1768389450",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/xny86bdxo4b"
+      }
+    },
+    "129": {
+      "title": "To Become a Marked One - 痣の者になるためには - Aza no Mono ni Naru Tame ni wa",
+      "volume": "15",
+      "last_updated": "1768389532",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9249korz2yn"
+      }
+    },
+    "130": {
+      "title": "A Place to Be - 居場所 - Ibasho",
+      "volume": "15",
+      "last_updated": "1768389599",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/md7ob6ngd4p"
+      }
+    },
+    "131": {
+      "title": "Visitor - 来訪者 - Raihōsha",
+      "volume": "15",
+      "last_updated": "1768389655",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/6eyrnpjge7p"
+      }
+    },
+    "132": {
+      "title": "Full-Strength Training - 全力訓練 - Zenryoku Kunren",
+      "volume": "15",
+      "last_updated": "1768389700",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/lqyel9ev34d"
+      }
+    },
+    "133": {
+      "title": "Welcome... - ようこそ... - Yōkoso...",
+      "volume": "15",
+      "last_updated": "1768389743",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/agyvnmk6948"
+      }
+    },
+    "134": {
+      "title": "Repetitive Action - 反復動作 - Hanpuku Dōsa",
+      "volume": "16",
+      "last_updated": "1768389811",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ne7b68mpny5"
+      }
+    },
+    "135": {
+      "title": "Himejima Hell - 悲鳴嶼行冥 - Himejima Gyōmei",
+      "volume": "16",
+      "last_updated": "1768389874",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ljyqknlqoy2"
+      }
+    },
+    "136": {
+      "title": "Moving - 動く - Ugoku",
+      "volume": "16",
+      "last_updated": "1768389962",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/n87wnw3rz7x"
+      }
+    },
+    "137": {
+      "title": "Undying - 不滅 - Fumetsu",
+      "volume": "16",
+      "last_updated": "1768390016",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/bp45oald275"
+      }
+    },
+    "138": {
+      "title": "A Sudden Turn - 急転 - Kyūten",
+      "volume": "16",
+      "last_updated": "1768390068",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/m9yxnzwg37q"
+      }
+    },
+    "139": {
+      "title": "Falling - 落ちる - Ochiru",
+      "volume": "16",
+      "last_updated": "1768390151",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ljyqknldoy2"
+      }
+    },
+    "140": {
+      "title": "The Final Battle Begins - 決戦の火蓋を切る - Kessen no Hibuta o Kiru",
+      "volume": "16",
+      "last_updated": "1768390236",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ej7megxknyd"
+      }
+    },
+    "141": {
+      "title": "Vengeance - 仇 - Kataki",
+      "volume": "16",
+      "last_updated": "1768390305",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qe4gqogxj7j"
+      }
+    },
+    "142": {
+      "title": "Insect Hashira, Shinobu Kocho - 蟲柱・胡蝶しのぶ - Mushibashira, Kochō Shinobu",
+      "volume": "16",
+      "last_updated": "1768390366",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/o24a6zrv2yl"
+      }
+    },
+    "143": {
+      "title": "Wrath - 怒り - Ikari",
+      "volume": "17",
+      "last_updated": "1768390456",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ne7b68mvjy5"
+      }
+    },
+    "144": {
+      "title": "Successors - 受け継ぐ者たち - Uketsugu Monotachi",
+      "volume": "17",
+      "last_updated": "1768390519",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ljyqknlzny2"
+      }
+    },
+    "145": {
+      "title": "Box of Happiness - 幸せの箱 - Shiawase no Hako",
+      "volume": "17",
+      "last_updated": "1768390568",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ej7megx3nyd"
+      }
+    },
+    "146": {
+      "title": "Pride - 誇り - Hokori",
+      "volume": "17",
+      "last_updated": "1768390618",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/bp45oal2q75"
+      }
+    },
+    "147": {
+      "title": "Small Cogs - 小さな歯車 - Chīsana Haguruma",
+      "volume": "17",
+      "last_updated": "1768390664",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9249kordmyn"
+      }
+    },
+    "148": {
+      "title": "Clashing - ぶつかる - Butsukaru",
+      "volume": "17",
+      "last_updated": "1768390742",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/md7ob6ner4p"
+      }
+    },
+    "149": {
+      "title": "Disgust - 嫌悪感 - Ken'o-Kan",
+      "volume": "17",
+      "last_updated": "1768390885",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qb4zpazddyj"
+      }
+    },
+    "150": {
+      "title": "Noticing - 気づき - Kizuki",
+      "volume": "17",
+      "last_updated": "1768391005",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/md7ob6n9r4p"
+      }
+    },
+    "151": {
+      "title": "The Sound of Bells on a Snowy Moonlit Night - 鈴鳴りの雪月夜 - Suzunari no Yukizukiyo",
+      "volume": "17",
+      "last_updated": "1768391074",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/lqyel9e2q4d"
+      }
+    },
+    "152": {
+      "title": "The Transparent World - 透き通る世界 - Sukitōru Sekai",
+      "volume": "18",
+      "last_updated": "1768391201",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/bp45oalpq75"
+      }
+    },
+    "153": {
+      "title": "Pulled - 引かれる - Hikareru",
+      "volume": "18",
+      "last_updated": "1768391249",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/vj4jmrakx48"
+      }
+    },
+    "154": {
+      "title": "Assaulted by Memories - 懐古強襲 - Kaiko Kyōshū",
+      "volume": "18",
+      "last_updated": "1768391301",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ljyqknlrdy2"
+      }
+    },
+    "155": {
+      "title": "Useless Komainu - 役立たずの狛犬 - Yakutatazu no Komainu",
+      "volume": "18",
+      "last_updated": "1768391350",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/pg73ozn5g7r"
+      }
+    },
+    "156": {
+      "title": "Thank You - ありがとう - Arigatō",
+      "volume": "18",
+      "last_updated": "1768391401",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/n87wnw3xx7x"
+      }
+    },
+    "157": {
+      "title": "Returning Spirit - 舞い戻る魂 - Maimodoru Tamashii",
+      "volume": "18",
+      "last_updated": "1768391443",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/agyvnmk9b48"
+      }
+    },
+    "158": {
+      "title": "Chaos - 破茶滅茶 - Hachamecha",
+      "volume": "18",
+      "last_updated": "1768391490",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/5xy2ow92z4l"
+      }
+    },
+    "159": {
+      "title": "Face - 顔 - Kao",
+      "volume": "18",
+      "last_updated": "1768391534",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ej7megx89yd"
+      }
+    },
+    "160": {
+      "title": "Similar Features, Returning Memories - 重なる面影・蘇る記憶 - Kasanaru Omokage, Yomigaeru Kioku",
+      "volume": "18",
+      "last_updated": "1768391577",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/bp45oalqn75"
+      }
+    },
+    "161": {
+      "title": "Flapping Butterfly Wings - 蝶の羽ばたき - Chō no Habataki",
+      "volume": "19",
+      "last_updated": "1768391640",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/m9yxnzw3p7q"
+      }
+    },
+    "162": {
+      "title": "Trio of Victory - 三人の白星 - Sannin no Shiroboshi",
+      "volume": "19",
+      "last_updated": "1768391694",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/na7kk368378"
+      }
+    },
+    "163": {
+      "title": "Overflowing Heart - 心あふれる - Kokoro Afureru",
+      "volume": "19",
+      "last_updated": "1768391740",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ej7megxa9yd"
+      }
+    },
+    "164": {
+      "title": "Just Overdid It a Little - ちょっと力み過ぎただけ - Chotto Rikimisugita dake",
+      "volume": "19",
+      "last_updated": "1768391779",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qb4zpaz55yj"
+      }
+    },
+    "165": {
+      "title": "Stunned and Trembling - 愕然と戦慄く - Gakuzen to Wananaku",
+      "volume": "19",
+      "last_updated": "1768391817",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/o24a6zr2dyl"
+      }
+    },
+    "166": {
+      "title": "True Feelings - 本心 - Honshin",
+      "volume": "19",
+      "last_updated": "1768391856",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/agyvnmkxb48"
+      }
+    },
+    "167": {
+      "title": "A Request - 願い - Negai",
+      "volume": "19",
+      "last_updated": "1768391900",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9p4nz59vb4n"
+      }
+    },
+    "168": {
+      "title": "Never Disappear - 百世不磨 - Hyakusei Fuma",
+      "volume": "19",
+      "last_updated": "1768391949",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/5xy2ow9oz4l"
+      }
+    },
+    "169": {
+      "title": "Rumbling - 地鳴る - Jinaru",
+      "volume": "19",
+      "last_updated": "1768392037",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9ryd2vw2a4k"
+      }
+    },
+    "170": {
+      "title": "The Immovable Hashira - 不動の柱 - Fudō no Hashira",
+      "volume": "20",
+      "last_updated": "1768392139",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/xny86bd624b"
+      }
+    },
+    "171": {
+      "title": "Transformation - 変ずる - Henzuru",
+      "volume": "20",
+      "last_updated": "1768392181",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/dl7pnx2n3yo"
+      }
+    },
+    "172": {
+      "title": "A Weakling's Potential - 弱者の可能性 - Jakusha no Kanōsei",
+      "volume": "20",
+      "last_updated": "1768392225",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/wl7lwev5x4x"
+      }
+    },
+    "173": {
+      "title": "The Path of Opening a Steadfast Heart - 匪石之心が開く道 - Hiseki no Kokoro ga Hiraku Michi",
+      "volume": "20",
+      "last_updated": "1768392275",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/5xy2ow9n34l"
+      }
+    },
+    "174": {
+      "title": "Nightmare on the Night of a Red Moon - 赤い月夜に見た悪夢 - Akai Tsukiyo ni Mita Akumu",
+      "volume": "20",
+      "last_updated": "1768392324",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ej7megxvayd"
+      }
+    },
+    "175": {
+      "title": "Respect for Future Generations - 後世畏るべし - Kōsei Osoru beshi",
+      "volume": "20",
+      "last_updated": "1768392378",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/pg73ozn6o7r"
+      }
+    },
+    "176": {
+      "title": "Samurai - 侍 - Samurai",
+      "volume": "20",
+      "last_updated": "1768392426",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/xny86bd2w4b"
+      }
+    },
+    "177": {
+      "title": "Younger Brother - 弟 - Otōto",
+      "volume": "20",
+      "last_updated": "1768392463",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/m9yxnzwd67q"
+      }
+    },
+    "178": {
+      "title": "Even If You Reach Out Your Hand - 手を伸ばしても手を伸ばしても - Te o Nobashite mo Te o Nobashite mo",
+      "volume": "20",
+      "last_updated": "1768392510",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ne7b68m3gy5"
+      }
+    },
+    "179": {
+      "title": "Feelings for Elder Brother, Feelings for Younger Brother - 兄を思い弟を思い - Ani o Omoi Otōto o Omoi",
+      "volume": "21",
+      "last_updated": "1768392583",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/wl7lwev634x"
+      }
+    },
+    "180": {
+      "title": "Recovery - 快復 - Kaifuku",
+      "volume": "21",
+      "last_updated": "1768392636",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ej7megx6ayd"
+      }
+    },
+    "181": {
+      "title": "Disaster - 大災 - Taisai",
+      "volume": "21",
+      "last_updated": "1768392677",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/lqyel9ezz4d"
+      }
+    },
+    "182": {
+      "title": "Rage - 激怒 - Gekido",
+      "volume": "21",
+      "last_updated": "1768392735",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/bp45oalnv75"
+      }
+    },
+    "183": {
+      "title": "A Clash of Wills - 閲ぎ合い - Semegiai",
+      "volume": "21",
+      "last_updated": "1768392815",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9p4nz59654n"
+      }
+    },
+    "184": {
+      "title": "Leaving the Warfront - 戦線離脱 - Sensen Ridatsu",
+      "volume": "21",
+      "last_updated": "1768392876",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/5xy2ow9x34l"
+      }
+    },
+    "185": {
+      "title": "A World Without Smell - 匂いのない世界 - Nioi no Nai Sekai",
+      "volume": "21",
+      "last_updated": "1768392927",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ej7megxjayd"
+      }
+    },
+    "186": {
+      "title": "Ancient Memories - 古の記憶 - Inishie no Kioku",
+      "volume": "21",
+      "last_updated": "1768392973",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/lqyel9ewz4d"
+      }
+    },
+    "187": {
+      "title": "Innocent Person - 無垢なる人 - Mukunaru Hito",
+      "volume": "21",
+      "last_updated": "1768393019",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/bp45oaljv75"
+      }
+    },
+    "188": {
+      "title": "Sorrowful Love - 悲痛な恋情 - Hitsūna Renjō",
+      "volume": "22",
+      "last_updated": "1768393097",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/a846ovjq24x"
+      }
+    },
+    "189": {
+      "title": "Reassuring Comrades - 心強い仲間 - Kokorozuyoi Nakama",
+      "volume": "22",
+      "last_updated": "1768393139",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9p4nz59q54n"
+      }
+    },
+    "190": {
+      "title": "One After Another - ぞくぞくと - Zokuzoku to",
+      "volume": "22",
+      "last_updated": "1768393213",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ljyqknlexy2"
+      }
+    },
+    "191": {
+      "title": "Which One of Us is the Demon - どちらが鬼か - Dochira ga Oni ka",
+      "volume": "22",
+      "last_updated": "1768393257",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/pg73ozn3o7r"
+      }
+    },
+    "192": {
+      "title": "The Wheel of Fate - 廻る縁 - Meguru Enishi",
+      "volume": "22",
+      "last_updated": "1768393325",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/a846ovjz24x"
+      }
+    },
+    "193": {
+      "title": "A Difficult Door Begins to Open - 困難の扉が開き始める - Konnan no Tobira ga Hiraki Hajimeru",
+      "volume": "22",
+      "last_updated": "1768393389",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ne7b68mjgy5"
+      }
+    },
+    "194": {
+      "title": "Burn Scars - 灼熱の傷 - Shakunetsu no Kizu",
+      "volume": "22",
+      "last_updated": "1768393456",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/wl7lwev8o4x"
+      }
+    },
+    "195": {
+      "title": "Bewilderment - めまぐるしく - Memagurushiku",
+      "volume": "22",
+      "last_updated": "1768393527",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qe4gqog3b7j"
+      }
+    },
+    "196": {
+      "title": "I Am - 私は - Watashi wa",
+      "volume": "22",
+      "last_updated": "1768393573",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9249kornayn"
+      }
+    },
+    "197": {
+      "title": "Tenacity - 執念 - Shūnen",
+      "volume": "23",
+      "last_updated": "1768393617",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/md7ob6np94p"
+      }
+    },
+    "198": {
+      "title": "The Next Thing We Knew... - 気付けば - Kizukeba",
+      "volume": "23",
+      "last_updated": "1768393666",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ljyqknlpky2"
+      }
+    },
+    "199": {
+      "title": "Millennial Dawn - 千年の夜明け - Sennen no Yoake",
+      "volume": "23",
+      "last_updated": "1768393708",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ej7megxpjyd"
+      }
+    },
+    "200": {
+      "title": "The Price of Victory - 勝利の代償 - Shōri no Daishō",
+      "volume": "23",
+      "last_updated": "1768393756",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/xny86bdnd4b"
+      }
+    },
+    "201": {
+      "title": "The King of Demons - 鬼の王 - Oni no Ō",
+      "volume": "23",
+      "last_updated": "1768393811",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/9249korbayn"
+      }
+    },
+    "202": {
+      "title": "Let's Go Home - 帰ろう - Kaerō",
+      "volume": "23",
+      "last_updated": "1768393856",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/vj4jmra2e48"
+      }
+    },
+    "203": {
+      "title": "Voices of Encouragement - 数多の呼び水 - Amata no Yobimizu",
+      "volume": "23",
+      "last_updated": "1768393895",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/ej7megxqjyd"
+      }
+    },
+    "204": {
+      "title": "A World Without Demons - 鬼のない世界 - Oni no Nai Sekai",
+      "volume": "23",
+      "last_updated": "1768393966",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/qe4gqog6b7j"
+      }
+    },
+    "205": {
+      "title": "Life Shining Across the Years - 幾星霜を煌めく命 - Ikuseisō o Kirameku Inochi",
+      "volume": "23",
+      "last_updated": "1768394049",
+      "groups": {
+        "danke-Empire": "/proxy/api/imgchest/chapter/md7ob6no94p"
+      }
+    }
+  }
+}

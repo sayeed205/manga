@@ -1,0 +1,1658 @@
+{
+  "001": {
+    "album_id": "o24a6zelwyl",
+    "timestamp": "2026-01-14T14:08:28.178204",
+    "image_count": 60,
+    "group": "danke-Empire",
+    "chapter_title": "Cruelty - 残酷 - Zankoku",
+    "volume": "01"
+  },
+  "002": {
+    "album_id": "ne7b68z9vy5",
+    "timestamp": "2026-01-14T14:09:18.684267",
+    "image_count": 26,
+    "group": "danke-Empire",
+    "chapter_title": "The Stranger - 見知らぬ誰か - Mishiranu Dareka",
+    "volume": "01"
+  },
+  "003": {
+    "album_id": "na7kk3lpm78",
+    "timestamp": "2026-01-14T14:09:56.973361",
+    "image_count": 24,
+    "group": "danke-Empire",
+    "chapter_title": "To Return by Dawn Without Fail - 必ず戻る夜明けまでには - Kanarazu Modoru Yoake made ni wa",
+    "volume": "01"
+  },
+  "004": {
+    "album_id": "wl7lwejpo4x",
+    "timestamp": "2026-01-14T14:10:30.131526",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Tanjiro's Journal, Part 1 - 炭治郎日記・前編 - Tanjirō Nikki: Zenpen",
+    "volume": "01"
+  },
+  "005": {
+    "album_id": "ljyqkn3pky2",
+    "timestamp": "2026-01-14T14:11:09.036160",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Tanjiro's Journal, Part 2 - 炭治郎日記・後篇 - Tanjirō Nikki: Kōhen",
+    "volume": "01"
+  },
+  "006": {
+    "album_id": "ej7megqpjyd",
+    "timestamp": "2026-01-14T14:11:49.397836",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "A Mountain of Hands - 山ほどの手が - Yamahodo no Te ga",
+    "volume": "01"
+  },
+  "007": {
+    "album_id": "n87wnw5pb7x",
+    "timestamp": "2026-01-14T14:12:38.012748",
+    "image_count": 21,
+    "group": "danke-Empire",
+    "chapter_title": "Spirits of the Deceased - 亡霊 - Bōrei",
+    "volume": "01"
+  },
+  "008": {
+    "album_id": "a846ovbnv4x",
+    "timestamp": "2026-01-14T14:14:09.023366",
+    "image_count": 26,
+    "group": "danke-Empire",
+    "chapter_title": "Big Brother - 兄ちゃん - Nīchan",
+    "volume": "02"
+  },
+  "009": {
+    "album_id": "ne7b68zzvy5",
+    "timestamp": "2026-01-14T14:15:42.212958",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Welcome Back - おかえり - Okaeri",
+    "volume": "02"
+  },
+  "010": {
+    "album_id": "dl7pnxmmkyo",
+    "timestamp": "2026-01-14T14:18:09.723165",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Kidnapper's Bog - 人攫い沼 - Hitosarai-numa",
+    "volume": "02"
+  },
+  "011": {
+    "album_id": "wl7lwejjo4x",
+    "timestamp": "2026-01-14T14:19:55.687734",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Suggestion - 暗示 - Anji",
+    "volume": "02"
+  },
+  "012": {
+    "album_id": "5xy2owvvn4l",
+    "timestamp": "2026-01-14T14:21:48.636420",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "I Can't Tell You - 言えない - Ienai",
+    "volume": "02"
+  },
+  "013": {
+    "album_id": "ljyqkn33ey2",
+    "timestamp": "2026-01-14T14:23:35.791469",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "It Was You - お前が - Omae ga",
+    "volume": "02"
+  },
+  "014": {
+    "album_id": "ej7megqqqyd",
+    "timestamp": "2026-01-14T14:25:37.357211",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Kibutsuji's Wrath: The Smell of Enchanting Blood - 鬼舞辻の癇癪・幻惑の血の香り - Kibutsuji no Kanshaku・Genwaku no Chi no Kaori",
+    "volume": "02"
+  },
+  "015": {
+    "album_id": "qe4gqo66o7j",
+    "timestamp": "2026-01-14T14:27:30.476279",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "The Doctor's Opinion - 医師の見解 - Ishi no Kenkai",
+    "volume": "02"
+  },
+  "016": {
+    "album_id": "bp45oab9x75",
+    "timestamp": "2026-01-14T14:29:41.746500",
+    "image_count": 25,
+    "group": "danke-Empire",
+    "chapter_title": "Playing Temari - 手鞠遊び - Temari Asobi",
+    "volume": "02"
+  },
+  "017": {
+    "album_id": "m9yxnzaom7q",
+    "timestamp": "2026-01-14T14:32:16.059191",
+    "image_count": 26,
+    "group": "danke-Empire",
+    "chapter_title": "Arrow Demon - 矢印鬼 - Yajirushi Oni",
+    "volume": "03"
+  },
+  "018": {
+    "album_id": "md7ob6roa4p",
+    "timestamp": "2026-01-14T14:33:52.984277",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "The Curse - 呪縛 - Jubaku",
+    "volume": "03"
+  },
+  "019": {
+    "album_id": "vj4jmr2b548",
+    "timestamp": "2026-01-14T14:35:30.710241",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Together Forever - ずっと一緒にいる - Zutto Issho ni Iru",
+    "volume": "03"
+  },
+  "020": {
+    "album_id": "ljyqkn3oey2",
+    "timestamp": "2026-01-14T14:36:59.881868",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Zenitsu Agatsuma - 我妻善逸 - Agatsuma Zen'itsu",
+    "volume": "03"
+  },
+  "021": {
+    "album_id": "pg73ozxvv7r",
+    "timestamp": "2026-01-14T14:38:43.021532",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Tsuzumi Mansion - 鼓屋敷 - Tsuzumi Yashiki",
+    "volume": "03"
+  },
+  "022": {
+    "album_id": "qe4gqo6bo7j",
+    "timestamp": "2026-01-14T14:39:42.527810",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Rushing Boar - 突然の猪 - Totsuzen no Inoshishi",
+    "volume": "03"
+  },
+  "023": {
+    "album_id": "bp45oablx75",
+    "timestamp": "2026-01-14T14:40:12.413480",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "The Boar Bares Its Fangs, Zenitsu Sleeps - 猪は牙を剥き善逸は眠る - Inoshishi wa Kiba o Muki Zen'itsu wa Nemuru",
+    "volume": "03"
+  },
+  "024": {
+    "album_id": "agyvnm8kw48",
+    "timestamp": "2026-01-14T14:40:53.662293",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Former Member of the Twelve Kizuki - 元十二鬼月 - Moto jū ni Kizuki",
+    "volume": "03"
+  },
+  "025": {
+    "album_id": "dl7pnxm28yo",
+    "timestamp": "2026-01-14T14:41:24.817106",
+    "image_count": 23,
+    "group": "danke-Empire",
+    "chapter_title": "Believe in Yourself - 己を鼓舞せよ - Onore o Kobu seyo",
+    "volume": "03"
+  },
+  "026": {
+    "album_id": "vj4jmr2a548",
+    "timestamp": "2026-01-14T14:42:05.117968",
+    "image_count": 26,
+    "group": "danke-Empire",
+    "chapter_title": "Barehanded Fight - 素手喧嘩 - Sutegoro",
+    "volume": "04"
+  },
+  "027": {
+    "album_id": "6eyrnpwjk7p",
+    "timestamp": "2026-01-14T14:42:43.448494",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Inosuke Hashibira - 嘴平伊之助 - Hashibira Inosuke",
+    "volume": "04"
+  },
+  "028": {
+    "album_id": "pg73ozxnv7r",
+    "timestamp": "2026-01-14T14:43:10.828633",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Urgent Summons - 緊急の呼び出し - Kinkyū no Yobidashi",
+    "volume": "04"
+  },
+  "029": {
+    "album_id": "qb4zpavzgyj",
+    "timestamp": "2026-01-14T14:43:44.779768",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Mount Natagumo - 那田蜘蛛山 - Natagumo Yama",
+    "volume": "04"
+  },
+  "030": {
+    "album_id": "bp45oabgx75",
+    "timestamp": "2026-01-14T14:44:18.477416",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Marionettes - 操り人形 - Ayatsuri Ningyō",
+    "volume": "04"
+  },
+  "031": {
+    "album_id": "o24a6ze5gyl",
+    "timestamp": "2026-01-14T14:44:49.661372",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Letting Someone Else Go First - 自分ではない誰かを前へ - Jibun de wa nai Dareka o Mae e",
+    "volume": "04"
+  },
+  "032": {
+    "album_id": "9249kob6vyn",
+    "timestamp": "2026-01-14T14:45:25.969653",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Pungent Odor - 刺激臭 - Shigeki-shū",
+    "volume": "04"
+  },
+  "033": {
+    "album_id": "9p4nz5drw4n",
+    "timestamp": "2026-01-14T14:46:06.277569",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Suffering and Floundering As You Move Forward - 苦しみ、のたうちながら前へ - Kurushimi, Notauchinagara Mae e",
+    "volume": "04"
+  },
+  "034": {
+    "album_id": "md7ob6rma4p",
+    "timestamp": "2026-01-14T14:46:46.388392",
+    "image_count": 23,
+    "group": "danke-Empire",
+    "chapter_title": "Robust Blade - 強靱な刃 - Kyōjinna Yaiba",
+    "volume": "04"
+  },
+  "035": {
+    "album_id": "na7kk3ljk78",
+    "timestamp": "2026-01-14T14:47:44.049663",
+    "image_count": 26,
+    "group": "danke-Empire",
+    "chapter_title": "Scattered - 散り散り - Chirijiri",
+    "volume": "05"
+  },
+  "036": {
+    "album_id": "9ryd2v8kd4k",
+    "timestamp": "2026-01-14T14:48:13.425160",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "This Is Bad! - これはやべぇ - Kore wa Yabee",
+    "volume": "05"
+  },
+  "037": {
+    "album_id": "lqyel95xx4d",
+    "timestamp": "2026-01-14T14:48:53.281211",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Broken Blade - 折れた刀身 - Oreta Tōshin",
+    "volume": "05"
+  },
+  "038": {
+    "album_id": "qe4gqo6no7j",
+    "timestamp": "2026-01-14T14:49:28.207844",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Real and Fake - 本物と偽物 - Honmono to Nisemono",
+    "volume": "05"
+  },
+  "039": {
+    "album_id": "agyvnm83w48",
+    "timestamp": "2026-01-14T14:50:08.829401",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Life Passing Before One's Eyes - 走馬灯の中 - Sōmatō no Naka",
+    "volume": "05"
+  },
+  "040": {
+    "album_id": "9249kob8vyn",
+    "timestamp": "2026-01-14T14:50:56.094190",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Hinokami - ヒノカミ - Hinokami",
+    "volume": "05"
+  },
+  "041": {
+    "album_id": "md7ob6r2a4p",
+    "timestamp": "2026-01-14T14:52:01.992857",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Shinobu Kocho - 胡蝶しのぶ - Kochō Shinobu",
+    "volume": "05"
+  },
+  "042": {
+    "album_id": "5xy2owvrj4l",
+    "timestamp": "2026-01-14T14:52:49.352163",
+    "image_count": 22,
+    "group": "danke-Empire",
+    "chapter_title": "Behind - 後ろ - Ushiro",
+    "volume": "05"
+  },
+  "043": {
+    "album_id": "pg73ozxmz7r",
+    "timestamp": "2026-01-14T14:53:32.678927",
+    "image_count": 21,
+    "group": "danke-Empire",
+    "chapter_title": "To Hell - 地獄へ - Jigoku e",
+    "volume": "05"
+  },
+  "044": {
+    "album_id": "bp45oaba275",
+    "timestamp": "2026-01-14T14:54:56.622167",
+    "image_count": 29,
+    "group": "danke-Empire",
+    "chapter_title": "Against Corps Rules - 隊律違反 - Tairitsu Ihan",
+    "volume": "06"
+  },
+  "045": {
+    "album_id": "dl7pnxmx6yo",
+    "timestamp": "2026-01-14T14:55:53.021542",
+    "image_count": 23,
+    "group": "danke-Empire",
+    "chapter_title": "Trial by Hashira - 鬼殺隊柱合裁判 - Kisatsutai Chūgō Saiban",
+    "volume": "06"
+  },
+  "046": {
+    "album_id": "wl7lwejep4x",
+    "timestamp": "2026-01-14T14:56:39.521404",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Master of the Mansion - お館様 - Oyakata-sama",
+    "volume": "06"
+  },
+  "047": {
+    "album_id": "pg73ozxzz7r",
+    "timestamp": "2026-01-14T14:57:22.654530",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Hmph! - プイ - Pui",
+    "volume": "06"
+  },
+  "048": {
+    "album_id": "bp45oa9k275",
+    "timestamp": "2026-01-14T14:58:06.544176",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Butterfly Mansion - 蝶屋敷 - Chō Yashiki",
+    "volume": "06"
+  },
+  "049": {
+    "album_id": "agyvnmoz948",
+    "timestamp": "2026-01-14T14:58:55.300869",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Rehabilitation Training, Part 1 - 機能回復訓練・前編 - Kinō Kaifuku Kunren: Zenpen",
+    "volume": "06"
+  },
+  "050": {
+    "album_id": "ne7b68bgny5",
+    "timestamp": "2026-01-14T14:59:48.414145",
+    "image_count": 22,
+    "group": "danke-Empire",
+    "chapter_title": "Rehabilitation Training, Part 2 - 機能回復訓練・後編 - Kinō Kaifuku Kunren・Kōhen",
+    "volume": "06"
+  },
+  "051": {
+    "album_id": "5xy2ow6zj4l",
+    "timestamp": "2026-01-14T15:00:40.752338",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "The Nichirin Sword Returns - 日輪刀還る - Nichirintō Kaeru",
+    "volume": "06"
+  },
+  "052": {
+    "album_id": "n87wnwo6z7x",
+    "timestamp": "2026-01-14T15:01:37.890624",
+    "image_count": 21,
+    "group": "danke-Empire",
+    "chapter_title": "Cruel and Heartless - 冷酷無情 - Reikokumujō",
+    "volume": "06"
+  },
+  "053": {
+    "album_id": "bp45oa9x275",
+    "timestamp": "2026-01-14T15:03:09.769900",
+    "image_count": 28,
+    "group": "danke-Empire",
+    "chapter_title": "You Are - 君は - Kimi wa",
+    "volume": "07"
+  },
+  "054": {
+    "album_id": "9p4nz5bez4n",
+    "timestamp": "2026-01-14T15:04:02.709234",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Good Evening, Rengoku - こんばんは煉獄さん - Konbanwa Rengoku-san",
+    "volume": "07"
+  },
+  "055": {
+    "album_id": "md7ob6ogd4p",
+    "timestamp": "2026-01-14T15:04:41.474897",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Train of Infinite Dreams - 無限夢列車 - Mugen Yume Ressha",
+    "volume": "07"
+  },
+  "056": {
+    "album_id": "wl7lwebxp4x",
+    "timestamp": "2026-01-14T15:05:29.016655",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Wake Up - 目覚めろ - Mezamero",
+    "volume": "07"
+  },
+  "057": {
+    "album_id": "ej7megombyd",
+    "timestamp": "2026-01-14T15:06:05.573743",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Draw Your Blade - 刃を持て - Yaiba o Mote",
+    "volume": "07"
+  },
+  "058": {
+    "album_id": "lqyel9bv34d",
+    "timestamp": "2026-01-14T15:06:41.886364",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Good Morning - おはよう - Ohayō",
+    "volume": "07"
+  },
+  "059": {
+    "album_id": "qe4gqoblr7j",
+    "timestamp": "2026-01-14T15:07:25.000561",
+    "image_count": 22,
+    "group": "danke-Empire",
+    "chapter_title": "Insult - 侮辱 - Bujoku",
+    "volume": "07"
+  },
+  "060": {
+    "album_id": "m9yxnzov37q",
+    "timestamp": "2026-01-14T15:08:09.636251",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Defending 200 People - 二百人を守る - Nihyaku nin o Mamoru",
+    "volume": "07"
+  },
+  "061": {
+    "album_id": "ne7b68bpny5",
+    "timestamp": "2026-01-14T15:08:58.335549",
+    "image_count": 23,
+    "group": "danke-Empire",
+    "chapter_title": "Trading Blows at Close Quarters - 狭所の攻防 - Kyōsho no Kōbō",
+    "volume": "07"
+  },
+  "061.5": {
+    "album_id": "ljyqknoqny2",
+    "timestamp": "2026-01-14T15:09:24.515918",
+    "image_count": 11,
+    "group": "danke-Empire",
+    "chapter_title": "Bonus Manga",
+    "volume": "07"
+  },
+  "062": {
+    "album_id": "n87wnworg7x",
+    "timestamp": "2026-01-14T15:10:31.804102",
+    "image_count": 26,
+    "group": "danke-Empire",
+    "chapter_title": "Ending in a Dream - 悪夢に終わる - Akumu ni Owaru",
+    "volume": "08"
+  },
+  "063": {
+    "album_id": "bp45oa9dq75",
+    "timestamp": "2026-01-14T15:11:18.910299",
+    "image_count": 22,
+    "group": "danke-Empire",
+    "chapter_title": "Akaza - 猗窩座 - Akaza",
+    "volume": "08"
+  },
+  "064": {
+    "album_id": "9249koqjmyn",
+    "timestamp": "2026-01-14T15:12:04.641490",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "The Strength of the Hashira - 上弦の力・柱の力 - Jōgen no Chikara, Hashira no Chikara",
+    "volume": "08"
+  },
+  "065": {
+    "album_id": "na7kk3bwb78",
+    "timestamp": "2026-01-14T15:12:47.776635",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Whose Victory? - 誰の勝ちか - Dare no Kachi ka",
+    "volume": "08"
+  },
+  "066": {
+    "album_id": "ljyqknodny2",
+    "timestamp": "2026-01-14T15:13:22.029049",
+    "image_count": 22,
+    "group": "danke-Empire",
+    "chapter_title": "Scattering Into Dawn - 黎明に散る - Reimei ni Chiru",
+    "volume": "08"
+  },
+  "067": {
+    "album_id": "6eyrnpo8g7p",
+    "timestamp": "2026-01-14T15:13:57.641308",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Looking for Something - さがしもの - Sagashimono",
+    "volume": "08"
+  },
+  "068": {
+    "album_id": "pg73ozvwj7r",
+    "timestamp": "2026-01-14T15:14:32.059138",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Wielder - 使い手 - Tsukaite",
+    "volume": "08"
+  },
+  "069": {
+    "album_id": "qe4gqobxj7j",
+    "timestamp": "2026-01-14T15:15:12.437676",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Move Forward—Even If Just a Little - 前へ進もう少しずつで構わないから - Mae e Susumou Sukoshizutsu de Kamawanai kara",
+    "volume": "08"
+  },
+  "070": {
+    "album_id": "agyvnmowj48",
+    "timestamp": "2026-01-14T15:15:56.551947",
+    "image_count": 21,
+    "group": "danke-Empire",
+    "chapter_title": "Kidnapper - 人攫い - Hitosarai",
+    "volume": "08"
+  },
+  "071": {
+    "album_id": "dl7pnxo9pyo",
+    "timestamp": "2026-01-14T15:17:00.909197",
+    "image_count": 28,
+    "group": "danke-Empire",
+    "chapter_title": "Operation: Entertainment District - 遊郭潜入大作戦 - Yūkaku Sennyū Dai Sakusen",
+    "volume": "09"
+  },
+  "072": {
+    "album_id": "wl7lwebrq4x",
+    "timestamp": "2026-01-14T15:17:43.420237",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Search for My Wives - お嫁さんを探せ - Oyomesan o Sagase",
+    "volume": "09"
+  },
+  "073": {
+    "album_id": "6eyrnpoxg7p",
+    "timestamp": "2026-01-14T15:18:20.109008",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "The Chase - 追跡 - Tsuiseki",
+    "volume": "09"
+  },
+  "074": {
+    "album_id": "n87wnwoeg7x",
+    "timestamp": "2026-01-14T15:18:58.577934",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Daki - 堕姫 - Daki",
+    "volume": "09"
+  },
+  "075": {
+    "album_id": "xny86bjq54b",
+    "timestamp": "2026-01-14T15:19:31.757910",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Various Feelings - それぞれの思い - Sorezore no Omoi",
+    "volume": "09"
+  },
+  "076": {
+    "album_id": "m9yxnzomq7q",
+    "timestamp": "2026-01-14T15:20:16.096987",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "In Various Places - それぞれの場所で - Sorezore no Basho de",
+    "volume": "09"
+  },
+  "077": {
+    "album_id": "ne7b68b2jy5",
+    "timestamp": "2026-01-14T15:20:58.979712",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Roar - 轟く - Todoroku",
+    "volume": "09"
+  },
+  "078": {
+    "album_id": "5xy2ow6b94l",
+    "timestamp": "2026-01-14T15:21:46.987394",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Wriggly - ぐねぐね - Gunegune",
+    "volume": "09"
+  },
+  "079": {
+    "album_id": "6eyrnpovg7p",
+    "timestamp": "2026-01-14T15:22:39.213105",
+    "image_count": 21,
+    "group": "danke-Empire",
+    "chapter_title": "Air Hole - 風穴 - Kazaana",
+    "volume": "09"
+  },
+  "080": {
+    "album_id": "qb4zpaoddyj",
+    "timestamp": "2026-01-14T15:23:28.852894",
+    "image_count": 25,
+    "group": "danke-Empire",
+    "chapter_title": "Value - 価値 - Kachi",
+    "volume": "10"
+  },
+  "081": {
+    "album_id": "bp45oa93q75",
+    "timestamp": "2026-01-14T15:24:24.746649",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Layered Memories - 重なる記憶 - Kasanaru Kioku",
+    "volume": "10"
+  },
+  "082": {
+    "album_id": "m9yxnzojq7q",
+    "timestamp": "2026-01-14T15:25:05.629632",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Human and Demon - 人間と鬼 - Ningen to Oni",
+    "volume": "10"
+  },
+  "083": {
+    "album_id": "md7ob6o9r4p",
+    "timestamp": "2026-01-14T15:25:49.843814",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Transformation - 変貌 - Henbō",
+    "volume": "10"
+  },
+  "084": {
+    "album_id": "wl7lwebgx4x",
+    "timestamp": "2026-01-14T15:26:31.519120",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "What Is Important - 大切なもの - Taisetsuna Mono",
+    "volume": "10"
+  },
+  "085": {
+    "album_id": "9ryd2vbma4k",
+    "timestamp": "2026-01-14T15:27:15.130737",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Weeping - 大泣き - Ō Naki",
+    "volume": "10"
+  },
+  "086": {
+    "album_id": "n87wnwodx7x",
+    "timestamp": "2026-01-14T15:28:11.219059",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Gyutaro - 妓夫太郎 - Gyūtarō",
+    "volume": "10"
+  },
+  "087": {
+    "album_id": "wl7lwebdo4x",
+    "timestamp": "2026-01-14T16:09:48.661428",
+    "image_count": 23,
+    "group": "danke-Empire",
+    "chapter_title": "Gathering - 集結 - Shūketsu",
+    "volume": "10"
+  },
+  "088": {
+    "album_id": "9ryd2vbon4k",
+    "timestamp": "2026-01-14T16:10:28.015319",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "How to Defeat Them - 倒し方 - Taoshikata",
+    "volume": "10"
+  },
+  "088.5": {
+    "album_id": "6eyrnpoz67p",
+    "timestamp": "2026-01-14T16:10:44.658430",
+    "image_count": 7,
+    "group": "danke-Empire",
+    "chapter_title": "Bonus Chapter: Inosuke's Fairy Tale",
+    "volume": "10"
+  },
+  "089": {
+    "album_id": "n87wnwo2b7x",
+    "timestamp": "2026-01-14T16:11:46.462224",
+    "image_count": 26,
+    "group": "danke-Empire",
+    "chapter_title": "A Close Fight - 混戦 - Konsen",
+    "volume": "11"
+  },
+  "090": {
+    "album_id": "o24a6zbowyl",
+    "timestamp": "2026-01-14T16:12:37.145357",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Grateful - 感謝する - Kansha Suru",
+    "volume": "11"
+  },
+  "091": {
+    "album_id": "9p4nz5bal4n",
+    "timestamp": "2026-01-14T16:13:25.777707",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "A Change of Strategy - 作戦変更 - Sakusen Henkō",
+    "volume": "11"
+  },
+  "092": {
+    "album_id": "na7kk3bgm78",
+    "timestamp": "2026-01-14T16:14:24.885424",
+    "image_count": 22,
+    "group": "danke-Empire",
+    "chapter_title": "Worm, Simpleton, Stupid Coward - 虫ケラボンクラのろまの腑抜け - Mushikera Bonkura Noroma no Funuke",
+    "volume": "11"
+  },
+  "093": {
+    "album_id": "9ryd2vbdn4k",
+    "timestamp": "2026-01-14T16:15:08.829151",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Never Give Up - 絶対にあきらめない - Zettai ni Akiramenai",
+    "volume": "11"
+  },
+  "094": {
+    "album_id": "pg73ozvq37r",
+    "timestamp": "2026-01-14T16:16:00.989247",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Do Something - 何とかして - Nantoka Shite",
+    "volume": "11"
+  },
+  "095": {
+    "album_id": "qb4zpaobvyj",
+    "timestamp": "2026-01-14T16:16:34.876983",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Final Moments - 最期 - Saigo",
+    "volume": "11"
+  },
+  "096": {
+    "album_id": "m9yxnzopk7q",
+    "timestamp": "2026-01-14T16:17:13.026457",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "No Matter How Many Lives, Part 1 - 何度生まれ変わっても（前編） - Nando Umarekawatte mo (Zenpen)",
+    "volume": "11"
+  },
+  "097": {
+    "album_id": "9ryd2vb9n4k",
+    "timestamp": "2026-01-14T16:18:05.917647",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "No Matter How Many Lives, Part 2 - 何度生まれ変わっても（後編） - Nando Umarekawatte mo (Kōhen)",
+    "volume": "11"
+  },
+  "098": {
+    "album_id": "n87wnwopb7x",
+    "timestamp": "2026-01-14T16:19:18.418388",
+    "image_count": 26,
+    "group": "danke-Empire",
+    "chapter_title": "The Upper Ranks Gather - 上弦集結 - Jōgen Shūketsu",
+    "volume": "12"
+  },
+  "099": {
+    "album_id": "o24a6zb9wyl",
+    "timestamp": "2026-01-14T16:20:06.738719",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Someone's Dream - 誰かの夢 - Dareka no Yume",
+    "volume": "12"
+  },
+  "100": {
+    "album_id": "md7ob6or94p",
+    "timestamp": "2026-01-14T16:21:01.730697",
+    "image_count": 22,
+    "group": "danke-Empire",
+    "chapter_title": "Go to the Village! - いざ行け里へ!! - Iza Yuke Sato e!!",
+    "volume": "12"
+  },
+  "101": {
+    "album_id": "9ryd2vb8n4k",
+    "timestamp": "2026-01-14T16:21:50.942134",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "A Secret - 内緒話 - Naisho-Banashi",
+    "volume": "12"
+  },
+  "102": {
+    "album_id": "qe4gqob6b7j",
+    "timestamp": "2026-01-14T16:22:34.579022",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Hello, Tokito - 時透くんコンニチハ - Tokitō-kun Konnichiwa",
+    "volume": "12"
+  },
+  "103": {
+    "album_id": "agyvnmooz48",
+    "timestamp": "2026-01-14T16:23:22.035122",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Yoriichi Type Zero - 緑壱零式 - Yoriichi Zeroshiki",
+    "volume": "12"
+  },
+  "104": {
+    "album_id": "md7ob6oo94p",
+    "timestamp": "2026-01-14T16:23:56.021917",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Kotetsu - 小鉄さん - Kotetsu-san",
+    "volume": "12"
+  },
+  "105": {
+    "album_id": "ljyqknooey2",
+    "timestamp": "2026-01-14T16:24:41.640151",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Something Came Out - なんか出た - Nanka Deta",
+    "volume": "12"
+  },
+  "106": {
+    "album_id": "pg73ozvvv7r",
+    "timestamp": "2026-01-14T16:25:33.144601",
+    "image_count": 21,
+    "group": "danke-Empire",
+    "chapter_title": "Enemy Attack - 敵襲 - Tekishū",
+    "volume": "12"
+  },
+  "107": {
+    "album_id": "xny86bjdp4b",
+    "timestamp": "2026-01-14T16:26:23.508890",
+    "image_count": 26,
+    "group": "danke-Empire",
+    "chapter_title": "In the Way - 邪魔 - Jama",
+    "volume": "13"
+  },
+  "108": {
+    "album_id": "9p4nz5b9w4n",
+    "timestamp": "2026-01-14T16:27:14.317058",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Thank You, Tokito - 時透君ありがとう - Tokitō-kun Arigatō",
+    "volume": "13"
+  },
+  "109": {
+    "album_id": "5xy2ow69n4l",
+    "timestamp": "2026-01-14T16:28:03.165218",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Won't Die - 死なない - Shinanai",
+    "volume": "13"
+  },
+  "110": {
+    "album_id": "pg73ozvnv7r",
+    "timestamp": "2026-01-14T16:28:59.743430",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Sneaking Around - あばら屋でこそこそ - Abaraya de Kosokoso",
+    "volume": "13"
+  },
+  "111": {
+    "album_id": "a846ov28g4x",
+    "timestamp": "2026-01-14T16:30:07.145397",
+    "image_count": 22,
+    "group": "danke-Empire",
+    "chapter_title": "Pretentious Artist - 芸術家気取り - Geijutsuka Kidori",
+    "volume": "13"
+  },
+  "112": {
+    "album_id": "9p4nz5brw4n",
+    "timestamp": "2026-01-14T16:31:34.386352",
+    "image_count": 22,
+    "group": "danke-Empire",
+    "chapter_title": "Transitions - 遷移変転 - Sen'i Henten",
+    "volume": "13"
+  },
+  "113": {
+    "album_id": "6eyrnpoek7p",
+    "timestamp": "2026-01-14T16:32:42.826717",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "Bright Red Blade - 赫刀 - Kakutō",
+    "volume": "13"
+  },
+  "114": {
+    "album_id": "qe4gqobno7j",
+    "timestamp": "2026-01-14T16:33:47.793160",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Wanted: Respect - 認められたかった - Mitomeraretakatta",
+    "volume": "13"
+  },
+  "115": {
+    "album_id": "agyvnmo3w48",
+    "timestamp": "2026-01-14T16:34:44.547843",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "To Be a Hashira - 柱に - Hashira ni",
+    "volume": "13"
+  },
+  "116": {
+    "album_id": "dl7pnxol8yo",
+    "timestamp": "2026-01-14T16:35:52.123823",
+    "image_count": 25,
+    "group": "danke-Empire",
+    "chapter_title": "Awful Villain - 極悪人 - Gokuakunin",
+    "volume": "14"
+  },
+  "117": {
+    "album_id": "ljyqknojey2",
+    "timestamp": "2026-01-14T16:36:48.385713",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Swordsmith - 刀鍛冶 - Katanakaji",
+    "volume": "14"
+  },
+  "118": {
+    "album_id": "qe4gqobao7j",
+    "timestamp": "2026-01-14T16:37:33.636976",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "The Mu of Muichiro - 無一郎の無 - Muichirō no Mu",
+    "volume": "14"
+  },
+  "119": {
+    "album_id": "a846ov2vg4x",
+    "timestamp": "2026-01-14T16:38:28.363769",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "Coming Back - よみがえる - Yomigaeru",
+    "volume": "14"
+  },
+  "120": {
+    "album_id": "dl7pnxox8yo",
+    "timestamp": "2026-01-14T16:39:46.084104",
+    "image_count": 18,
+    "group": "danke-Empire",
+    "chapter_title": "Trading Insults - 悪口合戦 - Waruguchi Gassen",
+    "volume": "14"
+  },
+  "121": {
+    "album_id": "wl7lwebep4x",
+    "timestamp": "2026-01-14T16:40:52.137089",
+    "image_count": 21,
+    "group": "danke-Empire",
+    "chapter_title": "Abnormal Situation - 異常事態 - Ijō Jitai",
+    "volume": "14"
+  },
+  "122": {
+    "album_id": "ej7megogbyd",
+    "timestamp": "2026-01-14T16:41:34.368670",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "A Passing Moment of Excitement - それは一時的な興奮状態 - Sore wa Ichijitekina Kōfun Jōtai",
+    "volume": "14"
+  },
+  "123": {
+    "album_id": "lqyel9ej34d",
+    "timestamp": "2026-01-14T16:42:26.025854",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Mitsuri Kanroji's Life Passes Before Her Eyes - 甘露寺蜜璃の走馬灯 - Kanroji Mitsuri no Sōmatō",
+    "volume": "14"
+  },
+  "124": {
+    "album_id": "bp45oalk275",
+    "timestamp": "2026-01-14T16:43:08.674488",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "Get It Together, Moron! - いい加減にしろ バカタレ - Īkagenni shiro Bakatare",
+    "volume": "14"
+  },
+  "125": {
+    "album_id": "9249korx2yn",
+    "timestamp": "2026-01-14T16:44:25.371597",
+    "image_count": 28,
+    "group": "danke-Empire",
+    "chapter_title": "Dawn Approaches - 迫る夜明け - Semaru Yoake",
+    "volume": "15"
+  },
+  "126": {
+    "album_id": "9ryd2vwlw4k",
+    "timestamp": "2026-01-14T16:45:12.270640",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "Daybreak and First Light - 彼は誰時・朝ぼらけ - Kawataredoki Asaborake",
+    "volume": "15"
+  },
+  "127": {
+    "album_id": "ej7megxzbyd",
+    "timestamp": "2026-01-14T16:45:58.145558",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "The Rumble of Victory - 勝利の鳴動 - Shōri no Meidō",
+    "volume": "15"
+  },
+  "128": {
+    "album_id": "xny86bdxo4b",
+    "timestamp": "2026-01-14T16:47:30.311343",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "A Request for Instruction - 御教示願う - Gokyōji Negau",
+    "volume": "15"
+  },
+  "129": {
+    "album_id": "9249korz2yn",
+    "timestamp": "2026-01-14T16:48:52.269594",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "To Become a Marked One - 痣の者になるためには - Aza no Mono ni Naru Tame ni wa",
+    "volume": "15"
+  },
+  "130": {
+    "album_id": "md7ob6ngd4p",
+    "timestamp": "2026-01-14T16:49:59.184147",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "A Place to Be - 居場所 - Ibasho",
+    "volume": "15"
+  },
+  "131": {
+    "album_id": "6eyrnpjge7p",
+    "timestamp": "2026-01-14T16:50:55.258530",
+    "image_count": 22,
+    "group": "danke-Empire",
+    "chapter_title": "Visitor - 来訪者 - Raihōsha",
+    "volume": "15"
+  },
+  "132": {
+    "album_id": "lqyel9ev34d",
+    "timestamp": "2026-01-14T16:51:40.979275",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Full-Strength Training - 全力訓練 - Zenryoku Kunren",
+    "volume": "15"
+  },
+  "133": {
+    "album_id": "agyvnmk6948",
+    "timestamp": "2026-01-14T16:52:23.878224",
+    "image_count": 21,
+    "group": "danke-Empire",
+    "chapter_title": "Welcome... - ようこそ... - Yōkoso...",
+    "volume": "15"
+  },
+  "134": {
+    "album_id": "ne7b68mpny5",
+    "timestamp": "2026-01-14T16:53:31.690267",
+    "image_count": 26,
+    "group": "danke-Empire",
+    "chapter_title": "Repetitive Action - 反復動作 - Hanpuku Dōsa",
+    "volume": "16"
+  },
+  "135": {
+    "album_id": "ljyqknlqoy2",
+    "timestamp": "2026-01-14T16:54:34.835570",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Himejima Hell - 悲鳴嶼行冥 - Himejima Gyōmei",
+    "volume": "16"
+  },
+  "136": {
+    "album_id": "n87wnw3rz7x",
+    "timestamp": "2026-01-14T16:56:02.987067",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Moving - 動く - Ugoku",
+    "volume": "16"
+  },
+  "137": {
+    "album_id": "bp45oald275",
+    "timestamp": "2026-01-14T16:56:56.284881",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Undying - 不滅 - Fumetsu",
+    "volume": "16"
+  },
+  "138": {
+    "album_id": "m9yxnzwg37q",
+    "timestamp": "2026-01-14T16:57:48.942379",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "A Sudden Turn - 急転 - Kyūten",
+    "volume": "16"
+  },
+  "139": {
+    "album_id": "ljyqknldoy2",
+    "timestamp": "2026-01-14T16:59:11.242473",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "Falling - 落ちる - Ochiru",
+    "volume": "16"
+  },
+  "140": {
+    "album_id": "ej7megxknyd",
+    "timestamp": "2026-01-14T17:00:36.063710",
+    "image_count": 23,
+    "group": "danke-Empire",
+    "chapter_title": "The Final Battle Begins - 決戦の火蓋を切る - Kessen no Hibuta o Kiru",
+    "volume": "16"
+  },
+  "141": {
+    "album_id": "qe4gqogxj7j",
+    "timestamp": "2026-01-14T17:01:45.990158",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Vengeance - 仇 - Kataki",
+    "volume": "16"
+  },
+  "142": {
+    "album_id": "o24a6zrv2yl",
+    "timestamp": "2026-01-14T17:02:46.238244",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "Insect Hashira, Shinobu Kocho - 蟲柱・胡蝶しのぶ - Mushibashira, Kochō Shinobu",
+    "volume": "16"
+  },
+  "143": {
+    "album_id": "ne7b68mvjy5",
+    "timestamp": "2026-01-14T17:04:16.238650",
+    "image_count": 26,
+    "group": "danke-Empire",
+    "chapter_title": "Wrath - 怒り - Ikari",
+    "volume": "17"
+  },
+  "144": {
+    "album_id": "ljyqknlzny2",
+    "timestamp": "2026-01-14T17:05:19.384329",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Successors - 受け継ぐ者たち - Uketsugu Monotachi",
+    "volume": "17"
+  },
+  "145": {
+    "album_id": "ej7megx3nyd",
+    "timestamp": "2026-01-14T17:06:08.736573",
+    "image_count": 18,
+    "group": "danke-Empire",
+    "chapter_title": "Box of Happiness - 幸せの箱 - Shiawase no Hako",
+    "volume": "17"
+  },
+  "146": {
+    "album_id": "bp45oal2q75",
+    "timestamp": "2026-01-14T17:06:58.618604",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Pride - 誇り - Hokori",
+    "volume": "17"
+  },
+  "147": {
+    "album_id": "9249kordmyn",
+    "timestamp": "2026-01-14T17:07:44.909830",
+    "image_count": 22,
+    "group": "danke-Empire",
+    "chapter_title": "Small Cogs - 小さな歯車 - Chīsana Haguruma",
+    "volume": "17"
+  },
+  "148": {
+    "album_id": "md7ob6ner4p",
+    "timestamp": "2026-01-14T17:09:02.926082",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Clashing - ぶつかる - Butsukaru",
+    "volume": "17"
+  },
+  "149": {
+    "album_id": "qb4zpazddyj",
+    "timestamp": "2026-01-14T17:11:25.375411",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Disgust - 嫌悪感 - Ken'o-Kan",
+    "volume": "17"
+  },
+  "150": {
+    "album_id": "md7ob6n9r4p",
+    "timestamp": "2026-01-14T17:13:25.704175",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Noticing - 気づき - Kizuki",
+    "volume": "17"
+  },
+  "151": {
+    "album_id": "lqyel9e2q4d",
+    "timestamp": "2026-01-14T17:14:34.166461",
+    "image_count": 21,
+    "group": "danke-Empire",
+    "chapter_title": "The Sound of Bells on a Snowy Moonlit Night - 鈴鳴りの雪月夜 - Suzunari no Yukizukiyo",
+    "volume": "17"
+  },
+  "152": {
+    "album_id": "bp45oalpq75",
+    "timestamp": "2026-01-14T17:16:41.467208",
+    "image_count": 26,
+    "group": "danke-Empire",
+    "chapter_title": "The Transparent World - 透き通る世界 - Sukitōru Sekai",
+    "volume": "18"
+  },
+  "153": {
+    "album_id": "vj4jmrakx48",
+    "timestamp": "2026-01-14T17:17:29.561145",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Pulled - 引かれる - Hikareru",
+    "volume": "18"
+  },
+  "154": {
+    "album_id": "ljyqknlrdy2",
+    "timestamp": "2026-01-14T17:18:21.126617",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Assaulted by Memories - 懐古強襲 - Kaiko Kyōshū",
+    "volume": "18"
+  },
+  "155": {
+    "album_id": "pg73ozn5g7r",
+    "timestamp": "2026-01-14T17:19:10.510717",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Useless Komainu - 役立たずの狛犬 - Yakutatazu no Komainu",
+    "volume": "18"
+  },
+  "156": {
+    "album_id": "n87wnw3xx7x",
+    "timestamp": "2026-01-14T17:20:01.236186",
+    "image_count": 22,
+    "group": "danke-Empire",
+    "chapter_title": "Thank You - ありがとう - Arigatō",
+    "volume": "18"
+  },
+  "157": {
+    "album_id": "agyvnmk9b48",
+    "timestamp": "2026-01-14T17:20:43.101522",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Returning Spirit - 舞い戻る魂 - Maimodoru Tamashii",
+    "volume": "18"
+  },
+  "158": {
+    "album_id": "5xy2ow92z4l",
+    "timestamp": "2026-01-14T17:21:30.376785",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Chaos - 破茶滅茶 - Hachamecha",
+    "volume": "18"
+  },
+  "159": {
+    "album_id": "ej7megx89yd",
+    "timestamp": "2026-01-14T17:22:14.546886",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Face - 顔 - Kao",
+    "volume": "18"
+  },
+  "160": {
+    "album_id": "bp45oalqn75",
+    "timestamp": "2026-01-14T17:22:57.497757",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "Similar Features, Returning Memories - 重なる面影・蘇る記憶 - Kasanaru Omokage, Yomigaeru Kioku",
+    "volume": "18"
+  },
+  "161": {
+    "album_id": "m9yxnzw3p7q",
+    "timestamp": "2026-01-14T17:24:00.332905",
+    "image_count": 26,
+    "group": "danke-Empire",
+    "chapter_title": "Flapping Butterfly Wings - 蝶の羽ばたき - Chō no Habataki",
+    "volume": "19"
+  },
+  "162": {
+    "album_id": "na7kk368378",
+    "timestamp": "2026-01-14T17:24:54.017005",
+    "image_count": 22,
+    "group": "danke-Empire",
+    "chapter_title": "Trio of Victory - 三人の白星 - Sannin no Shiroboshi",
+    "volume": "19"
+  },
+  "163": {
+    "album_id": "ej7megxa9yd",
+    "timestamp": "2026-01-14T17:25:40.141991",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Overflowing Heart - 心あふれる - Kokoro Afureru",
+    "volume": "19"
+  },
+  "164": {
+    "album_id": "qb4zpaz55yj",
+    "timestamp": "2026-01-14T17:26:19.388353",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Just Overdid It a Little - ちょっと力み過ぎただけ - Chotto Rikimisugita dake",
+    "volume": "19"
+  },
+  "165": {
+    "album_id": "o24a6zr2dyl",
+    "timestamp": "2026-01-14T17:26:57.792781",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "Stunned and Trembling - 愕然と戦慄く - Gakuzen to Wananaku",
+    "volume": "19"
+  },
+  "166": {
+    "album_id": "agyvnmkxb48",
+    "timestamp": "2026-01-14T17:27:36.591173",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "True Feelings - 本心 - Honshin",
+    "volume": "19"
+  },
+  "167": {
+    "album_id": "9p4nz59vb4n",
+    "timestamp": "2026-01-14T17:28:20.710282",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "A Request - 願い - Negai",
+    "volume": "19"
+  },
+  "168": {
+    "album_id": "5xy2ow9oz4l",
+    "timestamp": "2026-01-14T17:29:09.369225",
+    "image_count": 22,
+    "group": "danke-Empire",
+    "chapter_title": "Never Disappear - 百世不磨 - Hyakusei Fuma",
+    "volume": "19"
+  },
+  "169": {
+    "album_id": "9ryd2vw2a4k",
+    "timestamp": "2026-01-14T17:30:37.753540",
+    "image_count": 18,
+    "group": "danke-Empire",
+    "chapter_title": "Rumbling - 地鳴る - Jinaru",
+    "volume": "19"
+  },
+  "170": {
+    "album_id": "xny86bd624b",
+    "timestamp": "2026-01-14T17:32:19.948597",
+    "image_count": 26,
+    "group": "danke-Empire",
+    "chapter_title": "The Immovable Hashira - 不動の柱 - Fudō no Hashira",
+    "volume": "20"
+  },
+  "171": {
+    "album_id": "dl7pnx2n3yo",
+    "timestamp": "2026-01-14T17:33:01.231611",
+    "image_count": 17,
+    "group": "danke-Empire",
+    "chapter_title": "Transformation - 変ずる - Henzuru",
+    "volume": "20"
+  },
+  "172": {
+    "album_id": "wl7lwev5x4x",
+    "timestamp": "2026-01-14T17:33:45.154092",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "A Weakling's Potential - 弱者の可能性 - Jakusha no Kanōsei",
+    "volume": "20"
+  },
+  "173": {
+    "album_id": "5xy2ow9n34l",
+    "timestamp": "2026-01-14T17:34:35.732209",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "The Path of Opening a Steadfast Heart - 匪石之心が開く道 - Hiseki no Kokoro ga Hiraku Michi",
+    "volume": "20"
+  },
+  "174": {
+    "album_id": "ej7megxvayd",
+    "timestamp": "2026-01-14T17:35:24.531973",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Nightmare on the Night of a Red Moon - 赤い月夜に見た悪夢 - Akai Tsukiyo ni Mita Akumu",
+    "volume": "20"
+  },
+  "175": {
+    "album_id": "pg73ozn6o7r",
+    "timestamp": "2026-01-14T17:36:18.404124",
+    "image_count": 23,
+    "group": "danke-Empire",
+    "chapter_title": "Respect for Future Generations - 後世畏るべし - Kōsei Osoru beshi",
+    "volume": "20"
+  },
+  "176": {
+    "album_id": "xny86bd2w4b",
+    "timestamp": "2026-01-14T17:37:06.958256",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Samurai - 侍 - Samurai",
+    "volume": "20"
+  },
+  "177": {
+    "album_id": "m9yxnzwd67q",
+    "timestamp": "2026-01-14T17:37:43.419070",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Younger Brother - 弟 - Otōto",
+    "volume": "20"
+  },
+  "178": {
+    "album_id": "ne7b68m3gy5",
+    "timestamp": "2026-01-14T17:38:30.983689",
+    "image_count": 21,
+    "group": "danke-Empire",
+    "chapter_title": "Even If You Reach Out Your Hand - 手を伸ばしても手を伸ばしても - Te o Nobashite mo Te o Nobashite mo",
+    "volume": "20"
+  },
+  "179": {
+    "album_id": "wl7lwev634x",
+    "timestamp": "2026-01-14T17:39:43.763398",
+    "image_count": 26,
+    "group": "danke-Empire",
+    "chapter_title": "Feelings for Elder Brother, Feelings for Younger Brother - 兄を思い弟を思い - Ani o Omoi Otōto o Omoi",
+    "volume": "21"
+  },
+  "180": {
+    "album_id": "ej7megx6ayd",
+    "timestamp": "2026-01-14T17:40:36.264245",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Recovery - 快復 - Kaifuku",
+    "volume": "21"
+  },
+  "181": {
+    "album_id": "lqyel9ezz4d",
+    "timestamp": "2026-01-14T17:41:17.922790",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "Disaster - 大災 - Taisai",
+    "volume": "21"
+  },
+  "182": {
+    "album_id": "bp45oalnv75",
+    "timestamp": "2026-01-14T17:42:15.794512",
+    "image_count": 23,
+    "group": "danke-Empire",
+    "chapter_title": "Rage - 激怒 - Gekido",
+    "volume": "21"
+  },
+  "183": {
+    "album_id": "9p4nz59654n",
+    "timestamp": "2026-01-14T17:43:35.801525",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "A Clash of Wills - 閲ぎ合い - Semegiai",
+    "volume": "21"
+  },
+  "184": {
+    "album_id": "5xy2ow9x34l",
+    "timestamp": "2026-01-14T17:44:36.311267",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "Leaving the Warfront - 戦線離脱 - Sensen Ridatsu",
+    "volume": "21"
+  },
+  "185": {
+    "album_id": "ej7megxjayd",
+    "timestamp": "2026-01-14T17:45:27.368017",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "A World Without Smell - 匂いのない世界 - Nioi no Nai Sekai",
+    "volume": "21"
+  },
+  "186": {
+    "album_id": "lqyel9ewz4d",
+    "timestamp": "2026-01-14T17:46:13.597106",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Ancient Memories - 古の記憶 - Inishie no Kioku",
+    "volume": "21"
+  },
+  "187": {
+    "album_id": "bp45oaljv75",
+    "timestamp": "2026-01-14T17:46:59.118505",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Innocent Person - 無垢なる人 - Mukunaru Hito",
+    "volume": "21"
+  },
+  "188": {
+    "album_id": "a846ovjq24x",
+    "timestamp": "2026-01-14T17:48:17.927424",
+    "image_count": 26,
+    "group": "danke-Empire",
+    "chapter_title": "Sorrowful Love - 悲痛な恋情 - Hitsūna Renjō",
+    "volume": "22"
+  },
+  "189": {
+    "album_id": "9p4nz59q54n",
+    "timestamp": "2026-01-14T17:48:59.681594",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Reassuring Comrades - 心強い仲間 - Kokorozuyoi Nakama",
+    "volume": "22"
+  },
+  "190": {
+    "album_id": "ljyqknlexy2",
+    "timestamp": "2026-01-14T17:50:13.809097",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "One After Another - ぞくぞくと - Zokuzoku to",
+    "volume": "22"
+  },
+  "191": {
+    "album_id": "pg73ozn3o7r",
+    "timestamp": "2026-01-14T17:50:57.588285",
+    "image_count": 22,
+    "group": "danke-Empire",
+    "chapter_title": "Which One of Us is the Demon - どちらが鬼か - Dochira ga Oni ka",
+    "volume": "22"
+  },
+  "192": {
+    "album_id": "a846ovjz24x",
+    "timestamp": "2026-01-14T17:52:05.367473",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "The Wheel of Fate - 廻る縁 - Meguru Enishi",
+    "volume": "22"
+  },
+  "193": {
+    "album_id": "ne7b68mjgy5",
+    "timestamp": "2026-01-14T17:53:09.332270",
+    "image_count": 23,
+    "group": "danke-Empire",
+    "chapter_title": "A Difficult Door Begins to Open - 困難の扉が開き始める - Konnan no Tobira ga Hiraki Hajimeru",
+    "volume": "22"
+  },
+  "194": {
+    "album_id": "wl7lwev8o4x",
+    "timestamp": "2026-01-14T17:54:16.808458",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Burn Scars - 灼熱の傷 - Shakunetsu no Kizu",
+    "volume": "22"
+  },
+  "195": {
+    "album_id": "qe4gqog3b7j",
+    "timestamp": "2026-01-14T17:55:27.729642",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Bewilderment - めまぐるしく - Memagurushiku",
+    "volume": "22"
+  },
+  "196": {
+    "album_id": "9249kornayn",
+    "timestamp": "2026-01-14T17:56:13.259846",
+    "image_count": 19,
+    "group": "danke-Empire",
+    "chapter_title": "I Am - 私は - Watashi wa",
+    "volume": "22"
+  },
+  "197": {
+    "album_id": "md7ob6np94p",
+    "timestamp": "2026-01-14T17:56:57.733237",
+    "image_count": 25,
+    "group": "danke-Empire",
+    "chapter_title": "Tenacity - 執念 - Shūnen",
+    "volume": "23"
+  },
+  "198": {
+    "album_id": "ljyqknlpky2",
+    "timestamp": "2026-01-14T17:57:46.252102",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "The Next Thing We Knew... - 気付けば - Kizukeba",
+    "volume": "23"
+  },
+  "199": {
+    "album_id": "ej7megxpjyd",
+    "timestamp": "2026-01-14T17:58:28.309381",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Millennial Dawn - 千年の夜明け - Sennen no Yoake",
+    "volume": "23"
+  },
+  "200": {
+    "album_id": "xny86bdnd4b",
+    "timestamp": "2026-01-14T17:59:16.731572",
+    "image_count": 23,
+    "group": "danke-Empire",
+    "chapter_title": "The Price of Victory - 勝利の代償 - Shōri no Daishō",
+    "volume": "23"
+  },
+  "201": {
+    "album_id": "9249korbayn",
+    "timestamp": "2026-01-14T18:00:11.887862",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "The King of Demons - 鬼の王 - Oni no Ō",
+    "volume": "23"
+  },
+  "202": {
+    "album_id": "vj4jmra2e48",
+    "timestamp": "2026-01-14T18:00:56.340905",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Let's Go Home - 帰ろう - Kaerō",
+    "volume": "23"
+  },
+  "203": {
+    "album_id": "ej7megxqjyd",
+    "timestamp": "2026-01-14T18:01:35.596116",
+    "image_count": 20,
+    "group": "danke-Empire",
+    "chapter_title": "Voices of Encouragement - 数多の呼び水 - Amata no Yobimizu",
+    "volume": "23"
+  },
+  "204": {
+    "album_id": "qe4gqog6b7j",
+    "timestamp": "2026-01-14T18:02:46.991110",
+    "image_count": 35,
+    "group": "danke-Empire",
+    "chapter_title": "A World Without Demons - 鬼のない世界 - Oni no Nai Sekai",
+    "volume": "23"
+  },
+  "205": {
+    "album_id": "md7ob6no94p",
+    "timestamp": "2026-01-14T18:04:09.515337",
+    "image_count": 44,
+    "group": "danke-Empire",
+    "chapter_title": "Life Shining Across the Years - 幾星霜を煌めく命 - Ikuseisō o Kirameku Inochi",
+    "volume": "23"
+  }
+}

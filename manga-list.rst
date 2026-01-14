@@ -61,6 +61,13 @@ D
      - Last Updated
      - Volumes
      - Chapters
+   * - Demon Slayer - Kimetsu no Yaiba
+     - `info.json <mangas/Demon%20Slayer%20-%20Kimetsu%20no%20Yaiba/info.json>`_
+     - `Read <https://cubari.moe/read/gist/cmF3L3NheWVlZDIwNS9tYW5nYS9yZWZzL2hlYWRzL21haW4vbWFuZ2FzL0RlbW9uJTIwU2xheWVyJTIwLSUyMEtpbWV0c3UlMjBubyUyMFlhaWJhL2luZm8uanNvbg==/>`_
+     - 2026-01-14 08:38 UTC
+     - 2026-01-14 12:34 UTC
+     - 23
+     - 207
    * - Deserter
      - `info.json <mangas/Deserter/info.json>`_
      - `Read <https://cubari.moe/read/gist/cmF3L3NheWVlZDIwNS9tYW5nYS9yZWZzL2hlYWRzL21haW4vbWFuZ2FzL0Rlc2VydGVyL2luZm8uanNvbg==/>`_
