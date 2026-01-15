@@ -101,9 +101,9 @@ F
      - `info.json <mangas/Fullmetal%20Alchemist/info.json>`_
      - `Read <https://cubari.moe/read/gist/cmF3L3NheWVlZDIwNS9tYW5nYS9yZWZzL2hlYWRzL21haW4vbWFuZ2FzL0Z1bGxtZXRhbCUyMEFsY2hlbWlzdC9pbmZvLmpzb24=/>`_
      - 2026-01-15 03:49 UTC
-     - 2026-01-15 04:01 UTC
-     - 3
-     - 13
+     - 2026-01-15 06:46 UTC
+     - 27
+     - 115
 
 G
 -
