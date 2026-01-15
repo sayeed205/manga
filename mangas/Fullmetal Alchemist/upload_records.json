@@ -1,0 +1,106 @@
+{
+  "001": {
+    "album_id": "ej7mvz35n7d",
+    "timestamp": "2026-01-15T09:19:11.837438",
+    "image_count": 57,
+    "group": "LostNerevarine-Empire",
+    "chapter_title": "The Two Alchemists - 二人の錬金術師 - Futari no Renkinjutsushi",
+    "volume": "01"
+  },
+  "002": {
+    "album_id": "bp456k2rq75",
+    "timestamp": "2026-01-15T09:20:10.713519",
+    "image_count": 39,
+    "group": "LostNerevarine-Empire",
+    "chapter_title": "The Price of Life - 命の代価 - Inochi no Daika",
+    "volume": "01"
+  },
+  "003": {
+    "album_id": "o24anxal27l",
+    "timestamp": "2026-01-15T09:21:08.734007",
+    "image_count": 41,
+    "group": "LostNerevarine-Empire",
+    "chapter_title": "The Mining Town - 炭鉱の街 - Tankō no Machi",
+    "volume": "01"
+  },
+  "004": {
+    "album_id": "na7k5xdgb78",
+    "timestamp": "2026-01-15T09:22:22.255767",
+    "image_count": 47,
+    "group": "LostNerevarine-Empire",
+    "chapter_title": "Battle on the Train - 車上の戦い - Shajō no Tatakai",
+    "volume": "01"
+  },
+  "005": {
+    "album_id": "9rydnlj9a4k",
+    "timestamp": "2026-01-15T09:23:29.095716",
+    "image_count": 52,
+    "group": "LostNerevarine-Empire",
+    "chapter_title": "The Alchemist's Suffering - 錬金術師の苦悩 - Renkinjutsushi no Kunō",
+    "volume": "02"
+  },
+  "006": {
+    "album_id": "a8466rlnz4x",
+    "timestamp": "2026-01-15T09:24:34.869634",
+    "image_count": 46,
+    "group": "LostNerevarine-Empire",
+    "chapter_title": "The Right Hand of Destruction - 破壊の右手 - Hakai no Migite",
+    "volume": "02"
+  },
+  "007": {
+    "album_id": "wl7l5z3jx4x",
+    "timestamp": "2026-01-15T09:25:32.259673",
+    "image_count": 39,
+    "group": "LostNerevarine-Empire",
+    "chapter_title": "After the Rain - 雨の後 - Ame no Ato",
+    "volume": "02"
+  },
+  "008": {
+    "album_id": "xny82pqk2yb",
+    "timestamp": "2026-01-15T09:26:34.614601",
+    "image_count": 50,
+    "group": "LostNerevarine-Empire",
+    "chapter_title": "The Road of Hope - 希望の道 - Kibō no Michi",
+    "volume": "02"
+  },
+  "009": {
+    "album_id": "9rydnljba4k",
+    "timestamp": "2026-01-15T09:27:46.461369",
+    "image_count": 49,
+    "group": "LostNerevarine-Empire",
+    "chapter_title": "A Home with a Family Waiting - 家族の待つ家 - Kazoku no Matsu Ie",
+    "volume": "03"
+  },
+  "010": {
+    "album_id": "xny82pqj2yb",
+    "timestamp": "2026-01-15T09:28:46.671137",
+    "image_count": 36,
+    "group": "LostNerevarine-Empire",
+    "chapter_title": "The Philosopher's Stone - 賢者の石 - Kenja no Ishi",
+    "volume": "03"
+  },
+  "011": {
+    "album_id": "m9yxdxmop4q",
+    "timestamp": "2026-01-15T09:29:51.400568",
+    "image_count": 42,
+    "group": "LostNerevarine-Empire",
+    "chapter_title": "The Two Guardians - 二人の守護者 - Futari no Shugosha",
+    "volume": "03"
+  },
+  "012": {
+    "album_id": "na7k5xdb378",
+    "timestamp": "2026-01-15T09:30:56.075685",
+    "image_count": 42,
+    "group": "LostNerevarine-Empire",
+    "chapter_title": "The Definition of Human - 「人間」の定義 - \"Ningen\" no Teigi",
+    "volume": "03"
+  },
+  "012.5": {
+    "album_id": "9rydnljwa4k",
+    "timestamp": "2026-01-15T09:31:24.912107",
+    "image_count": 16,
+    "group": "LostNerevarine-Empire",
+    "chapter_title": "The Military Festival - 軍部の祭り - Gunbu no Matsuri",
+    "volume": "03"
+  }
+}

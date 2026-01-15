@@ -83,6 +83,28 @@ D
      - 4
      - 393
 
+F
+-
+
+.. list-table::
+   :header-rows: 1
+   :widths: 25 12 12 16 16 6 6
+
+   * - Title
+     - Gist
+     - Cubari
+     - Added On
+     - Last Updated
+     - Volumes
+     - Chapters
+   * - Fullmetal Alchemist
+     - `info.json <mangas/Fullmetal%20Alchemist/info.json>`_
+     - `Read <https://cubari.moe/read/gist/cmF3L3NheWVlZDIwNS9tYW5nYS9yZWZzL2hlYWRzL21haW4vbWFuZ2FzL0Z1bGxtZXRhbCUyMEFsY2hlbWlzdC9pbmZvLmpzb24=/>`_
+     - 2026-01-15 03:49 UTC
+     - 2026-01-15 04:01 UTC
+     - 3
+     - 13
+
 G
 -
 

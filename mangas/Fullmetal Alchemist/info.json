@@ -1,0 +1,113 @@
+{
+  "title": "Fullmetal Alchemist",
+  "description": "In a world governed by the laws of alchemy, brothers Edward and Alphonse Elric commit the ultimate taboo in an attempt to bring their deceased mother back to life. The failed transmutation costs Edward his left leg and Alphonse his entire body, leaving his soul bound to a suit of armor. Determined to restore what they have lost, the brothers embark on a journey to find the Philosopher’s Stone, confronting military conspiracies, moral dilemmas, and the devastating cost of human ambition along the way.",
+  "artist": "Hiromu Arakawa",
+  "author": "Hiromu Arakawa",
+  "cover": "https://cdn.imgchest.com/files/82a0d0ceda66.png",
+  "chapters": {
+    "001": {
+      "title": "The Two Alchemists - 二人の錬金術師 - Futari no Renkinjutsushi",
+      "volume": "01",
+      "last_updated": "1768448951",
+      "groups": {
+        "LostNerevarine-Empire": "/proxy/api/imgchest/chapter/ej7mvz35n7d"
+      }
+    },
+    "002": {
+      "title": "The Price of Life - 命の代価 - Inochi no Daika",
+      "volume": "01",
+      "last_updated": "1768449010",
+      "groups": {
+        "LostNerevarine-Empire": "/proxy/api/imgchest/chapter/bp456k2rq75"
+      }
+    },
+    "003": {
+      "title": "The Mining Town - 炭鉱の街 - Tankō no Machi",
+      "volume": "01",
+      "last_updated": "1768449068",
+      "groups": {
+        "LostNerevarine-Empire": "/proxy/api/imgchest/chapter/o24anxal27l"
+      }
+    },
+    "004": {
+      "title": "Battle on the Train - 車上の戦い - Shajō no Tatakai",
+      "volume": "01",
+      "last_updated": "1768449142",
+      "groups": {
+        "LostNerevarine-Empire": "/proxy/api/imgchest/chapter/na7k5xdgb78"
+      }
+    },
+    "005": {
+      "title": "The Alchemist's Suffering - 錬金術師の苦悩 - Renkinjutsushi no Kunō",
+      "volume": "02",
+      "last_updated": "1768449209",
+      "groups": {
+        "LostNerevarine-Empire": "/proxy/api/imgchest/chapter/9rydnlj9a4k"
+      }
+    },
+    "006": {
+      "title": "The Right Hand of Destruction - 破壊の右手 - Hakai no Migite",
+      "volume": "02",
+      "last_updated": "1768449274",
+      "groups": {
+        "LostNerevarine-Empire": "/proxy/api/imgchest/chapter/a8466rlnz4x"
+      }
+    },
+    "007": {
+      "title": "After the Rain - 雨の後 - Ame no Ato",
+      "volume": "02",
+      "last_updated": "1768449332",
+      "groups": {
+        "LostNerevarine-Empire": "/proxy/api/imgchest/chapter/wl7l5z3jx4x"
+      }
+    },
+    "008": {
+      "title": "The Road of Hope - 希望の道 - Kibō no Michi",
+      "volume": "02",
+      "last_updated": "1768449394",
+      "groups": {
+        "LostNerevarine-Empire": "/proxy/api/imgchest/chapter/xny82pqk2yb"
+      }
+    },
+    "009": {
+      "title": "A Home with a Family Waiting - 家族の待つ家 - Kazoku no Matsu Ie",
+      "volume": "03",
+      "last_updated": "1768449466",
+      "groups": {
+        "LostNerevarine-Empire": "/proxy/api/imgchest/chapter/9rydnljba4k"
+      }
+    },
+    "010": {
+      "title": "The Philosopher's Stone - 賢者の石 - Kenja no Ishi",
+      "volume": "03",
+      "last_updated": "1768449526",
+      "groups": {
+        "LostNerevarine-Empire": "/proxy/api/imgchest/chapter/xny82pqj2yb"
+      }
+    },
+    "011": {
+      "title": "The Two Guardians - 二人の守護者 - Futari no Shugosha",
+      "volume": "03",
+      "last_updated": "1768449591",
+      "groups": {
+        "LostNerevarine-Empire": "/proxy/api/imgchest/chapter/m9yxdxmop4q"
+      }
+    },
+    "012": {
+      "title": "The Definition of Human - 「人間」の定義 - \"Ningen\" no Teigi",
+      "volume": "03",
+      "last_updated": "1768449656",
+      "groups": {
+        "LostNerevarine-Empire": "/proxy/api/imgchest/chapter/na7k5xdb378"
+      }
+    },
+    "012.5": {
+      "title": "The Military Festival - 軍部の祭り - Gunbu no Matsuri",
+      "volume": "03",
+      "last_updated": "1768449684",
+      "groups": {
+        "LostNerevarine-Empire": "/proxy/api/imgchest/chapter/9rydnljwa4k"
+      }
+    }
+  }
+}
